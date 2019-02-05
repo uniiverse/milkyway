@@ -1,0 +1,55 @@
+{
+  "name": "milkyway",
+  "version": "0.0.0",
+  "description": "Universe styles, as a semantic-ui theme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "cd semantic && gulp build && gulp watch",
+    "build": "cd semantic && gulp build",
+    "clean": "rm -r  dist/ && rm semantic*.js semantic*.css",
+    "preversion": "git add . && git stash",
+    "version": "cd semantic && gulp build && cd .. && git add package.json && git commit -m \"Version $npm_package_version\" && git push origin master && git checkout release && git merge origin master --no-edit --strategy-option theirs && git add --force dist semantic*.js semantic*.css",
+    "postversion": "git push && git push --tags && git checkout master",
+    "storybook": "cd semantic && gulp build && cd .. && start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "sample": "cd semantic && gulp build && cd .. && cd sample && npm install && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uniiverse/milkyway.git"
+  },
+  "keywords": [
+    "universe",
+    "milkyway",
+    "semantic-ui",
+    "theme",
+    "style",
+    "css"
+  ],
+  "files": [
+    "dist",
+    "semantic*.js",
+    "semantic*.css"
+  ],
+  "author": "uniiverse",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/uniiverse/milkyway/issues"
+  },
+  "homepage": "https://github.com/uniiverse/milkyway#readme",
+  "dependencies": {},
+  "peerDependencies": {
+    "semantic-ui-react": "0.84.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@storybook/addon-actions": "^4.1.11",
+    "@storybook/addon-links": "^4.1.11",
+    "@storybook/addons": "^4.1.11",
+    "@storybook/react": "^4.1.11",
+    "babel-loader": "^8.0.5",
+    "semantic-ui": "2.4.2",
+    "semantic-ui-react": "0.84.0"
+  }
+}
