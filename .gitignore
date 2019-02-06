@@ -1,3 +1,17 @@
+# Sample app
+sample/node_modules
+sample/coverage
+sample/build
+
+
+sample/.env.local
+sample/.env.development.local
+sample/.env.test.local
+sample/.env.production.local
+
+# Mac OS Madness
+.DS_Store
+
 # Build files. Force pushed on release branch.
 dist/
 semantic*js
@@ -8,7 +22,7 @@ semantic*css
 # Logs
 logs
 *.log
-npm-debug.log*
+sanpm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 

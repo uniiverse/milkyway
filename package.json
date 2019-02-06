@@ -13,7 +13,7 @@
     "postversion": "git push && git push --tags && git checkout master",
     "storybook": "cd semantic && gulp build && cd .. && start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "sample": "cd semantic && gulp build && cd .. && cd sample && npm install && npm start"
+    "sample": "cd sample && npm install && npm start"
   },
   "repository": {
     "type": "git",
