@@ -9,7 +9,7 @@
     "build": "cd semantic && gulp build",
     "clean": "rm -r  dist/ && rm semantic*.js semantic*.css",
     "preversion": "git add . && git stash",
-    "version": "cd semantic && gulp build && cd .. && git add package.json && git commit -m \"Version $npm_package_version\" && git push origin master && git checkout release && git merge origin master --no-edit --strategy-option theirs && git add --force dist semantic*.js semantic*.css",
+    "version": "cd semantic && gulp build && cd .. && git add package.json && git commit -m \"Version $npm_package_version\" && git push origin master && git checkout release && git merge origin master --no-edit --strategy-option theirs && git add --force dist semantic*.js semantic*.css && git commit -m \"Version $npm_package_version dist push\"",
     "postversion": "git push && git push --tags && git checkout master",
     "storybook": "cd semantic && gulp build && cd .. && start-storybook -p 6006",
     "build-storybook": "build-storybook",
