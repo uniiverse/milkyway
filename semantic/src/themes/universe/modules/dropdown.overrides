@@ -1,0 +1,16 @@
+.ui.dropdown .menu {
+  top: 100%;
+}
+
+.ui.selection.dropdown .menu {
+  margin-top: 10px;
+  border-top-width: 1px !important;
+}
+
+.ui.selection.active.dropdown:hover .menu {
+  border: 1px solid rgba(34, 36, 38, 0.15);
+}
+
+.ui.selection.dropdown:focus .menu {
+  border: 1px solid rgba(34, 36, 38, 0.15);
+}
