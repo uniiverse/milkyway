@@ -1,0 +1,86 @@
+/*******************************
+     User Global Variables
+*******************************/
+
+/*-------------------
+       Fonts
+--------------------*/
+@importGoogleFonts : false;
+
+@fontPath : "../assets/fonts";
+
+@headerFont: "Circular Pro", "Helvetica", helvetica, arial, sans-serif;
+@pageFont: "Graphik", "Helvetica", helvetica, arial, sans-serif;
+
+@fontFamily: @pageFont;
+
+@bold: bold;
+@normal: normal;
+
+/*-------------------
+      Base Sizes
+--------------------*/
+@emSize: 14px;
+@fontSize : 14px;
+
+@h1: 3em;
+@h2: 2em;
+@h3: 1.5em;
+@h4: 1.25em;
+@h5: 1em;
+
+/*-------------------
+    Border Radius
+--------------------*/
+
+@absoluteBorderRadius: 6px;
+@defaultBorderRadius: @absoluteBorderRadius;
+
+/*-------------------
+    Brand Colors
+--------------------*/
+
+@blueDarker: #254C93;
+@blueDark: #3A66E5;
+@blue: #4E78F1;
+@blueLight: #7091F2;
+@blueLighter: #A2CBFF;
+
+@lightBlue: @blue;
+
+@coralDarker: #B2443E;
+@coralDark: #FC7455;
+@coral: #FF8864;
+@coralLight: #FF9D84;
+@coralLighter: #FFF1EA;
+
+@ink: #1C232B;
+@inkLight: #6F7881;
+@inkLighter: #A9B0B7;
+@orbit: #E2E5E7;
+@spaceDarker: #F5F5F5;
+@space: #FAFAFA;
+
+@tealDarker: #007162;
+@tealDark: #00A690;
+@teal: #00C7AF;
+@tealLight: #39D6B4;
+@tealLighter: #B9F7E1;
+
+@primaryColor: @blue;
+@primaryColorHover: @blueDarker;
+@primaryColorActive: @blueDarker;
+@primaryColorFocus: @blue;
+@primaryColorDown: @blueDarker;
+
+@secondaryColor: @coral;
+@secondaryColorHover: @coralDarker;
+@secondaryColorActive: @coralDarker;
+@secondaryColorFocus: @coral;
+@secondaryColorDown: @coralDarker;
+
+/*-------------------
+        Grid
+--------------------*/
+
+@columnCount: 16;

@@ -1,0 +1,18 @@
+@fontWeight: 1;
+@lineHeight: 20px;
+
+@verticalPadding: 8px;
+@horizontalPadding: 16px;
+
+@invertedBorderSize: 1px;
+@downBoxShadow: inset 0 2px 5px 0 rgba(28,35,43,0.15);
+
+@background: @white;
+@hoverBackgroundColor: @spaceDarker;
+@activeBackgroundColor: @spaceDarker;
+@focusBackgroundColor: white;
+@downBackgroundColor: @spaceDarker;
+
+@lightPrimaryTextColor: @blue;
+@lightPrimaryColorHover: @blue;
+@lightPrimaryColorFocus: @white;
