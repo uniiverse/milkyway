@@ -4,31 +4,18 @@ import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
 import { linkTo } from '@storybook/addon-links';
 
-import { Button, Container, Icon } from 'semantic-ui-react';
+import { Button, Container, Header, Icon } from 'semantic-ui-react';
 
 import '../semantic.min.css';
 
 storiesOf('Button', module)
   .add('Primary', () =>
     <Container fluid>
-      <p><Button primary onClick={action('primary click')}>Primary</Button></p>
+      <p><Button primary onClick={action('primary click')}>Default</Button></p>
       <p><Button primary disabled onClick={action('primary cannot click')}>Primary</Button></p>
       <p><Button primary loading onClick={action('primary loading click')}>Primary</Button></p>
       <p>
         <Button primary onClick={action('primary icon click')}>
-          <Icon name='plus' />
-          Primary
-        </Button>
-      </p>
-    </Container>
-  )
-  .add('Inverted', () =>
-    <Container fluid>
-      <p><Button primary inverted onClick={action('inverted click')}>Primary</Button></p>
-      <p><Button primary inverted disabled onClick={action('inverted cannot click')}>Primary</Button></p>
-      <p><Button primary inverted loading onClick={action('inverted loading click')}>Primary</Button></p>
-      <p>
-        <Button primary inverted onClick={action('inverted icon click')}>
           <Icon name='plus' />
           Primary
         </Button>
@@ -48,16 +35,41 @@ storiesOf('Button', module)
       </p>
     </Container>
   )
+  .add('Tertiary', () =>
+    <Container fluid>
+      <p><Button onClick={action('default click')}>Default</Button></p>
+      <p><Button disabled onClick={action('default cannot click')}>Default</Button></p>
+      <p><Button loading onClick={action('default loading click')}>Default</Button></p>
+      <p>
+        <Button onClick={action('default icon click')}>
+          <Icon name='plus' />
+          Default
+        </Button>
+      </p>
+    </Container>
+  )
+  .add('Primary inverted', () =>
+    <Container fluid>
+      <p><Button primary inverted onClick={action('inverted click')}>Primary</Button></p>
+      <p><Button primary inverted disabled onClick={action('inverted cannot click')}>Primary</Button></p>
+      <p><Button primary inverted loading onClick={action('inverted loading click')}>Primary</Button></p>
+      <p>
+        <Button primary inverted onClick={action('inverted icon click')}>
+          <Icon name='plus' />
+          Primary
+        </Button>
+      </p>
+    </Container>
+  );
+
+storiesOf('Header', module)
   .add('Default', () =>
-  <Container fluid>
-    <p><Button onClick={action('default click')}>Default</Button></p>
-    <p><Button disabled onClick={action('default cannot click')}>Default</Button></p>
-    <p><Button loading onClick={action('default loading click')}>Default</Button></p>
-    <p>
-      <Button onClick={action('default icon click')}>
-        <Icon name='plus' />
-        Default
-      </Button>
-    </p>
-  </Container>
-);
+    <Container fluid>
+      <Header as="h1">Connecting the world through unforgettable experiences</Header>
+      <Header as="h2">Connecting the world through unforgettable experiences</Header>
+      <Header as="h3">Connecting the world through unforgettable experiences</Header>
+      <Header as="h4">Connecting the world through unforgettable experiences</Header>
+      <Header as="h5">Connecting the world through unforgettable experiences</Header>
+      <Header as="h6">Connecting the world through unforgettable experiences</Header>
+    </Container>
+  );
