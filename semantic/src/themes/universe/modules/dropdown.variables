@@ -1,0 +1,28 @@
+@menuBorderRadius: 6px;
+
+@selectionBorderRadius: 6px;
+@selectionVisibleConnectingBorder: 6px;
+
+@selectionMenuBorderRadius: 6px;
+@selectionActiveHoverBorderColor: @blue;
+
+@selectedColor: @blue;
+@selectionVisibleBorderColor: @blue;
+
+@menuBoxShadow: 0px;
+@selectionMenuBoxShadow: 0px;
+
+@selectionBoxShadow: 0px;
+@selectionHoverBoxShadow: 0px;
+@selectionVisibleBoxShadow: 0px;
+
+@selectionFocusMenuBoxShadow: 0px;
+@selectionVisibleMenuBoxShadow: 0px;
+
+@selectionVisibleBorderColor: 1px solid rgba(34, 36, 38, 0.15);
+
+@selectionFocusBorderColor: @blue;
+
+@selectedBackground: white;
+
+@selectionItemPadding: 10px 8px 10px 8px !important;

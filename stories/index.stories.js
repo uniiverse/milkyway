@@ -4,7 +4,7 @@ import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
 import { linkTo } from '@storybook/addon-links';
 
-import { Button, Container, Header, Icon } from 'semantic-ui-react';
+import { Button, Container, Dropdown, Header, Icon } from 'semantic-ui-react';
 
 import '../semantic.min.css';
 
@@ -61,6 +61,28 @@ storiesOf('Button', module)
       </p>
     </Container>
   );
+
+storiesOf('Dropdown', module)
+  .add('Base', () =>
+  <Dropdown placeholder='Select' selection options={[
+    {
+      text: 'Option 1',
+      value: 1
+    },
+    {
+      text: 'Option 2',
+      value: 2
+    },
+    {
+      text: 'Option 3',
+      value: 3,
+      disabled: true
+    },
+    {
+      text: 'Option 4',
+      value: 4
+    },
+  ]} onChange={action('changed')} />);
 
 storiesOf('Header', module)
   .add('Default', () =>
