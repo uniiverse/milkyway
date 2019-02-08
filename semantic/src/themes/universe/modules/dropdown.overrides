@@ -7,10 +7,12 @@
   border-top-width: 1px !important;
 }
 
-.ui.selection.active.dropdown:hover .menu {
-  border: 1px solid rgba(34, 36, 38, 0.15);
+.ui.dropdown .menu > .item > .image,
+.ui.dropdown .menu > .item > img {
+  border-radius: @defaultBorderRadius;
 }
 
-.ui.selection.dropdown:focus .menu {
-  border: 1px solid rgba(34, 36, 38, 0.15);
+.ui.selection.dropdown .menu > .item {
+  margin: 5px;
+  border-radius: 6px;
 }

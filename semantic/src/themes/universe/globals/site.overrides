@@ -35,3 +35,12 @@
         url("../../themes/universe/assets/fonts/Graphik-Medium-Web.woff") format("woff");
   font-weight: bold;
 }
+
+body ::-webkit-scrollbar-thumb {
+  border: 2px solid white;
+}
+
+body ::-webkit-scrollbar-track {
+  background: @white;
+  border-radius: 5px;
+}
