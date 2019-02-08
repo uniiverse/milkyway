@@ -33811,6 +33811,11 @@ select.ui.dropdown {
   font-weight: 700;
 }
 
+.ui.error.dropdown:not(.button) > .default.text,
+.ui.default.dropdown:not(.button) > .text {
+  color: #A9B0B7;
+}
+
 /*******************************
         User Overrides
 *******************************/
