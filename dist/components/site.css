@@ -203,6 +203,13 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
   src: url("./../themes/universe/assets/fonts/Graphik-Medium-Web.eot") format("eot"), url("./../themes/universe/assets/fonts/Graphik-Medium-Web.woff2") format("woff2"), url("./../themes/universe/assets/fonts/Graphik-Medium-Web.woff") format("woff");
   font-weight: bold;
 }
+body ::-webkit-scrollbar-thumb {
+  border: 2px solid white;
+}
+body ::-webkit-scrollbar-track {
+  background: #FFFFFF;
+  border-radius: 5px;
+}
 
 
 /*******************************

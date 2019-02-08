@@ -768,6 +768,15 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
   font-weight: bold;
 }
 
+body ::-webkit-scrollbar-thumb {
+  border: 2px solid white;
+}
+
+body ::-webkit-scrollbar-track {
+  background: #FFFFFF;
+  border-radius: 5px;
+}
+
 /*******************************
          Site Overrides
 *******************************/
@@ -32228,9 +32237,9 @@ body.dimmable > .dimmer {
   font-size: 1em;
   text-shadow: none;
   text-align: left;
-  -webkit-box-shadow: 0px;
-  box-shadow: 0px;
-  border: 1px solid rgba(34, 36, 38, 0.15);
+  -webkit-box-shadow: 0px 2px 4px 0px #1C232B;
+  box-shadow: 0px 2px 4px 0px #1C232B;
+  border: 0px;
   border-radius: 6px;
   -webkit-transition: opacity 0.1s ease;
   transition: opacity 0.1s ease;
@@ -32296,7 +32305,7 @@ body.dimmable > .dimmer {
   border-top: none;
   line-height: 1em;
   color: rgba(0, 0, 0, 0.87);
-  padding: 0.78571429rem 1.14285714rem !important;
+  padding: 5px !important;
   font-size: 1rem;
   text-transform: none;
   font-weight: normal;
@@ -32658,7 +32667,7 @@ select.ui.dropdown {
 /* Menu Item */
 
 .ui.selection.dropdown .menu > .item {
-  border-top: 1px solid #FAFAFA;
+  border-top: 0px;
   padding: 10px 8px 10px 8px !important;
   white-space: normal;
   word-wrap: normal;
@@ -33014,7 +33023,7 @@ select.ui.dropdown {
 /* Menu Item Hover */
 
 .ui.dropdown .menu > .item:hover {
-  background: rgba(0, 0, 0, 0.05);
+  background: #F5F5F5;
   color: rgba(0, 0, 0, 0.95);
   z-index: 13;
 }
@@ -33394,7 +33403,7 @@ select.ui.dropdown {
   margin: 0 !important;
   min-width: 100% !important;
   width: auto !important;
-  border-top: 1px solid rgba(34, 36, 38, 0.15);
+  border-top: 0px;
 }
 
 .ui.scrolling.dropdown .menu .item.item.item,
@@ -33780,12 +33789,14 @@ select.ui.dropdown {
   border-top-width: 1px !important;
 }
 
-.ui.selection.active.dropdown:hover .menu {
-  border: 1px solid rgba(34, 36, 38, 0.15);
+.ui.dropdown .menu > .item > .image,
+.ui.dropdown .menu > .item > img {
+  border-radius: 6px;
 }
 
-.ui.selection.dropdown:focus .menu {
-  border: 1px solid rgba(34, 36, 38, 0.15);
+.ui.selection.dropdown .menu > .item {
+  margin: 5px;
+  border-radius: 6px;
 }
 
 /*******************************
