@@ -26,3 +26,11 @@
 @selectedBackground: white;
 
 @selectionItemPadding: 10px 8px 10px 8px !important;
+
+@hoveredItemBackground: @spaceDarker;
+
+@itemPadding: 5px;
+@selectionItemDivider: 0px;
+
+@menuBorder: 0px;
+@menuBoxShadow: 0px 2px 4px 0px #1C232B;

@@ -64,25 +64,51 @@ storiesOf('Button', module)
 
 storiesOf('Dropdown', module)
   .add('Base', () =>
-  <Dropdown placeholder='Select' selection options={[
-    {
-      text: 'Option 1',
-      value: 1
-    },
-    {
-      text: 'Option 2',
-      value: 2
-    },
-    {
-      text: 'Option 3',
-      value: 3,
-      disabled: true
-    },
-    {
-      text: 'Option 4',
-      value: 4
-    },
-  ]} onChange={action('changed')} />);
+    <Dropdown placeholder='Select' selection options={[
+      {
+        text: 'Option 1',
+        value: 1
+      },
+      {
+        text: 'Option 2',
+        value: 2
+      },
+      {
+        text: 'Option 3',
+        value: 3,
+        disabled: true
+      },
+      {
+        text: 'Option 4',
+        value: 4
+      },
+    ]} onChange={action('changed')} />
+  )
+  .add('Images', () =>
+    <Dropdown placeholder='Select' selection options={[
+      {
+        text: 'Option 1',
+        value: 1,
+        image: 'https://react.semantic-ui.com/images/avatar/small/jenny.jpg'
+      },
+      {
+        text: 'Option 2',
+        value: 2,
+        image: 'https://react.semantic-ui.com/images/avatar/small/elliot.jpg'
+      },
+      {
+        text: 'Option 3',
+        value: 3,
+        disabled: true,
+        image: 'https://react.semantic-ui.com/images/avatar/small/stevie.jpg'
+      },
+      {
+        text: 'Option 4',
+        value: 4,
+        image: 'https://react.semantic-ui.com/images/avatar/small/christian.jpg'
+      },
+    ]} onChange={action('changed')} />
+  );
 
 storiesOf('Header', module)
   .add('Default', () =>
