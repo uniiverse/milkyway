@@ -18,6 +18,11 @@
   background-color: @coralDarker;
 }
 
+.ui.buttons .button:hover:focus,
+.ui.button:hover:focus {
+  background-color: @spaceDarker;
+}
+
 .ui.inverted.primary.button:hover {
   color: @white;
 }
