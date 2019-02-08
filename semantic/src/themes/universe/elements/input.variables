@@ -1,0 +1,23 @@
+@inputColor: @ink;
+@inputFont: @pageFont;
+
+/*--------------------
+      Border
+---------------------*/
+@border: 1px solid @inkLighter;
+@focusBorderColor: @blueDark;
+
+/*--------------------
+      Placeholder
+---------------------*/
+@placeholderColor: @inkLighter;
+@placeholderFocusColor: @inkLighter;
+
+/*--------------------
+      Error
+---------------------*/
+@errorBorder: @coralDark;
+@errorBackground: @coralLighter;
+@errorColor: @ink;
+@placeholderErrorColor: @inkLighter;
+@placeholderErrorFocusColor: @inkLighter;

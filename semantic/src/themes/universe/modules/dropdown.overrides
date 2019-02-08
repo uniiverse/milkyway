@@ -16,3 +16,14 @@
   margin: 5px;
   border-radius: 6px;
 }
+
+.ui.dropdown.error.selected,
+.ui.dropdown .menu .selected.item {
+  background: @selectedBackground;
+  color: @selectedColor;
+}
+
+.ui.dropdown.selected,
+.ui.dropdown .menu .selected.item {
+  font-weight: 700;
+}

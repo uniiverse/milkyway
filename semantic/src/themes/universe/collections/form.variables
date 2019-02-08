@@ -1,0 +1,19 @@
+@labelFontWeight: 100;
+@inputBorder: 1px solid @inkLighter;
+
+@inputBorderRadius: @defaultBorderRadius;
+@inputFocusBorderColor: @blue;
+
+@textAreaBorder: @inputBorder;
+
+/*--------------------
+      Error
+---------------------*/
+@inputErrorPlaceholderColor: @inkLighter;
+@inputErrorPlaceholderFocusColor: @inkLighter;
+@formErrorColor: @ink;
+@formErrorBackground: @coralLighter;
+@formErrorBorder: @coralDark;
+@inputErrorFocusColor: @ink;
+@inputErrorFocusBackground: @coralLighter;
+@inputErrorFocusBorder: @coralDark;
