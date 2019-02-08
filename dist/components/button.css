@@ -3841,6 +3841,10 @@
 .ui.secondary.button:hover:focus {
   background-color: #B2443E;
 }
+.ui.buttons .button:hover:focus,
+.ui.button:hover:focus {
+  background-color: #F5F5F5;
+}
 .ui.inverted.primary.button:hover {
   color: #FFFFFF;
 }
