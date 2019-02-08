@@ -1,5 +1,6 @@
 @menuBorderRadius: 6px;
 
+@selectionBorder: 1px solid @inkLighter;
 @selectionBorderRadius: 6px;
 @selectionVisibleConnectingBorder: 6px;
 
@@ -34,3 +35,13 @@
 
 @menuBorder: 0px;
 @menuBoxShadow: 0px 2px 4px 0px #1C232B;
+
+/*--------------------
+      Error
+---------------------*/
+@errorTextColor: @ink;
+@errorBackgroundColor: @coralLighter;
+@errorBorderColor: @coralDark;
+
+@errorItemHoverBackground: @spaceDarker;
+@errorItemActiveBackground: @white;
