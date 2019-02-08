@@ -27,3 +27,8 @@
 .ui.dropdown .menu .selected.item {
   font-weight: 700;
 }
+
+.ui.error.dropdown:not(.button) > .default.text,
+.ui.default.dropdown:not(.button) > .text {
+  color: @inkLighter;
+}
