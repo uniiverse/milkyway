@@ -1,0 +1,4 @@
+@borderRadius: 0px;
+@attachedHeight: 4px;
+@background: @orbit;
+@successColor: @teal;
