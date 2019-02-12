@@ -1,0 +1,30 @@
+@arrowSize: 0;
+@stepsBorderRadius: 0px;
+@stepMargin: 0;
+@stepsBorder: 0px;
+@iconDistance: 8px;
+@verticalPadding: 13px;
+
+@divider: 0px;
+
+
+
+@titleFontSize: 12px;
+
+@textColor: #aab1b8;
+@activeColor: @inkLight;
+@hoverColor: @inkLight;
+@downColor: @inkLight;
+@activeHoverColor: @inkLight;
+
+@hoverBackground: transparent;
+@activeHoverBackground: transparent;
+
+
+
+
+@stepsBackground: transparent;
+@background: transparent;
+@hoverBackground: transparent;
+@downBackground: transparent;
+@activeBackground: transparent;

@@ -1,0 +1,7 @@
+.ui.progress {
+  height: 4px;
+}
+
+.ui.progress .bar {
+  height: 4px;
+}
