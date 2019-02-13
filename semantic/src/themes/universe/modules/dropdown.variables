@@ -1,6 +1,6 @@
 @menuBorderRadius: 6px;
 
-@selectionBorder: 1px solid @inkLighter;
+@selectionBorder: 1px solid @orbit;
 @selectionBorderRadius: 6px;
 @selectionVisibleConnectingBorder: 6px;
 

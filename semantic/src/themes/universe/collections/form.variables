@@ -1,10 +1,13 @@
 @labelFontWeight: 100;
-@inputBorder: 1px solid @inkLighter;
+@inputBorder: 1px solid @orbit;
 
 @inputBorderRadius: @defaultBorderRadius;
 @inputFocusBorderColor: @blue;
 
 @textAreaBorder: @inputBorder;
+
+@requiredColor: @coral;
+@requiredMargin: 0;
 
 /*--------------------
       Error
