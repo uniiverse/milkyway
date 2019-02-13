@@ -546,19 +546,19 @@
 /* Hover */
 .ui.form .fields.error .field .ui.dropdown .menu .item:hover,
 .ui.form .field.error .ui.dropdown .menu .item:hover {
-  background-color: #FBE7E7;
+  background-color: #F5F5F5;
 }
 
 /* Selected */
 .ui.form .fields.error .field .ui.dropdown .menu .selected.item,
 .ui.form .field.error .ui.dropdown .menu .selected.item {
-  background-color: #FBE7E7;
+  background-color: #FFFFFF;
 }
 
 /* Active */
 .ui.form .fields.error .field .ui.dropdown .menu .active.item,
 .ui.form .field.error .ui.dropdown .menu .active.item {
-  background-color: #FDCFCF !important;
+  background-color: #FFFFFF !important;
 }
 
 /*--------------------
@@ -1068,6 +1068,34 @@
 }
 .ui.form textarea {
   font-family: "Graphik", "Helvetica", helvetica, arial, sans-serif;
+}
+.ui.form .fields.error .field .checkbox label:after,
+.ui.form .field.error .checkbox label:after,
+.ui.form .fields.error .field .checkbox .box:after,
+.ui.form .field.error .checkbox .box:after {
+  color: #B2443E;
+}
+.ui.form .fields.error .field .ui.dropdown,
+.ui.form .field.error .ui.dropdown .text,
+.ui.form .field.error .ui.dropdown {
+  background: #FFF1EA;
+  color: #1C232B;
+}
+.ui.form .fields.error .field .ui.dropdown .item,
+.ui.form .field.error .ui.dropdown .item .text,
+.ui.form .field.error .ui.dropdown .item {
+  background: #FFFFFF;
+  color: #1C232B;
+}
+.ui.form .fields.error .field .ui.dropdown .menu .item:not(.selected) .text,
+.ui.form .field.error .ui.dropdown .menu .item:not(.selected):hover .text {
+  background-color: #F5F5F5;
+}
+.ui.form .field.error .ui.dropdown .menu .selected.item .text {
+  color: #4E78F1;
+}
+.ui.form .field.error .ui.dropdown .default.text {
+  color: #A9B0B7;
 }
 
 
