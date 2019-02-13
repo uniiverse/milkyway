@@ -17,3 +17,7 @@
 @inputErrorFocusColor: @ink;
 @inputErrorFocusBackground: @coralLighter;
 @inputErrorFocusBorder: @coralDark;
+
+@dropdownErrorActiveBackground: @white;
+@dropdownErrorSelectedBackground: @white;
+@dropdownErrorHoverBackground: @spaceDarker;

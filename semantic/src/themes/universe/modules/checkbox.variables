@@ -1,0 +1,19 @@
+@checkboxActiveBackground: @blue;
+@checkboxColor: @white;
+
+@checkboxCheckFontSize: 10px;
+@checkboxColor: @white;
+@checkboxFocusCheckColor: @white;
+@checkboxActiveCheckColor: @white;
+
+@checkboxCheckTop: 1px;
+@checkboxFocusBorderColor: @orbit;
+@checkboxActiveBorderColor: @blue;
+
+@checkboxFocusBackground: @white;
+
+@checkboxActiveFocusCheckColor: @white;
+@checkboxActiveFocusBorderColor: @blue;
+
+@checkboxHoverBorderColor: @inkLighter;
+@checkboxBorder: 1px solid @inkLighter;

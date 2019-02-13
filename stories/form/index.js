@@ -3,7 +3,7 @@ import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
 
-import { Container, Dropdown, Form, Input, TextArea } from 'semantic-ui-react';
+import { Checkbox, Container, Dropdown, Form, Input, TextArea } from 'semantic-ui-react';
 
 const options = [
   {
@@ -35,24 +35,30 @@ const stories = storiesOf('Form', module)
         </Form.Field>
         <Form.Field>
           <label>Dropdown</label>
-          <Dropdown placeholder='Select' selection options={options} onChange={action('changed')} />
+          <Dropdown placeholder='Placeholder' selection options={options} onChange={action('changed')} />
         </Form.Field>
         <Form.Field label="TextArea" placeholder="Placeholder" control="textarea" />
+        <Form.Field>
+          <Checkbox label="I agree to the Terms and Conditions" />
+        </Form.Field>
       </Form>
     </Container>
   )
   .add('Error', () =>
     <Container fluid>
       <Form>
-        <Form.Field>
+        <Form.Field error>
           <label>Text</label>
-          <Form.Input error placeholder="Placeholder" />
+          <Form.Input placeholder="Placeholder" />
         </Form.Field>
-        <Form.Field>
+        <Form.Field error>
           <label>Dropdown</label>
-          <Dropdown error placeholder='Select' selection options={options} onChange={action('changed')} />
+          <Dropdown placeholder='Placeholder' selection options={options} onChange={action('changed')} />
         </Form.Field>
         <Form.Field label="TextArea" placeholder="Placeholder" control="textarea" error />
+        <Form.Field error>
+          <Checkbox label="I agree to the Terms and Conditions" />
+        </Form.Field>
       </Form>
     </Container>
   );
