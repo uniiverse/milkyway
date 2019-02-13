@@ -37,6 +37,10 @@ const stories = storiesOf('Form', module)
           <label>Dropdown</label>
           <Dropdown placeholder='Placeholder' selection options={options} onChange={action('changed')} />
         </Form.Field>
+        <Form.Field>
+          <label>Multiple Dropdown</label>
+          <Dropdown placeholder='Placeholder' multiple selection options={options} onChange={action('changed')} />
+        </Form.Field>
         <Form.Field label="TextArea" placeholder="Placeholder" control="textarea" />
         <Form.Field>
           <Checkbox label="I agree to the Terms and Conditions" />
@@ -54,6 +58,10 @@ const stories = storiesOf('Form', module)
         <Form.Field error>
           <label>Dropdown</label>
           <Dropdown placeholder='Placeholder' selection options={options} onChange={action('changed')} />
+        </Form.Field>
+        <Form.Field error>
+          <label>Multiple Dropdown</label>
+          <Dropdown placeholder='Placeholder' multiple search selection options={options} onChange={action('changed')} />
         </Form.Field>
         <Form.Field label="TextArea" placeholder="Placeholder" control="textarea" error />
         <Form.Field error>

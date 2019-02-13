@@ -149,11 +149,11 @@ Here's some of the basic components and the progress so far:
 - [x] Checkbox
   - [ ] Toggle
 - [ ] Container / Layout
-- [ ] Dropdown
+- [x] Dropdown
   - [x] Default
   - [x] Images
   - [x] Search
-  - [ ] Multiple
+  - [x] Multiple
 - [x] Form
 - [x] Grid
 - [x] Header
