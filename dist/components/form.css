@@ -867,57 +867,57 @@
 
 /* Sizing Combinations */
 .ui.form .fields .wide.field {
-  width: 6.25%;
+  width: 8.33333333%;
   padding-left: 0.5em;
   padding-right: 0.5em;
 }
 .ui.form .one.wide.field {
-  width: 6.25% !important;
+  width: 8.33333333% !important;
 }
 .ui.form .two.wide.field {
-  width: 12.5% !important;
+  width: 16.66666667% !important;
 }
 .ui.form .three.wide.field {
-  width: 18.75% !important;
-}
-.ui.form .four.wide.field {
   width: 25% !important;
 }
+.ui.form .four.wide.field {
+  width: 33.33333333% !important;
+}
 .ui.form .five.wide.field {
-  width: 31.25% !important;
+  width: 41.66666667% !important;
 }
 .ui.form .six.wide.field {
-  width: 37.5% !important;
-}
-.ui.form .seven.wide.field {
-  width: 43.75% !important;
-}
-.ui.form .eight.wide.field {
   width: 50% !important;
 }
+.ui.form .seven.wide.field {
+  width: 58.33333333% !important;
+}
+.ui.form .eight.wide.field {
+  width: 66.66666667% !important;
+}
 .ui.form .nine.wide.field {
-  width: 56.25% !important;
-}
-.ui.form .ten.wide.field {
-  width: 62.5% !important;
-}
-.ui.form .eleven.wide.field {
-  width: 68.75% !important;
-}
-.ui.form .twelve.wide.field {
   width: 75% !important;
 }
+.ui.form .ten.wide.field {
+  width: 83.33333333% !important;
+}
+.ui.form .eleven.wide.field {
+  width: 91.66666667% !important;
+}
+.ui.form .twelve.wide.field {
+  width: 100% !important;
+}
 .ui.form .thirteen.wide.field {
-  width: 81.25% !important;
+  width: 108.33333333% !important;
 }
 .ui.form .fourteen.wide.field {
-  width: 87.5% !important;
+  width: 116.66666667% !important;
 }
 .ui.form .fifteen.wide.field {
-  width: 93.75% !important;
+  width: 125% !important;
 }
 .ui.form .sixteen.wide.field {
-  width: 100% !important;
+  width: 133.33333333% !important;
 }
 
 /* Swap to full width on mobile */
