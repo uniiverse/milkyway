@@ -73,7 +73,7 @@
   transition: border 0.1s ease, opacity 0.1s ease, -webkit-transform 0.1s ease, -webkit-box-shadow 0.1s ease;
   transition: border 0.1s ease, opacity 0.1s ease, transform 0.1s ease, box-shadow 0.1s ease;
   transition: border 0.1s ease, opacity 0.1s ease, transform 0.1s ease, box-shadow 0.1s ease, -webkit-transform 0.1s ease, -webkit-box-shadow 0.1s ease;
-  border: 1px solid #A9B0B7;
+  border: 1px solid #E2E5E7;
 }
 
 /*--------------
@@ -128,7 +128,7 @@
 .ui.checkbox .box:hover::before,
 .ui.checkbox label:hover::before {
   background: #FFFFFF;
-  border-color: #A9B0B7;
+  border-color: #E2E5E7;
 }
 .ui.checkbox label:hover,
 .ui.checkbox + label:hover {
@@ -142,7 +142,7 @@
 .ui.checkbox .box:active::before,
 .ui.checkbox label:active::before {
   background: #F9FAFB;
-  border-color: rgba(34, 36, 38, 0.35);
+  border-color: 1px solid #E2E5E7;
 }
 .ui.checkbox .box:active::after,
 .ui.checkbox label:active::after {

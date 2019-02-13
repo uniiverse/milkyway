@@ -36,8 +36,8 @@
 .ui.grid {
   margin-top: -1rem;
   margin-bottom: -1rem;
-  margin-left: -1rem;
-  margin-right: -1rem;
+  margin-left: -16px;
+  margin-right: -16px;
 }
 .ui.relaxed.grid {
   margin-left: -1.5rem;
@@ -64,13 +64,13 @@
   position: relative;
   display: inline-block;
   width: 8.33333333%;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-left: 16px;
+  padding-right: 16px;
   vertical-align: top;
 }
 .ui.grid > * {
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 /*-------------------
@@ -148,7 +148,7 @@
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
-  margin: 1rem 1rem;
+  margin: 1rem 16px;
 }
 .ui.grid .column + .ui.vertical.divider {
   height: calc(50% - (2rem / 2));
@@ -1092,9 +1092,9 @@
   content: "";
   top: 0em;
   left: 0px;
-  width: calc(100% - 2rem);
+  width: calc(100% - 32px);
   height: 1px;
-  margin: 0% 1rem;
+  margin: 0% 16px;
   -webkit-box-shadow: 0px -1px 0px 0px rgba(34, 36, 38, 0.15);
           box-shadow: 0px -1px 0px 0px rgba(34, 36, 38, 0.15);
 }
@@ -1842,7 +1842,7 @@
     margin: 0em 0em !important;
     -webkit-box-shadow: none !important;
             box-shadow: none !important;
-    padding: 1rem 1rem !important;
+    padding: 1rem 16px !important;
   }
   .ui.stackable.grid:not(.vertically) > .row {
     margin: 0em;
@@ -1859,8 +1859,8 @@
 /* Don't pad inside segment or nested grid */
   .ui.grid .ui.stackable.grid,
   .ui.segment:not(.vertical) .ui.stackable.page.grid {
-    margin-left: -1rem !important;
-    margin-right: -1rem !important;
+    margin-left: -16px !important;
+    margin-right: -16px !important;
   }
   
 /* Divided Stackable */
