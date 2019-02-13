@@ -146,7 +146,7 @@ Here's some of the basic components and the progress so far:
   - [ ] Sizes (tiny, medium, massive...)
   - [ ] Mobile
 - [ ] Card
-- [ ] Checkbox
+- [x] Checkbox
   - [ ] Toggle
 - [ ] Container / Layout
 - [ ] Dropdown
