@@ -15,5 +15,6 @@
 @checkboxActiveFocusCheckColor: @white;
 @checkboxActiveFocusBorderColor: @blue;
 
-@checkboxHoverBorderColor: @inkLighter;
-@checkboxBorder: 1px solid @inkLighter;
+@checkboxHoverBorderColor: @orbit;
+@checkboxBorder: 1px solid @orbit;
+@checkboxPressedBorderColor: 1px solid @orbit;

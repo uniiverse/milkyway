@@ -29,7 +29,7 @@ const stories = storiesOf('Form', module)
   .add('Default', () =>
     <Container fluid>
       <Form>
-        <Form.Field>
+        <Form.Field required>
           <label>Text</label>
           <Input placeholder="Placeholder" />
         </Form.Field>
@@ -51,7 +51,7 @@ const stories = storiesOf('Form', module)
   .add('Error', () =>
     <Container fluid>
       <Form>
-        <Form.Field error>
+        <Form.Field required error>
           <label>Text</label>
           <Form.Input placeholder="Placeholder" />
         </Form.Field>

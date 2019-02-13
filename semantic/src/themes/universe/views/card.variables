@@ -1,0 +1,8 @@
+@borderWidth: 0px;
+@borderShadow: 0px 0px 0px @borderWidth @solidBorderColor;
+
+@headerFontSize: 20px;
+@headerFontWeight: 500;
+@headerMargin: 0px 0px 8px 0px;
+
+@contentPadding: 2em 1.5em 2em 1.5em;
