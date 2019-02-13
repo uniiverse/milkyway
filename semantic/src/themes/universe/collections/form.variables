@@ -21,9 +21,3 @@
 @dropdownErrorActiveBackground: @white;
 @dropdownErrorSelectedBackground: @white;
 @dropdownErrorHoverBackground: @spaceDarker;
-
-// @errorTextColor: @ink;
-// @errorBackgroundColor: @coralLighter;
-// @errorBorderColor: @coralDark;
-// @errorItemHoverBackground: @spaceDarker;
-// @errorItemActiveBackground: @white;

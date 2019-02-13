@@ -31,3 +31,7 @@
 .ui.form .field.error .ui.dropdown .menu .selected.item .text {
   color: @blue;
 }
+
+.ui.form .field.error .ui.dropdown .default.text {
+  color: @inkLighter;
+}

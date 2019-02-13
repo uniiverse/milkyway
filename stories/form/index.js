@@ -35,7 +35,7 @@ const stories = storiesOf('Form', module)
         </Form.Field>
         <Form.Field>
           <label>Dropdown</label>
-          <Dropdown placeholder='Select' selection options={options} onChange={action('changed')} />
+          <Dropdown placeholder='Placeholder' selection options={options} onChange={action('changed')} />
         </Form.Field>
         <Form.Field label="TextArea" placeholder="Placeholder" control="textarea" />
         <Form.Field>
@@ -53,7 +53,7 @@ const stories = storiesOf('Form', module)
         </Form.Field>
         <Form.Field error>
           <label>Dropdown</label>
-          <Dropdown placeholder='Select' selection options={options} onChange={action('changed')} />
+          <Dropdown placeholder='Placeholder' selection options={options} onChange={action('changed')} />
         </Form.Field>
         <Form.Field label="TextArea" placeholder="Placeholder" control="textarea" error />
         <Form.Field error>
