@@ -70,6 +70,26 @@ const stories = storiesOf('Dropdown', module)
         <Dropdown placeholder='Select' selection options={imageOptions} onChange={action('changed')} error />
       </p>
     </Container>
+  )
+  .add('Multiple', () =>
+    <Container>
+      <p>
+        <Dropdown placeholder='Select' multiple selection options={imageOptions} onChange={action('changed')} />
+      </p>
+      <p>
+        <Dropdown placeholder='Select' multiple selection options={imageOptions} onChange={action('changed')} error />
+      </p>
+    </Container>
+  )
+  .add('Search', () =>
+    <Container>
+      <p>
+        <Dropdown placeholder='Select' multiple search selection options={imageOptions} onChange={action('changed')} />
+      </p>
+      <p>
+        <Dropdown placeholder='Select' multiple search selection options={imageOptions} onChange={action('changed')} error />
+      </p>
+    </Container>
   );
 
 export default stories;
