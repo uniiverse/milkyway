@@ -155,7 +155,7 @@ Here's some of the basic components and the progress so far:
   - [x] Search
   - [ ] Multiple
 - [x] Form
-- [ ] Grid
+- [x] Grid
 - [x] Header
 - [ ] Icon
 - [x] Input
