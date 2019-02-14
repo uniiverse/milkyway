@@ -1,6 +1,7 @@
 @menuBorderRadius: 6px;
 
 @selectionBorder: 1px solid @orbit;
+@selectionHoverBorderColor: 1px solid @orbit;
 @selectionBorderRadius: 6px;
 @selectionVisibleConnectingBorder: 6px;
 
@@ -34,7 +35,8 @@
 @selectionItemDivider: 0px;
 
 @menuBorder: 0px;
-@menuBoxShadow: 0px 2px 4px 0px #1C232B;
+//@menuBoxShadow: 0px 2px 4px 0px #1C232B;
+@menuBoxShadow: 0 1px 3px 0 #d4d4d5, 0 0 0 0 #d4d4d5;
 
 /*--------------------
       Error
