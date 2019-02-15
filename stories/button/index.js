@@ -15,7 +15,7 @@ stories
       <p><Button primary loading onClick={action('primary loading click')}>Primary</Button></p>
       <p>
         <Button primary onClick={action('primary icon click')}>
-          <Icon name='plus' />
+          <Icon name='universe-flag' />
           Primary
         </Button>
       </p>
@@ -28,7 +28,7 @@ stories
       <p><Button secondary loading onClick={action('secondary loading click')}>Secondary</Button></p>
       <p>
         <Button secondary onClick={action('secondary icon click')}>
-          <Icon name='plus' />
+          <Icon name='universe-flag' />
           Secondary
           </Button>
       </p>
@@ -41,7 +41,7 @@ stories
       <p><Button loading onClick={action('default loading click')}>Default</Button></p>
       <p>
         <Button onClick={action('default icon click')}>
-          <Icon name='plus' />
+          <Icon name='universe-flag' />
           Default
         </Button>
       </p>
@@ -54,7 +54,7 @@ stories
       <p><Button primary inverted loading onClick={action('inverted loading click')}>Primary</Button></p>
       <p>
         <Button primary inverted onClick={action('inverted icon click')}>
-          <Icon name='plus' />
+          <Icon name='universe-flag' />
           Primary
         </Button>
       </p>
