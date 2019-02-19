@@ -12,6 +12,9 @@ sample/.env.production.local
 # Mac OS Madness
 .DS_Store
 
+# Icon files
+semantic/src/themes/universe/assets/icons/*
+
 # Build files. Force pushed on release branch.
 dist/
 semantic*js

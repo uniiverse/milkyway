@@ -1,6 +1,6 @@
 {
   "name": "milkyway",
-  "version": "0.0.16",
+  "version": "0.0.17",
   "description": "Universe styles, as a semantic-ui theme",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,7 @@
     "preversion": "git add . && git stash && npm run clean",
     "version": "git add package.json package-lock.json && git commit -m \"Version $npm_package_version\" && git push origin master && git checkout release && git merge origin master --no-edit --strategy-option theirs && cd semantic && gulp build && cd .. && git add --force dist semantic*.js semantic*.css",
     "postversion": "git push && git push --tags && git checkout master",
-    "storybook": "cd semantic && gulp build && cd .. && start-storybook -p 6006",
+    "storybook": "cd semantic && gulp build && cd .. && start-storybook -p 6006 -s ./semantic/src/themes/universe/assets",
     "build-storybook": "build-storybook",
     "sample": "cd sample && npm install && npm start"
   },
@@ -50,6 +50,6 @@
     "@storybook/react": "^4.1.11",
     "babel-loader": "^8.0.5",
     "semantic-ui": "2.4.2",
-    "semantic-ui-react": "0.84.0"
+    "semantic-ui-react": "0.85.0"
   }
 }
