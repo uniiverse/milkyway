@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="4px" viewBox="0 0 30 4" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.1 (72631) - https://sketchapp.com -->
+    <title>universeIcons/Milkyway/Utility/Minus</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="30" height="4" rx="2"></rect>
+    </defs>
+    <g id="Milkyway-Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons-in-use" transform="translate(-682.000000, -325.000000)">
+            <g id="Icons/Milkyway/Utility/Minus" transform="translate(673.000000, 303.000000)">
+                <g id="Edit"></g>
+                <g id="Colour/Ink-Light" transform="translate(9.000000, 22.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Mask" fill="#000000" xlink:href="#path-1"></use>
+                    <g mask="url(#mask-2)" fill="#6F7881" id="Color/Ink/Light">
+                        <g transform="translate(-7.000000, -22.000000)">
+                            <rect x="0" y="0" width="45" height="48"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="40px" viewBox="0 0 32 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.1 (72631) - https://sketchapp.com -->
+    <title>universeIcons/Milkyway/Utility/Document</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M27.9957423,36 L4,35.9999745 L3.99094127,4 L14,4 L14,16 C14,17.1045695 14.8954305,18 16,18 L28.0001145,18 L27.9957423,36 Z M18,4 L18,14 L27.9999993,14 L18,4 Z M3.99094127,0 L18.6055819,0 C19.1573996,0 19.923594,0.318977043 20.3066744,0.702200748 L31.2980619,11.6977016 C31.6857316,12.0855164 32,12.8559261 32,13.3985099 L32,36.0014572 C32,38.2097914 30.2109725,40 27.9957423,40 L4.0042577,40 C1.79276724,40 0,38.2035752 0,35.9999745 L0,4.00002553 C0,1.79087243 1.79176129,0 3.99094127,0 Z" id="path-1"></path>
+    </defs>
+    <g id="Milkyway-Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons-in-use" transform="translate(-1741.000000, -119.000000)">
+            <g id="Icons/Milkyway/Utility/Page" transform="translate(1733.000000, 115.000000)">
+                <g id="Page">
+                    <g id="Colour/Ink-Light" transform="translate(8.000000, 4.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Mask" fill="#000000" xlink:href="#path-1"></use>
+                        <g mask="url(#mask-2)" fill="#6F7881" id="Color/Ink/Light">
+                            <g transform="translate(-8.000000, -4.000000)">
+                                <rect x="0" y="0" width="48" height="48"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

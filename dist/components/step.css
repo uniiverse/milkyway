@@ -159,7 +159,7 @@
 /* Icon */
 .ui.steps .step > .icon {
   line-height: 1;
-  font-size: 2.5em;
+  font-size: 1em;
   margin: 0em 8px 0em 0em;
 }
 .ui.steps .step > .icon,
@@ -209,7 +209,7 @@
   -ms-flex-item-align: middle;
       align-self: middle;
   margin-right: 8px;
-  font-size: 2.5em;
+  font-size: 1em;
   counter-increment: ordered;
   font-family: inherit;
   font-weight: bold;
@@ -395,7 +395,7 @@
 /* Completed */
 .ui.steps .step.completed > .icon:before,
 .ui.ordered.steps .step.completed:before {
-  color: #21BA45;
+  color: #00C7AF;
 }
 
 /* Disabled */

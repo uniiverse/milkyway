@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="42px" height="42px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.1 (72631) - https://sketchapp.com -->
+    <title>universeIcons/Milkyway/Utility/Shopping Cart</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M8.53191691,6.07610401 L40.342897,8.0267516 C41.444028,8.0881589 42.1712049,9.02372171 41.9700441,10.1005876 L39.3666269,24.0373517 C39.1641444,25.1212924 38.1056623,26 37.0017862,26 L13.131729,26 L13.5934673,28 L36,28 C37.1045695,28 38,28.8954305 38,30 C38,31.1045695 37.1045695,32 36,32 L12,32 C11.068688,32 10.260632,31.3571812 10.0512176,30.449719 L4.26618754,5.3812554 L1.13888504,3.8102092 C0.150460256,3.31716739 -0.251126988,2.11620142 0.241914824,1.12777664 C0.734956636,0.139351857 1.9359226,-0.262235386 2.92434738,0.230806426 L6.89273117,2.21029861 C7.42716012,2.47688017 7.81449023,2.9683483 7.94878239,3.55028099 L8.53191691,6.07610401 Z M35.6781779,21.999138 L37.5722182,11.8598516 L9.47034836,10.140881 L12.2082508,21.9999924 L35.6781779,21.999138 Z M32,42 C29.790861,42 28,40.209139 28,38 C28,35.790861 29.790861,34 32,34 C34.209139,34 36,35.790861 36,38 C36,40.209139 34.209139,42 32,42 Z M14,42 C11.790861,42 10,40.209139 10,38 C10,35.790861 11.790861,34 14,34 C16.209139,34 18,35.790861 18,38 C18,40.209139 16.209139,42 14,42 Z" id="path-1"></path>
+    </defs>
+    <g id="Milkyway-Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons-in-use" transform="translate(-1063.000000, -213.000000)">
+            <g id="Icons/Milkyway/Utility/Shopping-Cart" transform="translate(1060.000000, 210.000000)">
+                <g id="Shopping-Cart">
+                    <g id="Colour/Ink-Light" transform="translate(3.000000, 3.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Mask" fill="#000000" xlink:href="#path-1"></use>
+                        <g mask="url(#mask-2)" fill="#6F7881" id="Color/Ink/Light">
+                            <g transform="translate(-3.000000, -3.000000)">
+                                <rect x="0" y="0" width="48" height="48"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

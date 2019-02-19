@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="6px" height="23px" viewBox="0 0 6 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.1 (72631) - https://sketchapp.com -->
+    <title>universeIcons/Milkyway/Utility/More</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M5.50782353,2.75454383 C5.50782353,4.27403061 4.27403061,5.50782353 2.7532797,5.50782353 C1.23252879,5.50782353 4.4408921e-15,4.27403061 4.4408921e-15,2.75454383 C5.32907052e-15,1.23379292 1.23252879,1.64615691e-16 2.7532797,4.43973101e-16 C4.27403061,7.23330511e-16 5.50782353,1.23379292 5.50782353,2.75454383 Z M5.50782353,10.8721909 C5.50782353,12.3916777 4.27403061,13.6254706 2.7532797,13.6254706 C1.23252879,13.6254706 -8.17124146e-14,12.3916777 -8.17124146e-14,10.8721909 C-8.08242362e-14,9.35143998 1.23252879,8.11764706 2.7532797,8.11764706 C4.27403061,8.11764706 5.50782353,9.35143998 5.50782353,10.8721909 Z M5.50782353,19.6338904 C5.50782353,21.1546413 4.27403061,22.3871701 2.7532797,22.3871701 C1.23252879,22.3871701 -8.43769499e-14,21.1546413 -8.43769499e-14,19.6338904 C-8.34887715e-14,18.1131395 1.23252879,16.8793466 2.7532797,16.8793466 C4.27403061,16.8793466 5.50782353,18.1131395 5.50782353,19.6338904 Z" id="path-1"></path>
+    </defs>
+    <g id="Milkyway-Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons-in-use" transform="translate(-1466.000000, -316.000000)">
+            <g id="Icons/Milkyway/Utility/More" transform="translate(1445.000000, 303.000000)">
+                <g id="More-info">
+                    <g id="Colour/Ink-Light" transform="translate(21.000000, 13.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Mask" fill="#000000" xlink:href="#path-1"></use>
+                        <g mask="url(#mask-2)" fill="#6F7881" id="Color/Ink/Light">
+                            <g transform="translate(-21.000000, -13.000000)">
+                                <rect x="0" y="0" width="48" height="48"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

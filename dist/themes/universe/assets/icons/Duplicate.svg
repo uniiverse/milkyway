@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.1 (72631) - https://sketchapp.com -->
+    <title>universeIcons/Milkyway/Utility/Duplicate</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M12,12 L12,1.99700887 C12,0.894091327 12.8970262,0 14.0049466,0 L33.9950534,0 C35.1023548,0 36,0.897026226 36,2.00494659 L36,21.9950534 C36,23.1023548 35.1092129,24 34.0081681,24 L24,24 L24,33.9950534 C24,35.1023548 23.1029738,36 21.9950534,36 L2.00494659,36 C0.897645164,36 0,35.1029738 0,33.9950534 L0,14.0049466 C0,12.8976452 0.897026226,12 2.00494659,12 L12,12 Z M16.0104037,12 L21.9950534,12 C23.1023548,12 24,12.8970262 24,14.0049466 L24,20 L32.0070801,20 L32,4 L16.0533447,4 L16.0104037,12 Z M3.98694588,32.0018557 L20.0012614,32.0168495 L20.0114746,16 L4.02502441,16 L3.98694588,32.0018557 Z" id="path-1"></path>
+    </defs>
+    <g id="Milkyway-Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons-in-use" transform="translate(-1547.000000, -121.000000)">
+            <g id="Icons/Milkyway/Utility/Duplicate" transform="translate(1541.000000, 115.000000)">
+                <g id="Dublicate">
+                    <g id="Colour/Ink-Light" transform="translate(6.000000, 6.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Mask" fill="#000000" xlink:href="#path-1"></use>
+                        <g mask="url(#mask-2)" fill="#6F7881" id="Color/Ink/Light">
+                            <g transform="translate(-6.000000, -6.000000)">
+                                <rect x="0" y="0" width="48" height="48"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

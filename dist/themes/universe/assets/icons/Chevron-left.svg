@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="29px" viewBox="0 0 16 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.1 (72631) - https://sketchapp.com -->
+    <title>universeIcons/Milkyway/Utility/Chevron-left</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M15.38225,24.6719 C16.20525,25.5039 16.20525,26.8499 15.38225,27.6829 C14.56125,28.5159 13.22525,28.5159 12.40225,27.6829 L0.61725,15.6589 C-0.20575,14.8269 -0.20575,13.4809 0.61725,12.6479 L12.40225,0.6249 C13.22525,-0.2081 14.55825,-0.2081 15.38225,0.6249 C16.20525,1.4579 16.20525,2.8029 15.38525,3.6359 L5.72025,14.1549 L15.38225,24.6719 Z" id="path-1"></path>
+    </defs>
+    <g id="Milkyway-Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons-in-use" transform="translate(-497.000000, -313.000000)">
+            <g id="Icons/Milkyway/Utility/Chevron-Left" transform="translate(481.000000, 303.000000)">
+                <g id="Edit" transform="translate(0.000000, -1.000000)"></g>
+                <g id="Colour/Ink-Light" transform="translate(16.000000, 10.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Fill-1" fill="#000000" xlink:href="#path-1"></use>
+                    <g mask="url(#mask-2)" fill="#6F7881" id="Color/Ink/Light">
+                        <g transform="translate(-16.000000, -10.000000)">
+                            <rect x="0" y="0" width="48" height="48"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

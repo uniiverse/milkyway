@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="38px" viewBox="0 0 44 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.1 (72631) - https://sketchapp.com -->
+    <title>universeIcons/Milkyway/Utility/Camera</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M22,27 C25.3137085,27 28,24.3137085 28,21 C28,17.6862915 25.3137085,15 22,15 C18.6862915,15 16,17.6862915 16,21 C16,24.3137085 18.6862915,27 22,27 Z M9.6,6 L11.257005,1.85748741 C11.6673498,0.831625441 12.8982124,0 13.9907951,0 L30.0092049,0 C31.1086907,0 32.3341578,0.835394412 32.742995,1.85748741 L34.4,6 L39.99819,6 C42.2083286,6 44,7.78902751 44,10.0042577 L44,33.9957423 C44,36.2072328 42.2069088,38 39.99819,38 L4.00180999,38 C1.79167136,38 0,36.2109725 0,33.9957423 L0,10.0042577 C0,7.79276724 1.79309123,6 4.00180999,6 L9.6,6 Z M4.00180999,10 L4,33.9957423 L39.99819,34 L40,10.0042577 L32.694023,9.99998689 C32.1405482,9.99999413 31.5260256,9.5875957 31.3201535,9.07564917 L29.2790527,4 L14.7083066,3.99956324 L12.6831591,9.06243176 C12.4760373,9.5802364 11.8615479,10 11.3061954,10 L4.00180999,10 Z M12,21 C12,15.4771525 16.4771525,11 22,11 C27.5228475,11 32,15.4771525 32,21 C32,26.5228475 27.5228475,31 22,31 C16.4771525,31 12,26.5228475 12,21 Z" id="path-1"></path>
+    </defs>
+    <g id="Milkyway-Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons-in-use" transform="translate(-1351.000000, -119.000000)">
+            <g id="Icons/Milkyway/Utility/Camera" transform="translate(1349.000000, 115.000000)">
+                <g id="Camera">
+                    <g id="Colour/Ink-Light" transform="translate(2.000000, 4.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Mask" fill="#000000" xlink:href="#path-1"></use>
+                        <g mask="url(#mask-2)" fill="#6F7881" id="Color/Ink/Light">
+                            <g transform="translate(-2.000000, -4.000000)">
+                                <rect x="0" y="0" width="48" height="48"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

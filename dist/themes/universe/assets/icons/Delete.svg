@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="38px" viewBox="0 0 32 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.1 (72631) - https://sketchapp.com -->
+    <title>universeIcons/Milkyway/Utility/Delete</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M6,34.0007252 C6,34.0027408 26.0031611,34 26.0031611,34 C25.9992893,34 25.9996832,14.4059708 25.9999154,8 L6,8 L6,34.0007252 Z M30,34.0007252 C30,36.2094637 28.2058797,38 26.0031611,38 L5.99683887,38 C3.78944571,38 2,36.2132053 2,34.0007252 L2,7.99999926 C0.895269005,7.9990666 0,7.11168565 0,6 C0,4.8954305 0.889261723,4 2.00174332,4 L12,4 C12,1.790861 13.790861,0 16,0 C18.209139,0 20,1.790861 20,4 L29.9982567,4 C31.103789,4 32,4.88772964 32,6 C32,7.10399247 31.1116671,7.99906439 30,7.99999927 L30,34.0007252 Z M18,13.9950893 C18,12.8932319 18.8877296,12 20,12 C21.1045695,12 22,12.8926228 22,13.9950893 L22,28.0049107 C22,29.1067681 21.1122704,30 20,30 C18.8954305,30 18,29.1073772 18,28.0049107 L18,13.9950893 Z M10,13.9950893 C10,12.8932319 10.8877296,12 12,12 C13.1045695,12 14,12.8926228 14,13.9950893 L14,28.0049107 C14,29.1067681 13.1122704,30 12,30 C10.8954305,30 10,29.1073772 10,28.0049107 L10,13.9950893 Z" id="path-1"></path>
+    </defs>
+    <g id="Milkyway-Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons-in-use" transform="translate(-973.000000, -119.000000)">
+            <g id="Icons/Milkyway/Utility/Delete" transform="translate(965.000000, 115.000000)">
+                <g id="Delete">
+                    <g id="Colour/Ink-Light" transform="translate(8.000000, 4.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Mask" fill="#000000" fill-rule="nonzero" xlink:href="#path-1"></use>
+                        <g mask="url(#mask-2)" fill="#6F7881" id="Color/Ink/Light">
+                            <g transform="translate(-8.000000, -4.000000)">
+                                <rect x="0" y="0" width="48" height="48"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

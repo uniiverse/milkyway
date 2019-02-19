@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="36px" viewBox="0 0 44 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.1 (72631) - https://sketchapp.com -->
+    <title>universeIcons/Milkyway/Utility/Mail</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M26,20.8284271 L23.4142136,23.4142136 C22.633165,24.1952621 21.366835,24.1952621 20.5857864,23.4142136 L18,20.8284271 L6.82200105,32.0064261 L37.1717986,32.0002258 L26,20.8284271 Z M40.0000874,6.82833976 L28.8284271,18 L39.9994741,29.171047 L40.0000874,6.82833976 Z M15.1715729,18 L4.00052588,6.82895301 L3.99991263,29.1716602 L15.1715729,18 Z M22,19.2376419 L37.1870161,3.99356883 L6.81916686,3.99977504 L22,19.2376419 Z M4.00180999,0 L39.99819,0 C42.2083286,0 44,1.7852456 44,3.99017859 L44,32.0098214 C44,34.2135362 42.2069088,36 39.99819,36 L4.00180999,36 C1.79167136,36 0,34.2147544 0,32.0098214 L0,3.99017859 C0,1.7864638 1.79309123,0 4.00180999,0 Z" id="path-1"></path>
+    </defs>
+    <g id="Milkyway-Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons-in-use" transform="translate(-775.000000, -121.000000)">
+            <g id="Icons/Milkyway/Utility/Mail" transform="translate(773.000000, 115.000000)">
+                <g id="Mail">
+                    <g id="Colour/Ink-Light" transform="translate(2.000000, 6.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Mask" fill="#000000" xlink:href="#path-1"></use>
+                        <g mask="url(#mask-2)" fill="#6F7881" id="Color/Ink/Light">
+                            <g transform="translate(-2.000000, -6.000000)">
+                                <rect x="0" y="0" width="48" height="48"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

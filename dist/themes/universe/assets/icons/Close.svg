@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.1 (72631) - https://sketchapp.com -->
+    <title>universeIcons/Milkyway/Utility/Close</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M14.8281911,12.00025 L23.4140122,3.41442887 C24.1959959,2.63244516 24.1959959,1.36847149 23.4140122,0.586487782 C22.6320285,-0.195495927 21.3680548,-0.195495927 20.5860711,0.586487782 L12.00025,9.17230891 L3.41442887,0.586487782 C2.63244516,-0.195495927 1.36847149,-0.195495927 0.586487782,0.586487782 C-0.195495927,1.36847149 -0.195495927,2.63244516 0.586487782,3.41442887 L9.17230891,12.00025 L0.586487782,20.5860711 C-0.195495927,21.3680548 -0.195495927,22.6320285 0.586487782,23.4140122 C0.976479657,23.8040041 1.48846899,24 2.00045832,24 C2.51244766,24 3.02443699,23.8040041 3.41442887,23.4140122 L12.00025,14.8281911 L20.5860711,23.4140122 C20.976063,23.8040041 21.4880523,24 22.0000417,24 C22.512031,24 23.0240203,23.8040041 23.4140122,23.4140122 C24.1959959,22.6320285 24.1959959,21.3680548 23.4140122,20.5860711 L14.8281911,12.00025 Z" id="path-1"></path>
+    </defs>
+    <g id="Milkyway-Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons-in-use" transform="translate(-782.000000, -315.000000)">
+            <g id="Icons/Milkyway/Utility/Close" transform="translate(770.000000, 303.000000)">
+                <g id="Edit"></g>
+                <g id="Colour/Ink-Light" transform="translate(12.000000, 12.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Mask" fill="#1C232B" xlink:href="#path-1"></use>
+                    <g mask="url(#mask-2)" fill="#6F7881" id="Color/Ink/Light">
+                        <g transform="translate(-12.000000, -12.000000)">
+                            <rect x="0" y="0" width="48" height="48"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

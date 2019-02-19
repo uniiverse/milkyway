@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="44px" viewBox="0 0 36 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.1 (72631) - https://sketchapp.com -->
+    <title>universeIcons/Milkyway/Utility/Copy Documents</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M19,4 L12,4 L12,31.9974504 L32,32 L32,17 L23.0034467,17 C20.7975802,17 19,15.2146562 19,13.0079593 L19,4 Z M23.0034467,13 L31.2861208,13 L23.0002293,4.5874434 C23.0006025,7.81521301 23.0034467,13 23.0034467,13 Z M28,41.9663445 C28,43.0676581 27.1001025,43.9617203 26.0087557,43.9632619 L1.99124431,43.9971873 C0.891510444,43.9987407 0,43.1101074 0,42.0002927 L0,9.99970728 C0,8.89529944 0.890033193,8 2.00547323,8 L8,8 L8,1.99970728 C8,0.895299444 8.88729136,0 10.0037056,0 L23.0716797,0 C23.6271196,0 24.3962935,0.320971012 24.787501,0.714717865 L35.2898916,11.2852821 C35.6820737,11.6800099 36,12.4572464 36,12.9990455 L36,33.9588067 C36,35.0642833 35.1001025,35.9617203 34.0087557,35.9632619 L28,35.9717494 L28,41.9663445 Z M9.99124431,35.9971873 C8.89151044,35.9987407 8,35.1101074 8,34.0002927 L8,12 L4.02001953,12 L4.00132913,40 L24,40 L24,35.9773996 L9.99124431,35.9971873 Z" id="path-1"></path>
+    </defs>
+    <g id="Milkyway-Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons-in-use" transform="translate(-1835.000000, -117.000000)">
+            <g id="Icons/Milkyway/Utility/Copy-Documents" transform="translate(1829.000000, 115.000000)">
+                <g id="Copy-Documents">
+                    <g id="Colour/Ink-Light" transform="translate(6.000000, 2.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Mask" fill="#000000" xlink:href="#path-1"></use>
+                        <g mask="url(#mask-2)" fill="#6F7881" id="Color/Ink/Light">
+                            <g transform="translate(-6.000000, -2.000000)">
+                                <rect x="0" y="0" width="48" height="48"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

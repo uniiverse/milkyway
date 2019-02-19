@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="40px" viewBox="0 0 32 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.1 (72631) - https://sketchapp.com -->
+    <title>universeIcons/Milkyway/Utility/Locked</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M12,27 C12,24.790861 13.790861,23 16,23 C18.209139,23 20,24.790861 20,27 C20,28.4805647 19.1956027,29.7732524 18,30.4648712 L18,32.0018986 C18,33.1054196 17.1122704,34 16,34 C14.8954305,34 14,33.1132936 14,32.0018986 L14,30.4648712 C12.8043973,29.7732524 12,28.4805647 12,27 Z M4,12.0003162 C4,5.37235683 9.37173636,0 16,0 C22.6261936,0 28,5.37555373 28,12.0005127 L28,17.000002 C30.2095333,17.0022923 32,18.7870582 32,21.0062943 L32,35.9937057 C32,38.206321 30.2109725,40 27.9957423,40 L4.0042577,40 C1.79276724,40 0,38.2143671 0,35.9937057 L0,21.0062943 C0,18.7950968 1.78673561,17.0022988 4,17.0000022 L4,12.0003162 Z M8,17 L24,17 L24,12.0005127 C24,7.58440167 20.4167634,4 16,4 C11.5809788,4 8,7.58139241 8,12.0003162 L8,17 Z M4,21 L4,36 L28,36 L28,21 L4,21 Z" id="path-1"></path>
+    </defs>
+    <g id="Milkyway-Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons-in-use" transform="translate(-297.000000, -214.000000)">
+            <g id="Icons/Milkyway/Utility/Locked" transform="translate(289.000000, 210.000000)">
+                <g id="Locked">
+                    <g id="Colour/Ink-Light" transform="translate(8.000000, 4.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Mask" fill="#000000" xlink:href="#path-1"></use>
+                        <g mask="url(#mask-2)" fill="#6F7881" id="Color/Ink/Light">
+                            <g transform="translate(-8.000000, -4.000000)">
+                                <rect x="0" y="0" width="48" height="48"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

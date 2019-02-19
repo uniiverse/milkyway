@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="16px" viewBox="0 0 30 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.1 (72631) - https://sketchapp.com -->
+    <title>universeIcons/Milkyway/Utility/Chevron-down</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M38.3379,16.6182 C37.4559,15.7942 36.0289,15.7942 35.1469,16.6152 L23.9989,26.2802 L12.8539,16.6182 C11.9709,15.7942 10.5449,15.7942 9.6619,16.6182 C8.7789,17.4382 8.7789,18.7752 9.6619,19.5982 L22.4039,31.3832 C23.2869,32.2062 24.7129,32.2062 25.5959,31.3832 L38.3379,19.5982 C39.2209,18.7752 39.2209,17.4412 38.3379,16.6182" id="path-1"></path>
+    </defs>
+    <g id="Milkyway-Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons-in-use" transform="translate(-297.000000, -319.000000)">
+            <g id="Icons/Milkyway/Utility/Chevron-Down" transform="translate(288.000000, 303.000000)">
+                <g id="Edit" stroke-width="1" fill-rule="evenodd"></g>
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Fill-1" fill="#D6D6D6" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <g id="Colour/Ink-Light" stroke-width="1" fill-rule="evenodd" mask="url(#mask-2)" fill="#6F7881">
+                    <g id="Color/Ink/Light">
+                        <rect x="0" y="0" width="48" height="48"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

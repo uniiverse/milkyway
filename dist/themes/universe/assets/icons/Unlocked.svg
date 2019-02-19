@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="40px" viewBox="0 0 44 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.1 (72631) - https://sketchapp.com -->
+    <title>universeIcons/Milkyway/Utility/Unlocked</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M24,27 C24,24.790861 25.790861,23 28,23 C30.209139,23 32,24.790861 32,27 C32,28.4805647 31.1956027,29.7732524 30,30.4648712 L30,32.0018986 C30,33.1054196 29.1122704,34 28,34 C26.8954305,34 26,33.1132936 26,32.0018986 L26,30.4648832 C24.8043973,29.7732524 24,28.4805647 24,27 Z M20,17 L20,12.0005127 C20,7.58440167 16.4167634,4 12,4 C7.58097879,4 4,7.58139241 4,12.0003162 L4,14.9977315 C4,16.1095651 3.1045695,17.0041504 2,17.0041504 C0.887729645,17.0041504 0,16.105846 0,14.9977315 L0,12.0003162 C0,5.37235683 5.37173636,0 12,0 C18.6261936,0 24,5.37555373 24,12.0005127 L24,17 L39.9957423,17 C42.2072328,17 44,18.7856329 44,21.0062943 L44,35.9937057 C44,38.206321 42.2109725,40 39.9957423,40 L16.0042577,40 C13.7927672,40 12,38.2143671 12,35.9937057 L12,21.0062943 C12,18.793679 13.7890275,17 16.0042577,17 L20,17 Z M16,21 L16,36 L40,36 L40,21 L16,21 Z" id="path-1"></path>
+    </defs>
+    <g id="Milkyway-Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons-in-use" transform="translate(-387.000000, -214.000000)">
+            <g id="Icons/Milkyway/Utility/Unlocked" transform="translate(385.000000, 210.000000)">
+                <g id="Unlocked">
+                    <g id="Colour/Ink-Light" transform="translate(2.000000, 4.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Mask" fill="#000000" xlink:href="#path-1"></use>
+                        <g mask="url(#mask-2)" fill="#6F7881" id="Color/Ink/Light">
+                            <g transform="translate(-2.000000, -4.000000)">
+                                <rect x="0" y="0" width="48" height="48"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

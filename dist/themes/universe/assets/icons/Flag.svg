@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="40px" viewBox="0 0 32 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.1 (72631) - https://sketchapp.com -->
+    <title>universeIcons/Milkyway/Utility/Flag</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M4,5.125 L30.0703207,12.4572777 C31.1360531,12.7570149 32,13.8982606 32,14.9979131 L32,17.0020869 C32,18.1055038 31.1440773,19.2407283 30.0703207,19.5427223 L4,26.875 L4,38.0027084 C4,39.1057821 3.11227036,40 2,40 C0.8954305,40 0,39.1084602 0,38.0027084 L0,1.99729162 C0,0.894217919 0.887729645,0 2,0 C3.1045695,0 4,0.891539827 4,1.99729162 L4,5.125 Z M4,9.30358887 L4.0344986,22.7101047 L28,16.0068469 L4,9.30358887 Z" id="path-1"></path>
+    </defs>
+    <g id="Milkyway-Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons-in-use" transform="translate(-972.000000, -307.000000)">
+            <g id="Icons/Milkyway/Utility/Flag" transform="translate(964.000000, 303.000000)">
+                <g id="Colour/Ink-Light" transform="translate(8.000000, 4.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Mask" fill="#000000" xlink:href="#path-1"></use>
+                    <g mask="url(#mask-2)" fill="#6F7881" id="Color/Ink/Light">
+                        <g transform="translate(-8.000000, -4.000000)">
+                            <rect x="0" y="0" width="48" height="48"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="38px" height="36px" viewBox="0 0 38 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.1 (72631) - https://sketchapp.com -->
+    <title>universeIcons/Milkyway/Utility/Geolocation</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M1.22386012,14.1740392 C-0.60361677,14.9572436 -0.317884695,17.5789925 1.63719439,17.9666085 L15.5719111,20.7422858 L18.4167144,34.4060297 C18.8150219,36.3191222 21.4887934,36.5967666 22.2876865,34.8079915 L36.5793531,2.80799151 C37.3240733,1.14051314 35.5927443,-0.555482617 33.8905268,0.174039172 L1.22386012,14.1740392 Z M21.1361022,27.451178 L19.2998543,18.6315803 C19.1360479,17.8448093 18.507781,17.2302857 17.7043744,17.0710015 L8.80008607,15.2931475 L30.7617895,5.88098889 L21.1361022,27.451178 Z" id="path-1"></path>
+    </defs>
+    <g id="Milkyway-Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons-in-use" transform="translate(-391.000000, -121.000000)">
+            <g id="Icons/Milkyway/Utility/Geolocation" transform="translate(386.000000, 115.000000)">
+                <g id="Geolocation" transform="translate(0.510417, 0.000000)">
+                    <g id="Colour/Ink-Light" transform="translate(5.104167, 6.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Mask" fill="#000000" fill-rule="nonzero" xlink:href="#path-1"></use>
+                        <g mask="url(#mask-2)" fill="#6F7881" id="Color/Ink/Light">
+                            <g transform="translate(-5.614583, -6.000000)">
+                                <rect x="0" y="0" width="49" height="48"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

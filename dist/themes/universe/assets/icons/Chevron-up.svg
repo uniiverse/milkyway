@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="16px" viewBox="0 0 30 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.1 (72631) - https://sketchapp.com -->
+    <title>universeIcons/Milkyway/Utility/Chevron-up</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M13.404,0.617 L0.662,12.401 C-0.221,13.226 -0.221,14.559 0.662,15.382 L0.662,15.382 C1.545,16.206 2.97,16.206 3.853,15.385 L3.853,15.385 L15.002,5.721 L26.147,15.382 C27.029,16.206 28.456,16.206 29.339,15.382 L29.339,15.382 C30.221,14.561 30.221,13.226 29.339,12.401 L29.339,12.401 L16.596,0.617 C16.154,0.206 15.578,0 15,0 L15,0 C14.423,0 13.845,0.206 13.404,0.617 L13.404,0.617 Z" id="path-1"></path>
+    </defs>
+    <g id="Milkyway-Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons-in-use" transform="translate(-201.000000, -319.000000)">
+            <g id="Icons/Milkyway/Utility/Chevron-Up" transform="translate(192.000000, 303.000000)">
+                <g id="Edit" transform="translate(0.000000, 1.000000)"></g>
+                <g id="Icons/Minor/Arrow-up/Gray" transform="translate(9.000000, 16.000000)">
+                    <g id="Colour/Ink-Light">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Clip-2" fill="#000000" xlink:href="#path-1"></use>
+                        <g mask="url(#mask-2)" fill="#6F7881" id="Color/Ink/Light">
+                            <g transform="translate(-9.000000, -16.000000)">
+                                <rect x="0" y="0" width="48" height="48"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

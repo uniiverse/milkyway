@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.1 (72631) - https://sketchapp.com -->
+    <title>universeIcons/Milkyway/Utility/Search</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M17.8087684,30.6862826 C10.7075931,30.6862826 4.93131304,24.9100025 4.93131304,17.8088272 C4.93131304,10.7076518 10.7075931,4.93137174 17.8087684,4.93137174 C24.9066562,4.93137174 30.6829363,10.7076518 30.6829363,17.8088272 C30.6829363,24.9100025 24.9066562,30.6862826 17.8087684,30.6862826 M39.2766734,35.7918961 L32.0012563,28.516479 C34.2598246,25.5313553 35.614308,21.8295389 35.614308,17.8088272 C35.614308,7.98882222 27.6254858,0 17.8087684,0 C7.98876352,0 -5.8706802e-05,7.98882222 -5.8706802e-05,17.8088272 C-5.8706802e-05,27.6288321 7.98876352,35.6176543 17.8087684,35.6176543 C21.8294802,35.6176543 25.5345842,34.2598833 28.5164203,32.0046026 L35.7918374,39.2767321 C36.2718243,39.7600066 36.9030398,40 37.5342554,40 C38.165471,40 38.7966866,39.7600066 39.2766734,39.2767321 C40.2399347,38.3134709 40.2399347,36.7551574 39.2766734,35.7918961" id="path-1"></path>
+    </defs>
+    <g id="Milkyway-Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons-in-use" transform="translate(-100.000000, -307.000000)">
+            <g id="Icons/Milkyway/Utility/Search" transform="translate(96.000000, 303.000000)">
+                <g id="Group-2" transform="translate(4.000000, 4.000000)">
+                    <g id="Colour/Ink-Light">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Mask" fill="#1C232B" xlink:href="#path-1"></use>
+                        <g mask="url(#mask-2)" fill="#6F7881" id="Color/Ink/Light">
+                            <g transform="translate(-1.000000, -1.000000)">
+                                <rect x="0" y="0" width="44" height="44"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
