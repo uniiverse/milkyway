@@ -1,38 +1,38 @@
 @font-face {
   font-family: "Circular Pro";
-  src: url("../../themes/universe/assets/fonts/lineto-circular-pro-book.eot") format("eot"),
-        url("../../themes/universe/assets/fonts/lineto-circular-pro-book.woff2") format("woff2"),
-        url("../../themes/universe/assets/fonts/lineto-circular-pro-book.woff") format("woff");
+  src: url("/fonts/Circular-Pro-subsetted/lineto-circular-pro-book.eot") format("eot"),
+        url("/fonts/Circular-Pro-subsetted/lineto-circular-pro-book.woff2") format("woff2"),
+        url("/fonts/Circular-Pro-subsetted/lineto-circular-pro-book.woff") format("woff");
 }
 
 @font-face {
   font-family: "Circular Pro";
-  src: url("../../themes/universe/assets/fonts/lineto-circular-pro-medium.eot") format("eot"),
-        url("../../themes/universe/assets/fonts/lineto-circular-pro-medium.woff2") format("woff2"),
-        url("../../themes/universe/assets/fonts/lineto-circular-pro-medium.woff") format("woff");
+  src: url("/fonts/Circular-Pro-subsetted/lineto-circular-pro-medium.eot") format("eot"),
+        url("/fonts/Circular-Pro-subsetted/lineto-circular-pro-medium.woff2") format("woff2"),
+        url("/fonts/Circular-Pro-subsetted/lineto-circular-pro-medium.woff") format("woff");
   font-weight: 500;
 }
 
 
 @font-face {
   font-family: "Circular Pro";
-  src: url("../../themes/universe/assets/fonts/lineto-circular-pro-bold.eot") format("eot"),
-        url("../../themes/universe/assets/fonts/lineto-circular-pro-bold.woff2") format("woff2"),
-        url("../../themes/universe/assets/fonts/lineto-circular-pro-bold.woff") format("woff");
+  src: url("/fonts/Circular-Pro-subsetted/lineto-circular-pro-bold.eot") format("eot"),
+        url("/fonts/Circular-Pro-subsetted/lineto-circular-pro-bold.woff2") format("woff2"),
+        url("/fonts/Circular-Pro-subsetted/lineto-circular-pro-bold.woff") format("woff");
   font-weight: 700;
 }
 
 @font-face {
   font-family: "Graphik";
-  src: url("../../themes/universe/assets/fonts/Graphik-Regular-Web.eot") format("eot"),
-        url("../../themes/universe/assets/fonts/Graphik-Regular-Web.woff2") format("woff2"),
-        url("../../themes/universe/assets/fonts/Graphik-Regular-Web.woff") format("woff");
+  src: url("/fonts/Graphik/Graphik-Regular-Web.eot") format("eot"),
+        url("/fonts/Graphik/Graphik-Regular-Web.woff2") format("woff2"),
+        url("/fonts/Graphik/Graphik-Regular-Web.woff") format("woff");
 }
 @font-face {
   font-family: "Graphik";
-  src:  url("../../themes/universe/assets/fonts/Graphik-Medium-Web.eot") format("eot"),
-        url("../../themes/universe/assets/fonts/Graphik-Medium-Web.woff2") format("woff2"),
-        url("../../themes/universe/assets/fonts/Graphik-Medium-Web.woff") format("woff");
+  src:  url("/fonts/Graphik/Graphik-Medium-Web.eot") format("eot"),
+        url("/fonts/Graphik/Graphik-Medium-Web.woff2") format("woff2"),
+        url("/fonts/Graphik/Graphik-Medium-Web.woff") format("woff");
   font-weight: bold;
 }
 
