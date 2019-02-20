@@ -69,6 +69,9 @@ const stories = storiesOf('Card', module)
                       <label>Multiple Dropdown</label>
                       <Dropdown placeholder='Placeholder' multiple selection options={options} onChange={action('changed')} />
                     </Form.Field>
+                    <Form.Field>
+                      <a>+ Add something else</a>
+                    </Form.Field>
                     <Form.Field label="TextArea" placeholder="Placeholder" control="textarea" />
                     <Form.Field>
                       <Checkbox label="I agree to the Terms and Conditions" />

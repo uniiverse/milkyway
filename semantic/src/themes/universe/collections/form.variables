@@ -9,6 +9,14 @@
 @requiredColor: @coral;
 @requiredMargin: 0;
 
+@gutterWidth: 1em;
+@rowDistance: 24px;
+
+@fieldMargin: 0em 0em @rowDistance;
+@fieldsMargin: 0em -(@gutterWidth / 2) @rowDistance;
+
+@paragraphMargin: @rowDistance 0em;
+
 /*--------------------
       Error
 ---------------------*/

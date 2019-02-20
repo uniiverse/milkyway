@@ -49,6 +49,42 @@ const imageOptions = [
   },
 ];
 
+const avatarOptions = [
+  {
+    text: 'Option 1',
+    value: 1,
+    image: {
+      avatar: true,
+      src: 'https://react.semantic-ui.com/images/avatar/small/jenny.jpg',
+    },
+  },
+  {
+    text: 'Option 2',
+    value: 2,
+    image: {
+      src: 'https://react.semantic-ui.com/images/avatar/small/elliot.jpg',
+      avatar: true,
+    }
+  },
+  {
+    text: 'Option 3',
+    value: 3,
+    disabled: true,
+    image: {
+      src: 'https://react.semantic-ui.com/images/avatar/small/stevie.jpg',
+      avatar: true,
+    }
+  },
+  {
+    text: 'Option 4',
+    value: 4,
+    image: {
+      src: 'https://react.semantic-ui.com/images/avatar/small/christian.jpg',
+      avatar: true,
+    }
+  },
+];
+
 const stories = storiesOf('Dropdown', module)
   .add('Base', () =>
     <Container>
@@ -68,6 +104,16 @@ const stories = storiesOf('Dropdown', module)
       </p>
       <p>
         <Dropdown placeholder='Select' selection options={imageOptions} onChange={action('changed')} error />
+      </p>
+    </Container>
+  )
+  .add('Avatar', () =>
+    <Container>
+      <p>
+        <Dropdown placeholder='Select' selection options={avatarOptions} onChange={action('changed')} />
+      </p>
+      <p>
+        <Dropdown placeholder='Select' selection options={avatarOptions} onChange={action('changed')} error />
       </p>
     </Container>
   )

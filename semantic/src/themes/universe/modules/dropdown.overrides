@@ -92,6 +92,11 @@
   border-radius: @defaultBorderRadius;
 }
 
+.ui.dropdown .menu > .item > .image.avatar,
+.ui.dropdown .menu > .item > img.avatar {
+  border-radius: @circularRadius;
+}
+
 .ui.selection.dropdown .menu > .item {
   margin: 5px;
   border-radius: 6px;
