@@ -35,6 +35,7 @@
 
 @absoluteBorderRadius: 6px;
 @defaultBorderRadius: @absoluteBorderRadius;
+@circularRadius: 500rem;
 
 /*-------------------
     Brand Colors
@@ -78,6 +79,17 @@
 @secondaryColorActive: @coralDarker;
 @secondaryColorFocus: @coral;
 @secondaryColorDown: @coralDarker;
+
+
+/*-------------------
+       Links
+--------------------*/
+
+@linkColor           : @blue;
+@linkUnderline       : none;
+@linkHoverColor      : @blueDarker;
+@linkHoverUnderline  : none;
+
 
 /*-------------------
         Grid

@@ -1,1 +1,2 @@
 @fontFamily: @headerFont;
+@fontWeight: 500;
