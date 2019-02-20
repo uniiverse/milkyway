@@ -28,7 +28,7 @@
 ---------------------*/
 
 .ui.form > p {
-  margin: 1em 0em;
+  margin: 24px 0em;
 }
 
 /*--------------------
@@ -37,7 +37,7 @@
 
 .ui.form .field {
   clear: both;
-  margin: 0em 0em 1em;
+  margin: 0em 0em 24px;
 }
 .ui.form .field:last-child,
 .ui.form .fields:last-child .field {
@@ -748,7 +748,7 @@
 /* Grouped Vertically */
 .ui.form .grouped.fields {
   display: block;
-  margin: 0em 0em 1em;
+  margin: 0em 0em 24px;
 }
 .ui.form .grouped.fields:last-child {
   margin-bottom: 0em;
@@ -781,7 +781,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  margin: 0em -0.5em 1em;
+  margin: 0em -0.5em 24px;
 }
 .ui.form .fields > .field {
   -webkit-box-flex: 0;
@@ -861,7 +861,7 @@
   .ui.form:not(.unstackable) .ten.fields:not(.unstackable) > .fields,
   .ui.form:not(.unstackable) .ten.fields:not(.unstackable) > .field {
     width: 100% !important;
-    margin: 0em 0em 1em;
+    margin: 0em 0em 24px;
   }
 }
 
@@ -969,7 +969,7 @@
 ---------------------*/
 
 .ui.form .inline.fields {
-  margin: 0em 0em 1em;
+  margin: 0em 0em 24px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
