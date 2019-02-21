@@ -30008,7 +30008,7 @@ a.ui.nag {
 }
 
 .ui.search .prompt {
-  border-radius: 500rem;
+  border-radius: 6px;
 }
 
 /*--------------
@@ -30035,20 +30035,20 @@ a.ui.nag {
   text-transform: none;
   background: #FFFFFF;
   margin-top: 0.5em;
-  width: 18em;
-  border-radius: 0.28571429rem;
-  -webkit-box-shadow: 0px 2px 4px 0px rgba(34, 36, 38, 0.12), 0px 2px 10px 0px rgba(34, 36, 38, 0.15);
-  box-shadow: 0px 2px 4px 0px rgba(34, 36, 38, 0.12), 0px 2px 10px 0px rgba(34, 36, 38, 0.15);
-  border: 1px solid #D4D4D5;
+  width: 100%;
+  border-radius: 6px;
+  -webkit-box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 0 #d4d4d5;
+  box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 0 #d4d4d5;
+  border: 0;
   z-index: 998;
 }
 
 .ui.search > .results > :first-child {
-  border-radius: 0.28571429rem 0.28571429rem 0em 0em;
+  border-radius: 6px 6px 0em 0em;
 }
 
 .ui.search > .results > :last-child {
-  border-radius: 0em 0em 0.28571429rem 0.28571429rem;
+  border-radius: 0em 0em 6px 6px;
 }
 
 /*--------------
@@ -30060,10 +30060,10 @@ a.ui.nag {
   display: block;
   overflow: hidden;
   font-size: 1em;
-  padding: 0.85714286em 1.14285714em;
+  padding: 10px;
   color: rgba(0, 0, 0, 0.87);
   line-height: 1.33;
-  border-bottom: 1px solid rgba(34, 36, 38, 0.1);
+  border-bottom: 0;
 }
 
 .ui.search > .results .result:last-child {
@@ -30097,10 +30097,10 @@ a.ui.nag {
 
 .ui.search > .results .result .title {
   margin: -0.14285714em 0em 0em;
-  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
-  font-weight: bold;
+  font-family: "Graphik", "Helvetica", helvetica, arial, sans-serif;
+  font-weight: normal;
   font-size: 1em;
-  color: rgba(0, 0, 0, 0.85);
+  color: #1C232B;
 }
 
 .ui.search > .results .result .description {
@@ -30123,7 +30123,7 @@ a.ui.nag {
 }
 
 .ui.search > .results > .message .header {
-  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: "Circular Pro", "Helvetica", helvetica, arial, sans-serif;
   font-size: 1rem;
   font-weight: bold;
   color: rgba(0, 0, 0, 0.87);
@@ -30260,7 +30260,7 @@ a.ui.nag {
 ---------------*/
 
 .ui.search.selection .prompt {
-  border-radius: 0.28571429rem;
+  border-radius: 6px;
 }
 
 /* Remove input */
@@ -30325,11 +30325,11 @@ a.ui.nag {
 /* First / Last */
 
 .ui.category.search > .results .category:first-child .name + .result {
-  border-radius: 0em 0.28571429rem 0em 0em;
+  border-radius: 0em 6px 0em 0em;
 }
 
 .ui.category.search > .results .category:last-child .result:last-child {
-  border-radius: 0em 0em 0.28571429rem 0em;
+  border-radius: 0em 0em 6px 0em;
 }
 
 /* Category Result Name */
@@ -30340,7 +30340,7 @@ a.ui.nag {
   width: 100px;
   white-space: nowrap;
   background: transparent;
-  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: "Graphik", "Helvetica", helvetica, arial, sans-serif;
   font-size: 1em;
   padding: 0.4em 1em;
   font-weight: bold;
@@ -30358,10 +30358,10 @@ a.ui.nag {
 }
 
 .ui.category.search > .results .category .result {
-  border-bottom: 1px solid rgba(34, 36, 38, 0.1);
+  border-bottom: 0;
   -webkit-transition: background 0.1s ease, border-color 0.1s ease;
   transition: background 0.1s ease, border-color 0.1s ease;
-  padding: 0.85714286em 1.14285714em;
+  padding: 10px;
 }
 
 /*******************************
@@ -30432,9 +30432,13 @@ a.ui.nag {
   }
 }
 
-/*******************************
-         Theme Overrides
-*******************************/
+.ui.search > .results {
+  padding: 5px;
+}
+
+.ui.search > .results .result {
+  border-radius: 6px;
+}
 
 /*******************************
          Site Overrides
