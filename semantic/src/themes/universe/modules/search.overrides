@@ -1,0 +1,7 @@
+.ui.search > .results {
+  padding: 5px;
+}
+
+.ui.search > .results .result {
+  border-radius: 6px;
+}
