@@ -1,0 +1,14 @@
+@promptBorderRadius: 6px;
+
+@resultsBorderRadius: 6px;
+@resultsWidth: 100%;
+
+@resultsBorder: 0;
+@resultsBoxShadow: 0 1px 3px 0 #d4d4d5, 0 0 0 0 #d4d4d5;
+
+@resultDivider: 0;
+@resultPadding: 10px;
+
+@resultTitleFontWeight: normal;
+@resultTitleColor: @ink;
+@resultTitleFont: @pageFont;
