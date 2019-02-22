@@ -25069,8 +25069,8 @@ a.ui.card:hover,
   opacity: 1;
   z-index: 2;
   border: none;
-  -webkit-box-shadow: 0px 1px 2px 0 rgba(34, 36, 38, 0.15), 0px 0px 0px 1px rgba(34, 36, 38, 0.15) inset;
-  box-shadow: 0px 1px 2px 0 rgba(34, 36, 38, 0.15), 0px 0px 0px 1px rgba(34, 36, 38, 0.15) inset;
+  -webkit-box-shadow: 0;
+  box-shadow: 0;
   width: 1.5rem;
   height: 1.5rem;
   top: -0.25rem;
@@ -25136,23 +25136,23 @@ a.ui.card:hover,
 ---------------*/
 
 .ui.toggle.checkbox {
-  min-height: 1.5rem;
+  min-height: 20px;
 }
 
 /* Input */
 
 .ui.toggle.checkbox input {
-  width: 3.5rem;
-  height: 1.5rem;
+  width: 33px;
+  height: 20px;
 }
 
 /* Label */
 
 .ui.toggle.checkbox .box,
 .ui.toggle.checkbox label {
-  min-height: 1.5rem;
-  padding-left: 4.5rem;
-  color: #FFFFFF;
+  min-height: 20px;
+  padding-left: 40px;
+  color: #1C232B;
 }
 
 .ui.toggle.checkbox label {
@@ -25171,11 +25171,11 @@ a.ui.card:hover,
   transform: none;
   border: none;
   top: 0rem;
-  background: rgba(0, 0, 0, 0.05);
+  background: #A9B0B7;
   -webkit-box-shadow: none;
   box-shadow: none;
-  width: 3.5rem;
-  height: 1.5rem;
+  width: 33px;
+  height: 20px;
   border-radius: 500rem;
 }
 
@@ -25191,10 +25191,10 @@ a.ui.card:hover,
   opacity: 1;
   z-index: 2;
   border: none;
-  -webkit-box-shadow: 0px 1px 2px 0 rgba(34, 36, 38, 0.15), 0px 0px 0px 1px rgba(34, 36, 38, 0.15) inset;
-  box-shadow: 0px 1px 2px 0 rgba(34, 36, 38, 0.15), 0px 0px 0px 1px rgba(34, 36, 38, 0.15) inset;
-  width: 1.5rem;
-  height: 1.5rem;
+  -webkit-box-shadow: 0;
+  box-shadow: 0;
+  width: 20px;
+  height: 20px;
   top: 0rem;
   left: 0em;
   border-radius: 500rem;
@@ -25205,8 +25205,8 @@ a.ui.card:hover,
 .ui.toggle.checkbox input ~ .box:after,
 .ui.toggle.checkbox input ~ label:after {
   left: -0.05rem;
-  -webkit-box-shadow: 0px 1px 2px 0 rgba(34, 36, 38, 0.15), 0px 0px 0px 1px rgba(34, 36, 38, 0.15) inset;
-  box-shadow: 0px 1px 2px 0 rgba(34, 36, 38, 0.15), 0px 0px 0px 1px rgba(34, 36, 38, 0.15) inset;
+  -webkit-box-shadow: 0;
+  box-shadow: 0;
 }
 
 /* Focus */
@@ -25239,9 +25239,9 @@ a.ui.card:hover,
 
 .ui.toggle.checkbox input:checked ~ .box:after,
 .ui.toggle.checkbox input:checked ~ label:after {
-  left: 2.15rem;
-  -webkit-box-shadow: 0px 1px 2px 0 rgba(34, 36, 38, 0.15), 0px 0px 0px 1px rgba(34, 36, 38, 0.15) inset;
-  box-shadow: 0px 1px 2px 0 rgba(34, 36, 38, 0.15), 0px 0px 0px 1px rgba(34, 36, 38, 0.15) inset;
+  left: 13.15px;
+  -webkit-box-shadow: 0;
+  box-shadow: 0;
 }
 
 /* Active Focus */
@@ -25271,7 +25271,7 @@ a.ui.card:hover,
 
 .ui.fitted.toggle.checkbox,
 .ui.fitted.toggle.checkbox {
-  width: 3.5rem;
+  width: 33px;
 }
 
 .ui.fitted.slider.checkbox,
@@ -25321,6 +25321,55 @@ a.ui.card:hover,
   background: #4E78F1;
   border-color: #4E78F1;
   color: #FFFFFF;
+}
+
+/*--------------
+     Toggle
+---------------*/
+
+.ui.toggle.checkbox .box:after,
+.ui.toggle.checkbox label:after {
+  border: 1px solid #A9B0B7;
+}
+
+.ui.toggle.checkbox.checked .box:after,
+.ui.toggle.checkbox.checked label:after {
+  border: 1px solid #4E78F1;
+}
+
+.ui.toggle.checkbox.checked input:focus ~ .box:before,
+.ui.toggle.checkbox.checked input:focus ~ label:before {
+  background-color: #4E78F1;
+}
+
+.ui.toggle.checkbox input:focus ~ .box:before,
+.ui.toggle.checkbox input:focus ~ label:before {
+  background-color: #A9B0B7;
+}
+
+.ui.toggle.checkbox.checked input:hover ~ .box:before,
+.ui.toggle.checkbox.checked input:hover ~ label:before {
+  background-color: #4E78F1;
+}
+
+.ui.toggle.checkbox input:hover ~ .box:before,
+.ui.toggle.checkbox input:hover ~ label:before {
+  background-color: #A9B0B7;
+}
+
+.ui.toggle.checkbox input:focus:checked ~ .box:before,
+.ui.toggle.checkbox input:focus:checked ~ label:before {
+  background-color: #4E78F1 !important;
+}
+
+.ui.toggle.checkbox input:focus ~ .box:before,
+.ui.toggle.checkbox input:focus ~ label:before {
+  background-color: #A9B0B7 !important;
+}
+
+.ui.toggle.checkbox .box:hover::before,
+.ui.toggle.checkbox label:hover::before {
+  background-color: #A9B0B7;
 }
 
 /*******************************
