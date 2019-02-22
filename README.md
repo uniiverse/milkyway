@@ -147,7 +147,7 @@ Here's some of the basic components and the progress so far:
   - [ ] Mobile
 - [x] Card
 - [x] Checkbox
-  - [ ] Toggle
+  - [x] Toggle
 - [x] Container / Layout
 - [x] Dropdown
   - [x] Default

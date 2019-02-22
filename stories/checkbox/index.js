@@ -27,6 +27,13 @@ const stories = storiesOf('Checkbox', module)
         </Form>
       </p>
     </Container>
+  )
+  .add('Toggle', () =>
+    <Container fluid>
+      <p><Checkbox toggle label="Toggle" /></p>
+      <p><Checkbox toggle checked={false} disabled label="Unchecked disabled" /></p>
+      <p><Checkbox toggle checked={true} disabled label="Checked disabled" /></p>
+    </Container>
   );
 
 export default stories;
