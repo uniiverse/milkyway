@@ -164,5 +164,6 @@ Here's some of the basic components and the progress so far:
 - [ ] Pagination
 - [ ] Progress
   - [x] Success
-- [ ] Segment (Placeholders)
+- [x] Search
+- [x] Segment (Placeholders)
 - [x] Step

@@ -7,7 +7,7 @@ import { linkTo } from '@storybook/addon-links';
 import '../semantic.min.css';
 
 function loadStories() {
-  ['button', 'card', 'checkbox', 'dropdown', 'form', 'grid', 'header', 'icon', 'input', 'progress', 'search', 'step'].forEach(function(comp){
+  ['button', 'card', 'checkbox', 'dropdown', 'form', 'grid', 'header', 'icon', 'input', 'progress', 'search', 'segment', 'step'].forEach(function(comp){
     require("./" + comp);
   });
 }
