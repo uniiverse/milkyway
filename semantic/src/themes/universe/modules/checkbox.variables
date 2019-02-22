@@ -18,3 +18,13 @@
 @checkboxHoverBorderColor: @orbit;
 @checkboxBorder: 1px solid @orbit;
 @checkboxPressedBorderColor: 1px solid @orbit;
+
+@toggleOffLabelColor: @ink;
+
+@toggleWidth: 33px;
+@toggleLaneWidth: 33px;
+@toggleHandleSize: 20px;
+
+@handleBoxShadow: 0;
+@toggleLabelDistance: 40px;
+@toggleLaneBackground: @inkLighter;
