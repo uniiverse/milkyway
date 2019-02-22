@@ -140,9 +140,9 @@ Here's some of the basic components and the progress so far:
   - [x] Primary
   - [x] Primary inverted
   - [x] Secondary
-  - [ ] Secondary inverted
+  - [x] Secondary inverted
   - [x] Tertiary
-  - [ ] Groups
+  - [x] Groups
   - [ ] Sizes (tiny, medium, massive...)
   - [ ] Mobile
 - [x] Card

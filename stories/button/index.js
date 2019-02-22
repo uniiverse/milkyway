@@ -59,6 +59,19 @@ stories
         </Button>
       </p>
     </Container>
+  )
+  .add('Secondary inverted', () =>
+    <Container fluid>
+      <p><Button secondary inverted onClick={action('inverted click')}>Secondary</Button></p>
+      <p><Button secondary inverted disabled onClick={action('inverted cannot click')}>Secondary</Button></p>
+      <p><Button secondary inverted loading onClick={action('inverted loading click')}>Secondary</Button></p>
+      <p>
+        <Button secondary inverted onClick={action('inverted icon click')}>
+          <Icon flipped="horizontally" className='universe-chevron-left' />
+          Primary
+        </Button>
+      </p>
+    </Container>
   );
 
 export default stories;
