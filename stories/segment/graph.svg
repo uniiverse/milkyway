@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Icons/Empty State/Desktop/Dashboard Graph</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Components" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="🖥️-Empty-State" transform="translate(-332.000000, -113.000000)">
+            <g id="Icons/Empty-State/Desktop/Dashboard-Graph" transform="translate(332.000000, 113.000000)">
+                <g id="Empty-State/Desktop/Dashboard-Graph">
+                    <circle id="Oval-3" fill="#F5F5F5" cx="40" cy="40" r="40"></circle>
+                    <polygon id="Stroke-736" stroke="#A9B0B7" fill="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" points="17 56 63 56 63 24 17 24"></polygon>
+                    <path d="M39,68 C37.896,68 37,67.106 37,66 C37,64.894 37.896,64 39,64 C40.104,64 41,64.894 41,66 C41,67.106 40.104,68 39,68 Z" id="Stroke-738" stroke="#A9B0B7" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M15,24 L17,24" id="Stroke-731" stroke="#A9B0B7" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M63,24 L65,24" id="Stroke-732" stroke="#A9B0B7" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M39,56 L39,64" id="Stroke-737" stroke="#A9B0B7" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M24,29 L24,51" id="Stroke-1" stroke="#A2CBFF" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M22,49 L58,49" id="Stroke-3" stroke="#A2CBFF" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <polyline id="Stroke-6" stroke="#4E78F1" stroke-linecap="round" stroke-linejoin="round" points="26 47 32.4583333 42.4285714 35.0416667 43.952381 40.2083333 39.3809524 44.0833333 41.6666667 46.6666667 32.5238095 51.8333333 35.5714286 57 31"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

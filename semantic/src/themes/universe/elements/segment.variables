@@ -1,0 +1,5 @@
+@boxShadow: 0;
+
+@placeholderBackground: white;
+@placeholderBorderColor: @orbit;
+@placeholderBoxShadow: 0;
