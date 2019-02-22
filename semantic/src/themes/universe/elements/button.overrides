@@ -1,11 +1,18 @@
 .ui.button:not(.primary):not(.secondary) {
   color: @ink;
-  border: 1px solid @orbit;
+}
+
+.ui.buttons .disabled.button:not(.primary):not(.secondary),
+.ui.disabled.button:not(.primary):not(.secondary),
+.ui.button:disabled:not(.primary):not(.secondary),
+.ui.disabled.button:hover:not(.primary):not(.secondary),
+.ui.disabled.active.button:not(.primary):not(.secondary) {
+  box-shadow: 0 0 0 1px @orbit !important;
 }
 
 .ui.buttons .button:active,
 .ui.button:active {
-  box-shadow: inset 0 2px 5px 0 rgba(28, 35, 43, 0.15);
+  box-shadow: inset 0 2px 5px 0 rgba(28, 35, 43, 0.15) !important;
 }
 
 .ui.primary.buttons:not(.inverted) .button:hover:focus,
@@ -27,10 +34,21 @@
   color: @white;
 }
 
+.ui.inverted.secondary.button:hover {
+  color: @white;
+}
+
 .ui.inverted.primary.button:active,
 .ui.inverted.primary.button:active:focus {
   box-shadow: inset 0 2px 5px 0 rgba(28, 35, 43, 0.15) !important;
   background-color: @blue;
+  color: @white;
+}
+
+.ui.inverted.secondary.button:active,
+.ui.inverted.secondary.button:active:focus {
+  box-shadow: inset 0 2px 5px 0 rgba(28, 35, 43, 0.15) !important;
+  background-color: @coral;
   color: @white;
 }
 
@@ -40,6 +58,16 @@
   color: @white;
 }
 
+.ui.secondary.buttons.inverted .button:hover:focus,
+.ui.secondary.button.inverted:hover:focus {
+  background-color: @coral;
+  color: @white;
+}
+
 .ui.inverted.primary.button:focus {
-  box-shadow: 0 0 0 1px #4e78f1 inset !important;
+  box-shadow: 0 0 0 1px @blue inset !important;
+}
+
+.ui.inverted.secondary.button:focus {
+  box-shadow: 0 0 0 1px @coral inset !important;
 }

@@ -1,6 +1,9 @@
 @fontWeight: 1;
 @lineHeight: 20px;
 
+@boxShadow: 0 0 0 1px @orbit inset;
+@groupButtonBoxShadow: @boxShadow;
+
 @verticalPadding: 8px;
 @horizontalPadding: 16px;
 
@@ -16,3 +19,8 @@
 @lightPrimaryTextColor: @blue;
 @lightPrimaryColorHover: @blue;
 @lightPrimaryColorFocus: @white;
+
+@lightSecondaryColor: @coral;
+@lightSecondaryTextColor: @coral;
+@lightSecondaryColorHover: @coral;
+@lightSecondaryColorFocus: @white;
