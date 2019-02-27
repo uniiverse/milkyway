@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "milkyway": "git+ssh://git@github.com/uniiverse/milkyway.git#v0.0.16",
+    "milkyway": "git+ssh://git@github.com/uniiverse/milkyway.git#v0.0.23",
     "react": "^16.8.0",
     "react-dom": "^16.8.0",
     "react-scripts": "2.1.3",
