@@ -94,6 +94,20 @@ const stories = storiesOf('Dropdown', module)
       <p>
         <Dropdown error placeholder='Select' selection options={options} onChange={action('changed')} />
       </p>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <p>
+        <Dropdown upward={true} placeholder='Upward' selection options={options} onChange={action('changed')} />
+      </p>
     </Container>
 
   )
