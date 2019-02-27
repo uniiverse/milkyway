@@ -27321,6 +27321,7 @@ select.ui.dropdown {
 
 .ui.selection.dropdown .menu {
   margin-top: 10px;
+  margin-bottom: 10px;
   border-top-width: 1px !important;
 }
 
