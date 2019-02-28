@@ -3,7 +3,7 @@ import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
 
-import { Container, Input } from 'semantic-ui-react';
+import { Container, Icon, Input } from 'semantic-ui-react';
 
 const stories = storiesOf('Input', module)
   .add('Default', () =>
@@ -12,6 +12,8 @@ const stories = storiesOf('Input', module)
       <p><Input type="password" placeholder="Password" /></p>
       <p><Input placeholder="Placeholder" disabled /></p>
       <p><Input placeholder="Placeholder" error /></p>
+      <p><Input placeholder="Placeholder" icon={<Icon className="universe-search" color="grey" />} /></p>
+      <p><Input placeholder="Placeholder" iconPosition="left" icon={<Icon className="universe-geolocation-2" color="blue" />} /></p>
     </Container>
   );
 

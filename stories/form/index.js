@@ -3,7 +3,7 @@ import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
 
-import { Checkbox, Container, Dropdown, Form, Input, TextArea } from 'semantic-ui-react';
+import { Checkbox, Container, Dropdown, Form, Input } from 'semantic-ui-react';
 
 const options = [
   {
@@ -33,6 +33,20 @@ const stories = storiesOf('Form', module)
           <label>Text</label>
           <Input placeholder="Placeholder" />
         </Form.Field>
+        <Form.Group widths={2}>
+          <Form.Field>
+            <label>Input group</label>
+            <div className="ui fluid inputs">
+              <Input placeholder="Placeholder" />
+              <Input placeholder="Placeholder" />
+              <Input placeholder="Placeholder" />
+            </div>
+          </Form.Field>
+          <Form.Field>
+            <label>Dropdown</label>
+            <Dropdown selection options={options} />
+          </Form.Field>
+        </Form.Group>
         <Form.Field>
           <label>Dropdown</label>
           <Dropdown placeholder='Placeholder' selection options={options} onChange={action('changed')} />
@@ -55,6 +69,20 @@ const stories = storiesOf('Form', module)
           <label>Text</label>
           <Form.Input placeholder="Placeholder" />
         </Form.Field>
+        <Form.Group widths={2}>
+          <Form.Field error>
+            <label>Input group</label>
+            <div className="ui fluid inputs">
+              <Input placeholder="Placeholder" />
+              <Input placeholder="Placeholder" />
+              <Input placeholder="Placeholder" />
+            </div>
+          </Form.Field>
+          <Form.Field error>
+            <label>Dropdown</label>
+            <Dropdown selection options={options} />
+          </Form.Field>
+        </Form.Group>
         <Form.Field error>
           <label>Dropdown</label>
           <Dropdown placeholder='Placeholder' selection options={options} onChange={action('changed')} />
