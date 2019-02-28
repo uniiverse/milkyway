@@ -14,3 +14,4 @@
 @width: @iconWidth;
 @height: 1em;
 @distanceFromText: 0.25rem;
+@grey: @inkLighter;

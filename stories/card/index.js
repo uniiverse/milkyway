@@ -3,7 +3,7 @@ import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
 
-import { Button, Card, Checkbox, Container, Dropdown, Form, Grid, Image, Input, TextArea } from 'semantic-ui-react';
+import { Button, Card, Checkbox, Container, Dropdown, Form, Grid, Icon, Input } from 'semantic-ui-react';
 
 const options = [
   {
@@ -57,14 +57,32 @@ const stories = storiesOf('Card', module)
                   <Form>
                     <Form.Group widths={2}>
                       <Form.Field required>
-                        <label>Text</label>
-                        <Input placeholder="Placeholder" />
+                        <label>Input group</label>
+                        <div className="ui fluid inputs">
+                          <Input icon={<Icon color="grey" className="universe-search" />} />
+                          <Input />
+                          <Input />
+                        </div>
                       </Form.Field>
                       <Form.Field>
-                        <label>Dropdown</label>
-                        <Dropdown placeholder='Placeholder' selection options={options} onChange={action('changed')} />
+                        <label>Input</label>
+                        <Input placeholder="Input" />
                       </Form.Field>
                     </Form.Group>
+                    <Form.Group widths={2}>
+                      <Form.Field>
+                        <label>Input</label>
+                        <Input placeholder="Input" />
+                      </Form.Field>
+                      <Form.Field>
+                        <label>Input</label>
+                        <Input placeholder="Input" />
+                      </Form.Field>
+                    </Form.Group>
+                    <Form.Field>
+                      <label>Input</label>
+                      <Input placeholder="Large input" />
+                    </Form.Field>
                     <Form.Field>
                       <label>Multiple Dropdown</label>
                       <Dropdown placeholder='Placeholder' multiple selection options={options} onChange={action('changed')} />

@@ -1,5 +1,6 @@
 @inputColor: @ink;
 @inputFont: @pageFont;
+@iconOpacity: 1;
 
 /*--------------------
       Border
