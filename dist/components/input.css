@@ -256,7 +256,7 @@
   margin: 0em;
   height: 100%;
   width: 2.67142857em;
-  opacity: 0.5;
+  opacity: 1;
   border-radius: 0em 6px 6px 0em;
   -webkit-transition: opacity 0.3s ease;
   transition: opacity 0.3s ease;
@@ -504,6 +504,45 @@
 }
 .ui.massive.input {
   font-size: 1.71428571em;
+}
+.ui.inputs {
+  display: -webkit-inline-box !important;
+  display: -ms-inline-flexbox !important;
+  display: inline-flex !important;
+  -webkit-box-orient: horizontal !important;
+  -webkit-box-direction: normal !important;
+      -ms-flex-direction: row !important;
+          flex-direction: row !important;
+  vertical-align: baseline !important;
+  width: 100%;
+}
+.ui.inputs .input > input {
+  -webkit-box-flex: 1 !important;
+      -ms-flex: 1 0 auto !important;
+          flex: 1 0 auto !important;
+  margin: 0em !important;
+  border-radius: 0em !important;
+  width: 100% !important;
+}
+.ui.inputs .input:not(:first-child) > input:focus {
+  border-left: 1px solid #4E78F1 !important;
+  margin-left: -1px !important;
+}
+.error > .ui.inputs > .input:not(:first-child) > input:focus {
+  border-left: none !important;
+  margin-left: 0px !important;
+}
+.ui.inputs .input:not(:first-child) > input {
+  border-left: none;
+}
+.ui.inputs .input:first-child > input {
+  margin-left: 0em;
+  border-top-left-radius: 6px !important;
+  border-bottom-left-radius: 6px !important;
+}
+.ui.inputs .input:last-child > input {
+  border-top-right-radius: 6px !important;
+  border-bottom-right-radius: 6px !important;
 }
 
 
