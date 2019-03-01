@@ -3,7 +3,7 @@ import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
 
-import { Checkbox, Container, Dropdown, Form, Input } from 'semantic-ui-react';
+import { Checkbox, Container, Dropdown, Form, Icon, Input, Search } from 'semantic-ui-react';
 
 const options = [
   {
@@ -38,7 +38,19 @@ const stories = storiesOf('Form', module)
             <label>Input group</label>
             <div className="ui fluid inputs">
               <Input placeholder="Placeholder" />
-              <Input placeholder="Placeholder" />
+              <Search
+                placeholder="Search element"
+                input={
+                  <Input fluid iconPosition="left" icon={<Icon color="grey" className="universe-search" />} />
+                }
+                results={[
+                  { key: '1', title: 'Title1', description: 'Description1' },
+                  { key: '2', title: 'Title2', description: 'Description2' },
+                  { key: '3', title: 'Title3', description: 'Description3' },
+                  { key: '4', title: 'Title4', description: 'Description4' },
+                  { key: '5', title: 'Title5', description: 'Description5' }
+                ]}
+              />
               <Input placeholder="Placeholder" />
             </div>
           </Form.Field>
@@ -74,7 +86,19 @@ const stories = storiesOf('Form', module)
             <label>Input group</label>
             <div className="ui fluid inputs">
               <Input placeholder="Placeholder" />
-              <Input placeholder="Placeholder" />
+              <Search
+                placeholder="Search element"
+                input={
+                  <Input fluid iconPosition="left" icon={<Icon color="grey" className="universe-search" />} />
+                }
+                results={[
+                  { key: '1', title: 'Title1', description: 'Description1' },
+                  { key: '2', title: 'Title2', description: 'Description2' },
+                  { key: '3', title: 'Title3', description: 'Description3' },
+                  { key: '4', title: 'Title4', description: 'Description4' },
+                  { key: '5', title: 'Title5', description: 'Description5' }
+                ]}
+              />
               <Input placeholder="Placeholder" />
             </div>
           </Form.Field>
