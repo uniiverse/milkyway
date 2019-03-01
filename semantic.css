@@ -8150,27 +8150,38 @@ img.ui.bordered.image {
   width: 100% !important;
 }
 
-.ui.inputs .input:not(:first-child) > input:focus {
+.ui.inputs .search {
+  margin: 0em !important;
+  border-radius: 0em !important;
+  width: 100% !important;
+}
+
+.ui.inputs .input:not(:first-child) > input:focus,
+.ui.inputs .search:not(:first-child) input:focus {
   border-left: 1px solid #4E78F1 !important;
   margin-left: -1px !important;
 }
 
-.error > .ui.inputs > .input:not(:first-child) > input:focus {
+.error > .ui.inputs > .input:not(:first-child) > input:focus,
+.error > .ui.inputs > .search:not(:first-child) input:focus {
   border-left: none !important;
   margin-left: 0px !important;
 }
 
-.ui.inputs .input:not(:first-child) > input {
+.ui.inputs .input:not(:first-child) > input,
+.ui.inputs .search:not(:first-child) input {
   border-left: none;
 }
 
-.ui.inputs .input:first-child > input {
+.ui.inputs > .input:first-child > input,
+.ui.inputs .search:first-child input {
   margin-left: 0em;
   border-top-left-radius: 6px !important;
   border-bottom-left-radius: 6px !important;
 }
 
-.ui.inputs .input:last-child > input {
+.ui.inputs .input:last-child > input,
+.ui.inputs .search:last-child input {
   border-top-right-radius: 6px !important;
   border-bottom-right-radius: 6px !important;
 }
