@@ -123,3 +123,9 @@
 @tenColumn      : (1 / 10 * 100%);
 @elevenColumn   : (1 / 11 * 100%);
 @twelveColumn   : (1 / 12 * 100%);
+
+/*-------------------
+       Page
+--------------------*/
+
+@pageBackground: @space;
