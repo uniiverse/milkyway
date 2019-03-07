@@ -30,7 +30,7 @@ nvm exec npm install --save git+ssh://git@github.com/uniiverse/milkyway.git#vx.x
 
 Just replace the `x.x.x` notation with your target version.
 
-### Integrate
+### Consume the library
 
 You can checkout the `sample` folder for a working installation, but it's really nothing more than importing the css and use the components.
 
@@ -55,6 +55,24 @@ class App extends Component {
 }
 
 export default App;
+```
+
+If your project relies on a custom webpack installation (not managed by something like create-react-app), you need to specify the folder containing the style to your css processor.
+
+Something like this will do:
+
+```javascript
+  // This is an example webpack integration, you mileage may vary
+  {
+    test: /\.css$/,
+    include: [
+      path.resolve(__dirname, '../node_modules/milkyway'),
+    ],
+    use: [
+      MiniCssExtractPlugin.loader,
+      { loader: 'css-loader', options: { modules: false, importLoaders: 1 } },
+    ],
+  }
 ```
 
 ## Contributing
@@ -104,13 +122,25 @@ milkyway/
 
 - **sample/**: a basic create-react-app to demonstrate how an integration with this project works.
 
-### Development
+### Developing the theme
 
-Find an element to style by locating the `.less` file within Semantic's `definitions` folder.
+A couple of commands to get you started. Clone the repo, navigate to it's folder, then:
+
+```
+# Install dependencies!
+nvm exec npm install
+
+# This will start the semantic build system, watching for changes
+nvm exec npm run watch
+
+# This will run a local storybook, if you need it for development. Run this in another terminal:
+nvm exec npm run storybook
+```
+
+Now, to start styling: find an element you need to style by locating the `.less` file within Semantic's `definitions` folder.
 - Create a `component.variables` and `component.overrides` file within the right component type folder.
 - Edit the `theme.config` file to instruct semantic to use the universe version of that component.
 - Write a new story and use it to see how your style is going!
-
 
 ### Release
 

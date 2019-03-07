@@ -1,6 +1,6 @@
 {
   "name": "milkyway",
-  "version": "0.0.28",
+  "version": "0.0.29",
   "description": "Universe styles, as a semantic-ui theme",
   "main": "index.js",
   "scripts": {
@@ -49,6 +49,7 @@
     "@storybook/addons": "^4.1.11",
     "@storybook/react": "^4.1.11",
     "babel-loader": "^8.0.5",
+    "gulp": "^3.9.1",
     "semantic-ui": "2.4.2",
     "semantic-ui-react": "0.85.0"
   }

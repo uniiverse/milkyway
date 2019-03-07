@@ -1,0 +1,17 @@
+# Deploy master with Google Container Registry
+steps:
+
+- name: 'gcr.io/cloud-builders/npm'
+  args: ['install']
+
+- name: 'gcr.io/cloud-builders/npm'
+  args: ['run', 'build']
+
+- name: 'gcr.io/cloud-builders/npm'
+  args: ['run', 'build-storybook']
+
+# upload
+- name: 'gcr.io/cloud-builders/gsutil'
+  args: ['rsync', '-R', 'storybook-static', 'gs://unii-milkyway']
+
+logsBucket: gs://striped-buckeye-163915_cloudbuild_logs
