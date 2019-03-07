@@ -123,23 +123,23 @@ a:hover {
 
 /* Site */
 ::-webkit-selection {
-  background-color: #CCE2FF;
+  background-color: #A2CBFF;
   color: rgba(0, 0, 0, 0.87);
 }
 ::selection {
-  background-color: #CCE2FF;
+  background-color: #A2CBFF;
   color: rgba(0, 0, 0, 0.87);
 }
 
 /* Form */
 textarea::-webkit-selection,
 input::-webkit-selection {
-  background-color: rgba(100, 100, 100, 0.4);
+  background-color: #A2CBFF;
   color: rgba(0, 0, 0, 0.87);
 }
 textarea::selection,
 input::selection {
-  background-color: rgba(100, 100, 100, 0.4);
+  background-color: #A2CBFF;
   color: rgba(0, 0, 0, 0.87);
 }
 
