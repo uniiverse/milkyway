@@ -129,3 +129,10 @@
 --------------------*/
 
 @pageBackground: @space;
+
+/*******************************
+          Highlighting
+*******************************/
+
+@highlightBackground: @blueLighter;
+@inputHighlightBackground: @blueLighter;
