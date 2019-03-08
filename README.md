@@ -190,6 +190,7 @@ Here's some of the basic components and the progress so far:
 - [x] Grid
 - [x] Header
 - [x] Icon (still need an automated font generation process)
+- [x] Image
 - [x] Input
 - [ ] Menu / Navbar
 - [ ] Modal

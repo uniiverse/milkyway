@@ -17,6 +17,7 @@ function loadStories() {
     'grid',
     'header',
     'icon',
+    'image',
     'input',
     'progress',
     'search',
