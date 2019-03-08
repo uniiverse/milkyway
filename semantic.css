@@ -7364,7 +7364,7 @@ img.ui.image {
 .ui.bordered.image img,
 .ui.bordered.image svg,
 img.ui.bordered.image {
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border: 6px;
 }
 
 /*--------------
@@ -7556,10 +7556,6 @@ img.ui.bordered.image {
   display: inline-block;
   margin: 0em 0.25rem 0.5rem;
 }
-
-/*******************************
-         Theme Overrides
-*******************************/
 
 /*******************************
          Site Overrides
