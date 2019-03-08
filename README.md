@@ -2,6 +2,8 @@
 
 Universe styles as a Semantic-UI theme.
 
+Check it out [live](https://storage.googleapis.com/unii-milkyway/index.html)!
+
 ## What is this?
 
 This repo is an ongoing Milkyway implementation using [Semantic UI](https://semantic-ui.com/), to be used with this framework's [official react integration](https://react.semantic-ui.com/).
@@ -188,6 +190,7 @@ Here's some of the basic components and the progress so far:
 - [x] Grid
 - [x] Header
 - [x] Icon (still need an automated font generation process)
+- [x] Image
 - [x] Input
 - [ ] Menu / Navbar
 - [ ] Modal
