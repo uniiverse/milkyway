@@ -1,6 +1,6 @@
 {
   "name": "milkyway",
-  "version": "0.0.30",
+  "version": "0.0.31",
   "description": "Universe styles, as a semantic-ui theme",
   "main": "index.js",
   "scripts": {
@@ -40,17 +40,17 @@
   "homepage": "https://github.com/uniiverse/milkyway#readme",
   "dependencies": {},
   "peerDependencies": {
-    "semantic-ui-react": "0.85.0"
+    "semantic-ui-react": "0.86.0"
   },
   "devDependencies": {
     "@babel/core": "^7.2.2",
-    "@storybook/addon-actions": "^5.0.1",
-    "@storybook/addon-links": "^5.0.1",
-    "@storybook/addons": "^5.0.1",
-    "@storybook/react": "^5.0.1",
+    "@storybook/addon-actions": "^5.0.3",
+    "@storybook/addon-links": "^5.0.3",
+    "@storybook/addons": "^5.0.3",
+    "@storybook/react": "^5.0.3",
     "babel-loader": "^8.0.5",
     "gulp": "^3.9.1",
     "semantic-ui": "2.4.2",
-    "semantic-ui-react": "0.85.0"
+    "semantic-ui-react": "0.86.0"
   }
 }

@@ -73,3 +73,14 @@
   border-top-right-radius: @borderRadius !important;
   border-bottom-right-radius: @borderRadius !important;
 }
+
+
+// Left basic label
+.ui.labeled.input:not([class*="corner labeled"]) .label.basic:first-child {
+  border-right: 0px;
+}
+
+// Right basic label
+.ui[class*="right labeled"].input > input + .label.basic {
+  border-left: 0px;
+}
