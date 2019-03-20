@@ -66,7 +66,8 @@ const stories = storiesOf('Card', module)
                       </Form.Field>
                       <Form.Field>
                         <label>Input</label>
-                        <Input placeholder="Input" />
+                        <Input placeholder="Labeled input" label="EUR" labelPosition="right"
+                        />
                       </Form.Field>
                     </Form.Group>
                     <Form.Group widths={2}>
