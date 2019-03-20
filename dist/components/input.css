@@ -575,6 +575,12 @@
   border-top-right-radius: 6px !important;
   border-bottom-right-radius: 6px !important;
 }
+.ui.labeled.input:not([class*="corner labeled"]) .label.basic:first-child {
+  border-right: 0px;
+}
+.ui[class*="right labeled"].input > input + .label.basic {
+  border-left: 0px;
+}
 
 
 /*******************************
