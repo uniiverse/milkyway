@@ -37,8 +37,8 @@
 }
 
 .ui.form .field.error .ui.multiple.selection.dropdown > .label {
-// .ui.form .field.error .ui.dropdown > .ui.label
-// .ui.form .field.error .ui.dropdown > .ui.label:hover {
+  // .ui.form .field.error .ui.dropdown > .ui.label
+  // .ui.form .field.error .ui.dropdown > .ui.label:hover {
   background-color: @coralLight;
   box-shadow: 0 0 0 0;
   color: @coralLighter;
@@ -46,7 +46,22 @@
 }
 
 .ui.form .field.error .ui.dropdown > .ui.label > i.icon.delete:before {
-  font-family: 'Dropdown';
-  content: '\e904';
+  font-family: "Dropdown";
+  content: "\e904";
   color: @coralLighter;
+}
+
+.ui.form .field > label {
+  line-height: 14px;
+}
+
+.error.field .ui[class*="right labeled"].input > input {
+  border-right-color: @coralDark !important;
+}
+
+.error.field
+  .ui.labeled.input:not([class*="corner labeled"])
+  .label:first-child
+  + input {
+  border-left-color: @coralDark;
 }
