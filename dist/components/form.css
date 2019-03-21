@@ -54,7 +54,7 @@
 
 .ui.form .field > label {
   display: block;
-  margin: 0em 0em 0.28571429rem 0em;
+  margin: 0 0 8px 0;
   color: rgba(0, 0, 0, 0.87);
   font-size: 0.92857143em;
   font-weight: 100;
@@ -754,7 +754,7 @@
   margin-bottom: 0em;
 }
 .ui.form .grouped.fields > label {
-  margin: 0em 0em 0.28571429rem 0em;
+  margin: 0 0 8px 0;
   color: rgba(0, 0, 0, 0.87);
   font-size: 0.92857143em;
   font-weight: 100;
@@ -1105,9 +1105,18 @@
   font-weight: 100;
 }
 .ui.form .field.error .ui.dropdown > .ui.label > i.icon.delete:before {
-  font-family: 'Dropdown';
-  content: '\e904';
+  font-family: "Dropdown";
+  content: "\e904";
   color: #FFF1EA;
+}
+.ui.form .field > label {
+  line-height: 14px;
+}
+.error.field .ui[class*="right labeled"].input > input {
+  border-right-color: #FC7455 !important;
+}
+.error.field .ui.labeled.input:not([class*="corner labeled"]) .label:first-child + input {
+  border-left-color: #FC7455;
 }
 
 

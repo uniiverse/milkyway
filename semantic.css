@@ -8163,7 +8163,18 @@ img.ui.bordered.image {
 
 .ui.inputs .search.selection.dropdown:not(:first-child) {
   border-radius: 0em !important;
+}
+
+.ui.inputs .search.selection.dropdown:not(:first-child):not(.active) {
   border-left: 0px;
+}
+
+.ui.inputs .search.selection.dropdown.active:not(:first-child) {
+  margin-left: -1px !important;
+}
+
+.ui.inputs .active.selection.dropdown {
+  border: 1px solid #4E78F1;
 }
 
 .ui.inputs .search.selection.dropdown:last-child {
@@ -8179,7 +8190,7 @@ img.ui.bordered.image {
 }
 
 .ui.inputs .input:not(:first-child) > input:focus,
-.ui.inputs .search:not(:first-child) input:focus {
+.ui.inputs .search:not(.dropdown):not(:first-child) input:focus {
   border-left: 1px solid #4E78F1 !important;
   margin-left: -1px !important;
 }
@@ -13684,7 +13695,7 @@ ol.ui.horizontal.list li:before,
 
 .ui.form .field > label {
   display: block;
-  margin: 0em 0em 0.28571429rem 0em;
+  margin: 0 0 8px 0;
   color: rgba(0, 0, 0, 0.87);
   font-size: 0.92857143em;
   font-weight: 100;
@@ -14439,7 +14450,7 @@ ol.ui.horizontal.list li:before,
 }
 
 .ui.form .grouped.fields > label {
-  margin: 0em 0em 0.28571429rem 0em;
+  margin: 0 0 8px 0;
   color: rgba(0, 0, 0, 0.87);
   font-size: 0.92857143em;
   font-weight: 100;
@@ -14847,9 +14858,21 @@ ol.ui.horizontal.list li:before,
 }
 
 .ui.form .field.error .ui.dropdown > .ui.label > i.icon.delete:before {
-  font-family: 'Dropdown';
-  content: '\e904';
+  font-family: "Dropdown";
+  content: "\e904";
   color: #FFF1EA;
+}
+
+.ui.form .field > label {
+  line-height: 14px;
+}
+
+.error.field .ui[class*="right labeled"].input > input {
+  border-right-color: #FC7455 !important;
+}
+
+.error.field .ui.labeled.input:not([class*="corner labeled"]) .label:first-child + input {
+  border-left-color: #FC7455;
 }
 
 /*******************************
@@ -27379,6 +27402,7 @@ select.ui.dropdown {
   box-shadow: 0 0 0 0;
   color: #4E78F1;
   font-weight: 100;
+  border: 1px solid #F3F8FF;
 }
 
 .ui.dropdown.error > a.ui.label,
@@ -27396,6 +27420,7 @@ select.ui.dropdown {
   box-shadow: 0 0 0 0;
   color: #4E78F1;
   font-weight: 100;
+  border: 1px solid #F3F8FF;
 }
 
 .ui.dropdown .menu {

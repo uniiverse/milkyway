@@ -1507,6 +1507,7 @@ select.ui.dropdown {
           box-shadow: 0 0 0 0;
   color: #4E78F1;
   font-weight: 100;
+  border: 1px solid #F3F8FF;
 }
 .ui.dropdown.error > a.ui.label,
 .ui.dropdown.error > a.ui.active.label:hover {
@@ -1522,6 +1523,7 @@ select.ui.dropdown {
           box-shadow: 0 0 0 0;
   color: #4E78F1;
   font-weight: 100;
+  border: 1px solid #F3F8FF;
 }
 .ui.dropdown .menu {
   top: 100%;
