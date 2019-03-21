@@ -1,4 +1,7 @@
-@labelFontWeight: 100;
+/*--------------------
+        Inputs
+---------------------*/
+
 @inputBorder: 1px solid @orbit;
 
 @inputBorderRadius: @defaultBorderRadius;
@@ -16,6 +19,12 @@
 @fieldsMargin: 0em -(@gutterWidth / 2) @rowDistance;
 
 @paragraphMargin: @rowDistance 0em;
+
+/*--------------------
+        Labels
+---------------------*/
+@labelFontWeight: 100;
+@labelMargin: 0 0 8px 0;
 
 /*--------------------
       Error

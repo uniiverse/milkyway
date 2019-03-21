@@ -3,7 +3,7 @@ import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
 
-import { Checkbox, Container, Dropdown, Form, Icon, Input, Search } from 'semantic-ui-react';
+import { Checkbox, Container, Dropdown, Form, Icon, Input, Label, Search } from 'semantic-ui-react';
 
 const options = [
   {
@@ -33,6 +33,19 @@ const stories = storiesOf('Form', module)
           <label>Text</label>
           <Input placeholder="Placeholder" />
         </Form.Field>
+        <Form.Field required>
+          <label>Search</label>
+          <Search
+            placeholder="Placeholder"
+            results={[
+              { key: '1', title: 'Title1', description: 'Description1' },
+              { key: '2', title: 'Title2', description: 'Description2' },
+              { key: '3', title: 'Title3', description: 'Description3' },
+              { key: '4', title: 'Title4', description: 'Description4' },
+              { key: '5', title: 'Title5', description: 'Description5' }
+            ]}
+          />
+        </Form.Field>
         <Form.Group widths={2}>
           <Form.Field>
             <label>Input group</label>
@@ -56,8 +69,24 @@ const stories = storiesOf('Form', module)
             </div>
           </Form.Field>
           <Form.Field>
-            <label>Dropdown</label>
-            <Dropdown selection options={options} />
+            <label>Multiple labeled input</label>
+            <Search
+                input={
+                  <Input labelPosition="right" placeholder="Select time">
+                    <Label basic icon={<Icon style={{ margin: 0 }} color="grey" className="universe-time"/>} />
+                    <input />
+                    <Label>EST</Label>
+                  </Input>
+                }
+                results={[
+                  { key: '1', title: 'Title1', description: 'Description1' },
+                  { key: '2', title: 'Title2', description: 'Description2' },
+                  { key: '3', title: 'Title3', description: 'Description3' },
+                  { key: '4', title: 'Title4', description: 'Description4' },
+                  { key: '5', title: 'Title5', description: 'Description5' }
+                ]}
+              >
+            </Search>
           </Form.Field>
         </Form.Group>
         <Form.Field>
@@ -82,6 +111,19 @@ const stories = storiesOf('Form', module)
           <label>Text</label>
           <Form.Input placeholder="Placeholder" />
         </Form.Field>
+        <Form.Field required error>
+          <label>Search</label>
+          <Search
+            placeholder="Placeholder"
+            results={[
+              { key: '1', title: 'Title1', description: 'Description1' },
+              { key: '2', title: 'Title2', description: 'Description2' },
+              { key: '3', title: 'Title3', description: 'Description3' },
+              { key: '4', title: 'Title4', description: 'Description4' },
+              { key: '5', title: 'Title5', description: 'Description5' }
+            ]}
+          />
+        </Form.Field>
         <Form.Group widths={2}>
           <Form.Field error>
             <label>Input group</label>
@@ -104,8 +146,24 @@ const stories = storiesOf('Form', module)
             </div>
           </Form.Field>
           <Form.Field error>
-            <label>Dropdown</label>
-            <Dropdown selection options={options} />
+          <label>Multiple labeled input</label>
+            <Search
+                input={
+                  <Input labelPosition="right" placeholder="Select time">
+                    <Label basic icon={<Icon style={{ margin: 0 }} color="grey" className="universe-time"/>} />
+                    <input />
+                    <Label>EST</Label>
+                  </Input>
+                }
+                results={[
+                  { key: '1', title: 'Title1', description: 'Description1' },
+                  { key: '2', title: 'Title2', description: 'Description2' },
+                  { key: '3', title: 'Title3', description: 'Description3' },
+                  { key: '4', title: 'Title4', description: 'Description4' },
+                  { key: '5', title: 'Title5', description: 'Description5' }
+                ]}
+              >
+            </Search>
           </Form.Field>
         </Form.Group>
         <Form.Field error>
