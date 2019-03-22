@@ -8,6 +8,17 @@ Check it out [live](https://storage.googleapis.com/unii-milkyway/index.html)!
 
 This repo is an ongoing Milkyway implementation using [Semantic UI](https://semantic-ui.com/), to be used with this framework's [official react integration](https://react.semantic-ui.com/).
 
+## Design goals
+
+We need a UI system that should be:
+
+- **Consumable**: a component library should have a high quality developer experience. Good documentation. How to add to a project. How to change. Contributions should be encouraged. Should use CI tools.
+- **Targeted towards next generation interfaces**. Fan and Host should be the consumers, plus a (future) refactored Juno. It should use high quality tools.
+- **Generic**. It should tend towards high-quality, generic components instead of very specific complex ones.
+- **Translation-free**. We should avoid "default text". Optional items for text are okay - but they have to be provided by the consumer, not the component itself.
+- **High performance**. It should be extremely selective about its dependencies, components should small, fast.
+- **High quality**. Should be aware of/support a11y concerns, should adopt Milkyway, should have well-defined data layers (ex. props). Should have high test coverage. Should support mobile constraints.
+
 ## Usage
 
 ### Install
