@@ -8227,6 +8227,11 @@ img.ui.bordered.image {
   border-left: 0px;
 }
 
+.ui[class*="icon right labeled"].input > input + i + .label {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
 /*******************************
          Site Overrides
 *******************************/
