@@ -95,3 +95,9 @@
 .ui[class*="right labeled"].input > input + .label.basic {
   border-left: 0px;
 }
+
+// Right labeled search component 
+.ui[class*="icon right labeled"].input > input + i + .label {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
