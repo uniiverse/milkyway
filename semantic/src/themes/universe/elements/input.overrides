@@ -101,3 +101,7 @@
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
 }
+
+.ui.search > .ui[class*="icon right labeled"].input > input {
+  padding-right: 14px !important;
+}
