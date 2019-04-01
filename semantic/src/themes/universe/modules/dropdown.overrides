@@ -80,6 +80,10 @@
   border: 1px solid #F3F8FF;
 }
 
+.ui.multiple.selection.error.dropdown > .label {
+  border-color: @coralLight;
+}
+
 .ui.dropdown .menu {
   top: 100%;
 }
