@@ -109,7 +109,8 @@ const stories = storiesOf('Form', module)
       <Form>
         <Form.Field required error>
           <label>Text</label>
-          <Form.Input placeholder="Placeholder" />
+          <Input placeholder="Placeholder" />
+          <Label basic color="red"><Icon className="universe-exclamation" />This field is required</Label>
         </Form.Field>
         <Form.Field required error>
           <label>Search</label>

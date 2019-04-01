@@ -13,8 +13,9 @@
 @requiredMargin: 0;
 
 @gutterWidth: 1em;
-@rowDistance: 24px;
+@rowDistance: 16px;
 
+//@fieldMargin: @rowDistance 0em 0em;
 @fieldMargin: 0em 0em @rowDistance;
 @fieldsMargin: 0em -(@gutterWidth / 2) @rowDistance;
 
