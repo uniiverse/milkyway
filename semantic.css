@@ -26562,6 +26562,10 @@ select.ui.dropdown {
   border: 1px solid #F3F8FF;
 }
 
+.ui.multiple.selection.error.dropdown > .label {
+  border-color: #FF9D84;
+}
+
 .ui.dropdown .menu {
   top: 100%;
 }
