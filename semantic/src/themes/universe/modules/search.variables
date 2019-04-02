@@ -12,3 +12,20 @@
 @resultTitleFontWeight: normal;
 @resultTitleColor: @ink;
 @resultTitleFont: @pageFont;
+
+@itemLineHeight: 1em;
+
+@itemVerticalPadding: @mini;
+@selectionItemVerticalPadding: @itemVerticalPadding;
+
+@selectionMobileMaxItems: 3;
+@selectionTabletMaxItems: 4;
+@selectionComputerMaxItems: 6;
+@selectionWidescreenMaxItems: 8;
+
+@selectedBorderEMWidth: 0.1em; /* 1px / em size */
+@selectionItemHeight: (@selectionItemVerticalPadding * 2) + @itemLineHeight + @selectedBorderEMWidth;
+@selectionMobileMaxMenuHeight: (@selectionItemHeight * @selectionMobileMaxItems);
+@selectionTabletMaxMenuHeight: (@selectionItemHeight * @selectionTabletMaxItems);
+@selectionComputerMaxMenuHeight: (@selectionItemHeight * @selectionComputerMaxItems);
+@selectionWidescreenMaxMenuHeight: (@selectionItemHeight * @selectionWidescreenMaxItems);
