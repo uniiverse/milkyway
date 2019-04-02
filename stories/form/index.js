@@ -104,6 +104,84 @@ const stories = storiesOf('Form', module)
       </Form>
     </Container>
   )
+  .add('Loading', () =>
+    <Container fluid>
+      <Form loading>
+        <Form.Field required>
+          <label>Text</label>
+          <Input placeholder="Placeholder" />
+        </Form.Field>
+        <Form.Field required>
+          <label>Search</label>
+          <Search
+            placeholder="Placeholder"
+            results={[
+              { key: '1', title: 'Title1', description: 'Description1' },
+              { key: '2', title: 'Title2', description: 'Description2' },
+              { key: '3', title: 'Title3', description: 'Description3' },
+              { key: '4', title: 'Title4', description: 'Description4' },
+              { key: '5', title: 'Title5', description: 'Description5' }
+            ]}
+          />
+        </Form.Field>
+        <Form.Group widths={2}>
+          <Form.Field>
+            <label>Input group</label>
+            <div className="ui fluid inputs">
+              <Input placeholder="Placeholder" />
+              <Dropdown selection search placeholder="Placeholder" options={options} />
+              <Search
+                error
+                placeholder="Search element"
+                input={
+                  <Input fluid iconPosition="left" icon={<Icon color="grey" className="universe-search" />} />
+                }
+                results={[
+                  { key: '1', title: 'Title1' },
+                  { key: '2', title: 'Title2' },
+                  { key: '3', title: 'Title3' },
+                  { key: '4', title: 'Title4' },
+                  { key: '5', title: 'Title5' }
+                ]}
+              />
+            </div>
+          </Form.Field>
+          <Form.Field>
+            <label>Multiple labeled input</label>
+            <Search
+                input={
+                  <Input labelPosition="right" placeholder="Select time">
+                    <Label basic icon={<Icon style={{ margin: 0 }} color="grey" className="universe-time"/>} />
+                    <input />
+                    <Label>EST</Label>
+                  </Input>
+                }
+                results={[
+                  { key: '1', title: 'Title1', description: 'Description1' },
+                  { key: '2', title: 'Title2', description: 'Description2' },
+                  { key: '3', title: 'Title3', description: 'Description3' },
+                  { key: '4', title: 'Title4', description: 'Description4' },
+                  { key: '5', title: 'Title5', description: 'Description5' }
+                ]}
+              >
+            </Search>
+          </Form.Field>
+        </Form.Group>
+        <Form.Field>
+          <label>Dropdown</label>
+          <Dropdown placeholder='Placeholder' selection options={options} onChange={action('changed')} />
+        </Form.Field>
+        <Form.Field>
+          <label>Multiple Dropdown</label>
+          <Dropdown placeholder='Placeholder' multiple selection options={options} onChange={action('changed')} />
+        </Form.Field>
+        <Form.Field label="TextArea" placeholder="Placeholder" control="textarea" />
+        <Form.Field>
+          <Checkbox label="I agree to the Terms and Conditions" />
+        </Form.Field>
+      </Form>
+    </Container>
+  )
   .add('Error', () =>
     <Container fluid>
       <Form>

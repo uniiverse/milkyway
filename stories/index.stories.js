@@ -17,6 +17,7 @@ function loadStories() {
     'icon',
     'image',
     'input',
+    'loader',
     'message',
     'progress',
     'search',

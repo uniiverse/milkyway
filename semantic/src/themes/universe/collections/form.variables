@@ -28,6 +28,12 @@
 @labelMargin: 0 0 8px 0;
 
 /*--------------------
+      Loader
+---------------------*/
+@loaderLineColor: @blue;
+@loaderFillColor: @blueLighter;
+
+/*--------------------
       Error
 ---------------------*/
 @inputErrorPlaceholderColor: @inkLighter;
