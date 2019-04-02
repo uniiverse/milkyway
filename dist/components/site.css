@@ -87,7 +87,7 @@ h5:last-child {
 
 p {
   margin: 0em 0em 1em;
-  line-height: 1.4285em;
+  line-height: 20px;
 }
 p:first-child {
   margin-top: 0em;
