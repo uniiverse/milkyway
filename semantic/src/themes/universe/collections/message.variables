@@ -1,0 +1,50 @@
+/*--------------------
+        Basics
+---------------------*/
+@iconSize: 1em;
+@boxShadow: 0 0 0 0;
+@background: @inkLighter;
+@textColor: white;
+@closeOpacity: 1;
+@padding: 14px 30px 14px 14px;
+
+/*--------------------
+        State
+---------------------*/
+/* Info */
+@infoBackgroundColor: @inkLighter;
+@infoTextColor: white;
+@infoBoxShadow: 0 0 0 0;
+
+/* Success */
+@successTextColor: white;
+@successBoxShadow: 0 0 0 0;
+@successBackgroundColor: @teal;
+
+/* Error */
+@errorTextColor: white;
+@errorBoxShadow: 0 0 0 0;
+@errorBackgroundColor: @coralDark;
+
+/* Warning */
+@warningTextColor: white;
+@warningBoxShadow: 0 0 0 0;
+@warningBackgroundColor: @yellowDark;
+
+/*--------------------
+        Colors
+---------------------*/
+/* Red */
+@redTextColor: white;
+@redBoxShadow: 0 0 0 0;
+@redBackground: @coralDark;
+
+/* Green */
+@greenTextColor: white;
+@greenBoxShadow: 0 0 0 0;
+@greenBackground: @teal;
+
+/* Yellow */
+@yellowTextColor: white;
+@yellowBoxShadow: 0 0 0 0;
+@yellowBackground: @yellowDark;
