@@ -11,7 +11,7 @@ const stories = storiesOf('Search', module)
     <Container fluid>
       <Form>
         <Form.Field>
-          <Search input={<Input icon={<Icon className="universe-location" />} iconPosition="left" />} results={[
+          <Search input={<Input icon={<Icon color="grey" className="universe-location" />} iconPosition="left" />} results={[
             { key: '1', title: 'Title1', description: 'Description1' },
             { key: '2', title: 'Title2', description: 'Description2' },
             { key: '3', title: 'Title3', description: 'Description3' },

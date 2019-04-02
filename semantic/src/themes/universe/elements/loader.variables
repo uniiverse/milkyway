@@ -1,0 +1,5 @@
+@loaderFillColor: @blueLighter;
+@shapeBorderColor: @blue transparent transparent;
+
+@invertedLoaderFillColor: @blueLighter;
+@invertedLoaderLineColor: white;
