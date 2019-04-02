@@ -434,6 +434,30 @@
 .ui.search > .results {
   padding: 5px;
 }
+@media only screen and (max-width: 767px) {
+  .ui.search > .results {
+    overflow: scroll;
+    max-height: 8.01428571rem;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .ui.search > .results {
+    overflow: scroll;
+    max-height: 10.68571429rem;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .ui.search > .results {
+    overflow: scroll;
+    max-height: 16.02857143rem;
+  }
+}
+@media only screen and (min-width: 1920px) {
+  .ui.search > .results {
+    overflow: scroll;
+    max-height: 21.37142857rem;
+  }
+}
 .ui.search > .results .result {
   border-radius: 6px;
 }
