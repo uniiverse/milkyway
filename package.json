@@ -7,6 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "cd semantic && gulp build && gulp watch",
     "build": "cd semantic && gulp build",
+    "build:icons": "node lib/icons.js",
     "clean": "rm -r  dist/ && rm semantic*.js semantic*.css",
     "preversion": "git add . && git stash && npm run clean",
     "version": "git add package.json package-lock.json && git commit -m \"Version $npm_package_version\" && git push origin master && git checkout release && git merge origin master --no-edit --strategy-option theirs && cd semantic && gulp build && cd .. && git add --force dist semantic*.js semantic*.css",
@@ -49,8 +50,10 @@
     "@storybook/addons": "^5.0.6",
     "@storybook/react": "^5.0.6",
     "babel-loader": "^8.0.5",
+    "cheerio": "^1.0.0-rc.2",
     "gulp": "^3.9.1",
     "semantic-ui": "2.4.2",
-    "semantic-ui-react": "0.86.0"
+    "semantic-ui-react": "0.86.0",
+    "svgo": "^1.2.0"
   }
 }

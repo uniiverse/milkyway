@@ -203,6 +203,7 @@ Here's some of the basic components and the progress so far:
 - [x] Icon (still need an automated font generation process)
 - [x] Image
 - [x] Input
+- [x] Message
 - [ ] Menu / Navbar
 - [ ] Modal
 - [ ] Pagination

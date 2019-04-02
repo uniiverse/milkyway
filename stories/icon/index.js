@@ -16,36 +16,100 @@ const stories = storiesOf('Icon', module)
         </Table.Header>
         <Table.Body>
           <Table.Row>
+            <Table.Cell>universe-1</Table.Cell>
+            <Table.Cell><Icon className="universe-1" /></Table.Cell>
+          </Table.Row>
+          <Table.Row>
+            <Table.Cell>universe-2</Table.Cell>
+            <Table.Cell><Icon className="universe-2" /></Table.Cell>
+          </Table.Row>
+          <Table.Row>
+            <Table.Cell>universe-3</Table.Cell>
+            <Table.Cell><Icon className="universe-3" /></Table.Cell>
+          </Table.Row>
+          <Table.Row>
+            <Table.Cell>universe-4</Table.Cell>
+            <Table.Cell><Icon className="universe-4" /></Table.Cell>
+          </Table.Row>
+          <Table.Row>
+            <Table.Cell>universe-5</Table.Cell>
+            <Table.Cell><Icon className="universe-5" /></Table.Cell>
+          </Table.Row>
+          <Table.Row>
+            <Table.Cell>universe-6</Table.Cell>
+            <Table.Cell><Icon className="universe-6" /></Table.Cell>
+          </Table.Row>
+          <Table.Row>
+            <Table.Cell>universe-7</Table.Cell>
+            <Table.Cell><Icon className="universe-7" /></Table.Cell>
+          </Table.Row>
+          <Table.Row>
+            <Table.Cell>universe-8</Table.Cell>
+            <Table.Cell><Icon className="universe-8" /></Table.Cell>
+          </Table.Row>
+          <Table.Row>
+            <Table.Cell>universe-9</Table.Cell>
+            <Table.Cell><Icon className="universe-9" /></Table.Cell>
+          </Table.Row>
+          <Table.Row>
+            <Table.Cell>universe-button-minus</Table.Cell>
+            <Table.Cell><Icon className="universe-button-minus" /></Table.Cell>
+          </Table.Row>
+          <Table.Row>
             <Table.Cell>universe-basic-information</Table.Cell>
             <Table.Cell><Icon className="universe-basic-information" /></Table.Cell>
           </Table.Row>
           <Table.Row>
-            <Table.Cell>universe-checkmark</Table.Cell>
-            <Table.Cell><Icon className="universe-checkmark" /></Table.Cell>
+            <Table.Cell>universe-button-plus</Table.Cell>
+            <Table.Cell><Icon className="universe-button-plus" /></Table.Cell>
           </Table.Row>
           <Table.Row>
             <Table.Cell>universe-camera</Table.Cell>
             <Table.Cell><Icon className="universe-camera" /></Table.Cell>
           </Table.Row>
           <Table.Row>
+            <Table.Cell>universe-checkmark</Table.Cell>
+            <Table.Cell><Icon className="universe-checkmark" /></Table.Cell>
+          </Table.Row>
+          <Table.Row>
+            <Table.Cell>universe-chevron-double-left</Table.Cell>
+            <Table.Cell><Icon className="universe-chevron-double-left" /></Table.Cell>
+          </Table.Row>
+          <Table.Row>
+            <Table.Cell>universe-chevron-double-right</Table.Cell>
+            <Table.Cell><Icon className="universe-chevron-double-right" /></Table.Cell>
+          </Table.Row>
+          <Table.Row>
+            <Table.Cell>universe-chevron-down</Table.Cell>
+            <Table.Cell><Icon className="universe-chevron-down" /></Table.Cell>
+          </Table.Row>
+          <Table.Row>
             <Table.Cell>universe-chevron-left</Table.Cell>
             <Table.Cell><Icon className="universe-chevron-left" /></Table.Cell>
           </Table.Row>
           <Table.Row>
-            <Table.Cell>universe-copy-documents</Table.Cell>
-            <Table.Cell><Icon className="universe-copy-documents" /></Table.Cell>
+            <Table.Cell>universe-chevron-right</Table.Cell>
+            <Table.Cell><Icon className="universe-chevron-right" /></Table.Cell>
+          </Table.Row>
+          <Table.Row>
+            <Table.Cell>universe-chevron-up</Table.Cell>
+            <Table.Cell><Icon className="universe-chevron-up" /></Table.Cell>
           </Table.Row>
           <Table.Row>
             <Table.Cell>universe-close</Table.Cell>
             <Table.Cell><Icon className="universe-close" /></Table.Cell>
           </Table.Row>
           <Table.Row>
-            <Table.Cell>universe-delete</Table.Cell>
-            <Table.Cell><Icon className="universe-delete" /></Table.Cell>
+            <Table.Cell>universe-copy-documents</Table.Cell>
+            <Table.Cell><Icon className="universe-copy-documents" /></Table.Cell>
           </Table.Row>
           <Table.Row>
             <Table.Cell>universe-date</Table.Cell>
             <Table.Cell><Icon className="universe-date" /></Table.Cell>
+          </Table.Row>
+          <Table.Row>
+            <Table.Cell>universe-delete</Table.Cell>
+            <Table.Cell><Icon className="universe-delete" /></Table.Cell>
           </Table.Row>
           <Table.Row>
             <Table.Cell>universe-discount</Table.Cell>
@@ -56,8 +120,8 @@ const stories = storiesOf('Icon', module)
             <Table.Cell><Icon className="universe-discounts" /></Table.Cell>
           </Table.Row>
           <Table.Row>
-            <Table.Cell>universe-document</Table.Cell>
-            <Table.Cell><Icon className="universe-document" /></Table.Cell>
+            <Table.Cell>universe-download</Table.Cell>
+            <Table.Cell><Icon className="universe-download" /></Table.Cell>
           </Table.Row>
           <Table.Row>
             <Table.Cell>universe-duplicate</Table.Cell>
@@ -86,6 +150,10 @@ const stories = storiesOf('Icon', module)
           <Table.Row>
             <Table.Cell>universe-geolocation-2</Table.Cell>
             <Table.Cell><Icon className="universe-geolocation-2" /></Table.Cell>
+          </Table.Row>
+          <Table.Row>
+            <Table.Cell>universe-globe</Table.Cell>
+            <Table.Cell><Icon className="universe-globe" /></Table.Cell>
           </Table.Row>
           <Table.Row>
             <Table.Cell>universe-geolocation</Table.Cell>
@@ -128,16 +196,20 @@ const stories = storiesOf('Icon', module)
             <Table.Cell><Icon className="universe-mail" /></Table.Cell>
           </Table.Row>
           <Table.Row>
-            <Table.Cell>universe-more</Table.Cell>
-            <Table.Cell><Icon className="universe-more" /></Table.Cell>
-          </Table.Row>
-          <Table.Row>
             <Table.Cell>universe-no-view</Table.Cell>
             <Table.Cell><Icon className="universe-no-view" /></Table.Cell>
           </Table.Row>
           <Table.Row>
+            <Table.Cell>universe-more</Table.Cell>
+            <Table.Cell><Icon className="universe-more" /></Table.Cell>
+          </Table.Row>
+          <Table.Row>
             <Table.Cell>universe-open-in-new</Table.Cell>
             <Table.Cell><Icon className="universe-open-in-new" /></Table.Cell>
+          </Table.Row>
+          <Table.Row>
+            <Table.Cell>universe-page</Table.Cell>
+            <Table.Cell><Icon className="universe-page" /></Table.Cell>
           </Table.Row>
           <Table.Row>
             <Table.Cell>universe-payment</Table.Cell>
@@ -156,20 +228,16 @@ const stories = storiesOf('Icon', module)
             <Table.Cell><Icon className="universe-promote" /></Table.Cell>
           </Table.Row>
           <Table.Row>
-            <Table.Cell>universe-question</Table.Cell>
-            <Table.Cell><Icon className="universe-question" /></Table.Cell>
-          </Table.Row>
-          <Table.Row>
             <Table.Cell>universe-reports</Table.Cell>
             <Table.Cell><Icon className="universe-reports" /></Table.Cell>
           </Table.Row>
           <Table.Row>
-            <Table.Cell>universe-seats</Table.Cell>
-            <Table.Cell><Icon className="universe-seats" /></Table.Cell>
-          </Table.Row>
-          <Table.Row>
             <Table.Cell>universe-search</Table.Cell>
             <Table.Cell><Icon className="universe-search" /></Table.Cell>
+          </Table.Row>
+          <Table.Row>
+            <Table.Cell>universe-seats</Table.Cell>
+            <Table.Cell><Icon className="universe-seats" /></Table.Cell>
           </Table.Row>
           <Table.Row>
             <Table.Cell>universe-settings</Table.Cell>
@@ -180,12 +248,12 @@ const stories = storiesOf('Icon', module)
             <Table.Cell><Icon className="universe-shopping-cart" /></Table.Cell>
           </Table.Row>
           <Table.Row>
-            <Table.Cell>universe-star-copy</Table.Cell>
-            <Table.Cell><Icon className="universe-star-copy" /></Table.Cell>
-          </Table.Row>
-          <Table.Row>
             <Table.Cell>universe-star</Table.Cell>
             <Table.Cell><Icon className="universe-star" /></Table.Cell>
+          </Table.Row>
+          <Table.Row>
+            <Table.Cell>universe-text</Table.Cell>
+            <Table.Cell><Icon className="universe-text" /></Table.Cell>
           </Table.Row>
           <Table.Row>
             <Table.Cell>universe-ticket</Table.Cell>
@@ -204,24 +272,16 @@ const stories = storiesOf('Icon', module)
             <Table.Cell><Icon className="universe-users" /></Table.Cell>
           </Table.Row>
           <Table.Row>
+            <Table.Cell>universe-upload</Table.Cell>
+            <Table.Cell><Icon className="universe-upload" /></Table.Cell>
+          </Table.Row>
+          <Table.Row>
             <Table.Cell>universe-view</Table.Cell>
             <Table.Cell><Icon className="universe-view" /></Table.Cell>
           </Table.Row>
           <Table.Row>
-            <Table.Cell>universe-1</Table.Cell>
-            <Table.Cell><Icon className="universe-1" /></Table.Cell>
-          </Table.Row>
-          <Table.Row>
-            <Table.Cell>universe-2</Table.Cell>
-            <Table.Cell><Icon className="universe-2" /></Table.Cell>
-          </Table.Row>
-          <Table.Row>
-            <Table.Cell>universe-3</Table.Cell>
-            <Table.Cell><Icon className="universe-3" /></Table.Cell>
-          </Table.Row>
-          <Table.Row>
-            <Table.Cell>universe-4</Table.Cell>
-            <Table.Cell><Icon className="universe-4" /></Table.Cell>
+            <Table.Cell>universe-worldwide-web</Table.Cell>
+            <Table.Cell><Icon className="universe-worldwide-web" /></Table.Cell>
           </Table.Row>
         </Table.Body>
       </Table>

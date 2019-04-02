@@ -80,6 +80,11 @@
 @secondaryColorFocus: @coral;
 @secondaryColorDown: @coralDarker;
 
+@yellowDarker: #B17C00;
+@yellowDark: #FDB624;
+@yellow: #FDC04C;
+@yellowLight: #FFD448;
+@yellowLighter: #FFFAE7;
 
 /*-------------------
        Links
@@ -127,8 +132,12 @@
 /*-------------------
        Page
 --------------------*/
-
 @pageBackground: @space;
+
+/*-------------------
+       Paragraph
+--------------------*/
+@paragraphLineHeight: 20px;
 
 /*******************************
           Highlighting

@@ -87,3 +87,6 @@ typings/
 
 # static storybook
 storybook-static/
+
+# icons working dir
+icons
