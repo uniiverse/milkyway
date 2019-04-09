@@ -202,6 +202,7 @@ const stories = storiesOf('Form', module)
               { key: '5', title: 'Title5', description: 'Description5' }
             ]}
           />
+          <Label basic color="red"><Icon className="universe-exclamation" />This field is required</Label>
         </Form.Field>
         <Form.Group widths={2}>
           <Form.Field error>
@@ -243,19 +244,23 @@ const stories = storiesOf('Form', module)
                 ]}
               >
             </Search>
+            <Label basic color="red"><Icon className="universe-exclamation" />This field is required</Label>
           </Form.Field>
         </Form.Group>
         <Form.Field error>
           <label>Dropdown</label>
           <Dropdown placeholder='Placeholder' selection options={options} onChange={action('changed')} />
+          <Label basic color="red"><Icon className="universe-exclamation" />This field is required</Label>
         </Form.Field>
         <Form.Field error>
           <label>Multiple Dropdown</label>
           <Dropdown placeholder='Placeholder' multiple search selection options={options} onChange={action('changed')} />
+          <Label basic color="red"><Icon className="universe-exclamation" />This field is required</Label>
         </Form.Field>
         <Form.Field label="TextArea" placeholder="Placeholder" control="textarea" error />
         <Form.Field error>
           <Checkbox label="I agree to the Terms and Conditions" />
+          <Label basic color="red"><Icon className="universe-exclamation" />This field is required</Label>
         </Form.Field>
       </Form>
     </Container>
