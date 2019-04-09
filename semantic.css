@@ -9732,7 +9732,10 @@ a.ui.basic.label:hover {
   float: right;
 }
 
-.field > .input + .label.red {
+.field > .input + .label.red,
+.field > .search + .label.red,
+.field > .dropdown + .label.red,
+.field > .checkbox + .label.red {
   border: 0px;
   font-size: 1em;
   padding-top: 8px;
