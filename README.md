@@ -25,10 +25,10 @@ We need a UI system that should be:
 
 ```
 #yarn
-nvm exec yarn add semantic-ui-react@0.85.0
+nvm exec yarn add semantic-ui-react@0.86.0
 
 #npm
-nvm exec npm install --save semantic-ui-react@0.85.0
+nvm exec npm install --save semantic-ui-react@0.86.0
 ```
 
 Then:
