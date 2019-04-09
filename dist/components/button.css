@@ -3852,6 +3852,10 @@
 .ui.button:hover:focus {
   background-color: #F5F5F5;
 }
+.ui.inverted.primary.buttons .button,
+.ui.inverted.primary.button {
+  background-color: #FFFFFF;
+}
 .ui.inverted.primary.button:hover {
   color: #FFFFFF;
 }
