@@ -3,7 +3,7 @@ import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
 
-import { Checkbox, Container, Dropdown, Form, Icon, Input, Label, Search } from 'semantic-ui-react';
+import { Checkbox, Container, Dropdown, Form, Icon, Input, Label, Search, TextArea } from 'semantic-ui-react';
 
 const options = [
   {
@@ -226,7 +226,7 @@ const stories = storiesOf('Form', module)
             </div>
           </Form.Field>
           <Form.Field error>
-          <label>Multiple labeled input</label>
+            <label>Multiple labeled input</label>
             <Search
                 input={
                   <Input labelPosition="right" placeholder="Select time">
@@ -257,7 +257,11 @@ const stories = storiesOf('Form', module)
           <Dropdown placeholder='Placeholder' multiple search selection options={options} onChange={action('changed')} />
           <Label basic color="red"><Icon className="universe-exclamation" />This field is required</Label>
         </Form.Field>
-        <Form.Field label="TextArea" placeholder="Placeholder" control="textarea" error />
+        <Form.Field error>
+          <label>TextArea</label>
+          <TextArea label="TextArea" placeholder="Placeholder" />
+          <Label basic color="red"><Icon className="universe-exclamation" />This field is required</Label>
+        </Form.Field>
         <Form.Field error>
           <Checkbox label="I agree to the Terms and Conditions" />
           <Label basic color="red"><Icon className="universe-exclamation" />This field is required</Label>
