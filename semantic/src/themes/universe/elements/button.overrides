@@ -30,6 +30,11 @@
   background-color: @spaceDarker;
 }
 
+.ui.inverted.primary.buttons .button,
+.ui.inverted.primary.button {
+  background-color: @white;
+}
+
 .ui.inverted.primary.button:hover {
   color: @white;
 }
