@@ -13374,12 +13374,6 @@ ol.ui.horizontal.list li:before,
   pointer-events: none;
 }
 
-.ui.steps .disabled.step,
-.ui.steps .disabled.step .title,
-.ui.steps .disabled.step .description {
-  color: rgba(40, 40, 40, 0.3);
-}
-
 .ui.steps .disabled.step:after {
   background: transparent;
 }
