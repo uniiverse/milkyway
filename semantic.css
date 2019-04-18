@@ -22526,6 +22526,11 @@ a.ui.card:hover,
   font-size: 1em;
 }
 
+.ui.cards > .card .dimmer,
+.ui.card .dimmer {
+  border-radius: 6px !important;
+}
+
 /*******************************
     User Variable Overrides
 *******************************/

@@ -983,6 +983,10 @@ a.ui.card:hover,
 .ui.cards > .card {
   font-size: 1em;
 }
+.ui.cards > .card .dimmer,
+.ui.card .dimmer {
+  border-radius: 6px !important;
+}
 
 
 /*******************************
