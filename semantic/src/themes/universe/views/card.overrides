@@ -1,0 +1,4 @@
+.ui.cards > .card .dimmer,
+.ui.card .dimmer {
+  border-radius: @defaultBorderRadius !important;
+}

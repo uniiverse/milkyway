@@ -1,6 +1,6 @@
 {
   "name": "milkyway",
-  "version": "0.0.43",
+  "version": "0.0.44",
   "description": "Universe styles, as a semantic-ui theme",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
     "build:icons": "node lib/icons.js",
     "clean": "rm -r  dist/ && rm semantic*.js semantic*.css",
     "preversion": "git add . && git stash && npm run clean",
-    "version": "git add package.json package-lock.json && git commit -m \"Version $npm_package_version\" && git push origin master && git checkout release && git merge origin master --no-edit --strategy-option theirs && cd semantic && gulp build && cd .. && git add --force dist semantic*.js semantic*.css",
+    "version": "git add package.json package-lock.json && git commit -m \"Version $npm_package_version\" && git push origin master && git checkout release && git pull && git merge origin master --no-edit --strategy-option theirs && cd semantic && gulp build && cd .. && git add --force dist semantic*.js semantic*.css",
     "postversion": "git push && git push --tags && git checkout master",
     "storybook": "cd semantic && gulp build && cd .. && start-storybook -p 6006 -s ./semantic/src/themes/universe/assets",
     "build-storybook": "build-storybook",
@@ -45,10 +45,10 @@
   },
   "devDependencies": {
     "@babel/core": "^7.2.2",
-    "@storybook/addon-actions": "^5.0.6",
-    "@storybook/addon-links": "^5.0.6",
-    "@storybook/addons": "^5.0.6",
-    "@storybook/react": "^5.0.6",
+    "@storybook/addon-actions": "^5.0.10",
+    "@storybook/addon-links": "^5.0.10",
+    "@storybook/addons": "^5.0.10",
+    "@storybook/react": "^5.0.10",
     "babel-loader": "^8.0.5",
     "cheerio": "^1.0.0-rc.2",
     "gulp": "^3.9.1",
