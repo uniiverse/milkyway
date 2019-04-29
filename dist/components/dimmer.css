@@ -239,12 +239,9 @@ body.dimmable > .dimmer {
 .dimmed.dimmable > .ui.simple.inverted.dimmer {
   background-color: rgba(255, 255, 255, 0.85);
 }
-
-
-/*******************************
-         Theme Overrides
-*******************************/
-
+.ui.dimmer {
+  border-radius: 6px;
+}
 
 
 /*******************************
