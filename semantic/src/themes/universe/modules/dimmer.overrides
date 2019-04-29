@@ -1,0 +1,3 @@
+.ui.dimmer {
+  border-radius: @defaultBorderRadius;
+}
