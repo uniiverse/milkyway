@@ -17,7 +17,7 @@
 
 .ui.primary.buttons:not(.inverted) .button:hover:focus,
 .ui.primary.button:not(.inverted):hover:focus {
-  background-color: @blueDarker;
+  background-color: @blueDark;
 }
 
 .ui.secondary.buttons .button:hover:focus,
@@ -46,7 +46,7 @@
 .ui.inverted.primary.button:active,
 .ui.inverted.primary.button:active:focus {
   box-shadow: inset 0 2px 5px 0 rgba(28, 35, 43, 0.15) !important;
-  background-color: @blue;
+  background-color: @blueDark;
   color: @white;
 }
 
@@ -59,7 +59,7 @@
 
 .ui.primary.buttons.inverted .button:hover:focus,
 .ui.primary.button.inverted:hover:focus {
-  background-color: @blue;
+  background-color: @blueDark;
   color: @white;
 }
 
@@ -70,9 +70,13 @@
 }
 
 .ui.inverted.primary.button:focus {
-  box-shadow: 0 0 0 1px @blue inset !important;
+  box-shadow: 0 0 0 1px @blueDark inset !important;
 }
 
 .ui.inverted.secondary.button:focus {
   box-shadow: 0 0 0 1px @coral inset !important;
+}
+
+.ui.primary.button {
+  background-color: @blueDark;
 }

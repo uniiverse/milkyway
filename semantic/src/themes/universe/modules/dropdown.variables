@@ -47,3 +47,10 @@
 
 @errorItemHoverBackground: @spaceDarker;
 @errorItemActiveBackground: @white;
+
+
+/*--------------------
+     Default Text
+----------------------*/
+@defaultTextColor: @inkLighter;
+@defaultTextFocusColor: @inkLighter;

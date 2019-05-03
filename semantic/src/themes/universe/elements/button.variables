@@ -16,8 +16,8 @@
 @focusBackgroundColor: white;
 @downBackgroundColor: @spaceDarker;
 
-@lightPrimaryTextColor: @blue;
-@lightPrimaryColorHover: @blue;
+@lightPrimaryTextColor: @blueDark;
+@lightPrimaryColorHover: @blueDark;
 @lightPrimaryColorFocus: @white;
 
 @lightSecondaryColor: @coral;

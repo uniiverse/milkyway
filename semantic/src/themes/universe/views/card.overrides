@@ -2,3 +2,7 @@
 .ui.card .dimmer {
   border-radius: @defaultBorderRadius !important;
 }
+
+.ui.card:first-child {
+  margin-top: 24px;
+}

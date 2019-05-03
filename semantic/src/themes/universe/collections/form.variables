@@ -8,10 +8,10 @@
 @inputFocusBorderColor: @blue;
 
 @textAreaBorder: @inputBorder;
+@textAreaPadding: 8px;
 
 @requiredColor: @coral;
 @requiredMargin: 0;
-
 @gutterWidth: 1em;
 @rowDistance: 16px;
 
@@ -26,6 +26,8 @@
 ---------------------*/
 @labelFontWeight: 100;
 @labelMargin: 0 0 8px 0;
+@labelColor: #212B36;
+@labelFontSize: 14px;
 
 /*--------------------
       Loader
@@ -48,3 +50,9 @@
 @dropdownErrorActiveBackground: @white;
 @dropdownErrorSelectedBackground: @white;
 @dropdownErrorHoverBackground: @spaceDarker;
+
+/*--------------------
+      Placeholder
+---------------------*/
+@inputPlaceholderColor: @inkLighter;
+@inputPlaceholderFocusColor: @inkLighter;

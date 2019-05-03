@@ -5,4 +5,6 @@
 @headerFontWeight: 500;
 @headerMargin: 0px 0px 8px 0px;
 
-@contentPadding: 2em 1.5em 2em 1.5em;
+@contentPadding: 24px;
+@stackableRowSpacing: 24px;
+@margin: 24px 0;

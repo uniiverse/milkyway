@@ -96,7 +96,7 @@
   border-left: 0px;
 }
 
-// Right labeled search component 
+// Right labeled search component
 .ui[class*="icon right labeled"].input > input + i + .label {
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
@@ -104,4 +104,15 @@
 
 .ui.search > .ui[class*="icon right labeled"].input > input {
   padding-right: 14px !important;
+}
+
+.ui.input > input,
+.ui.search.selection.dropdown > input
+ {
+  padding: 8px !important;
+  line-height: 20px !important;
+}
+
+input::placeholder {
+  color: @inkLighter !important;
 }
