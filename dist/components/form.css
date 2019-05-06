@@ -55,8 +55,8 @@
 .ui.form .field > label {
   display: block;
   margin: 0 0 8px 0;
-  color: rgba(0, 0, 0, 0.87);
-  font-size: 0.92857143em;
+  color: #212B36;
+  font-size: 14px;
   font-weight: 100;
   text-transform: none;
 }
@@ -122,7 +122,7 @@
   margin: 0em;
   -webkit-appearance: none;
   tap-highlight-color: rgba(255, 255, 255, 0);
-  padding: 0.78571429em 1em;
+  padding: 8px;
   background: #FFFFFF;
   border: 1px solid #E2E5E7;
   outline: none;
@@ -314,22 +314,22 @@
 
 /* browsers require these rules separate */
 .ui.form ::-webkit-input-placeholder {
-  color: rgba(191, 191, 191, 0.87);
+  color: #A9B0B7;
 }
 .ui.form :-ms-input-placeholder {
-  color: rgba(191, 191, 191, 0.87) !important;
+  color: #A9B0B7 !important;
 }
 .ui.form ::-moz-placeholder {
-  color: rgba(191, 191, 191, 0.87);
+  color: #A9B0B7;
 }
 .ui.form :focus::-webkit-input-placeholder {
-  color: rgba(115, 115, 115, 0.87);
+  color: #A9B0B7;
 }
 .ui.form :focus:-ms-input-placeholder {
-  color: rgba(115, 115, 115, 0.87) !important;
+  color: #A9B0B7 !important;
 }
 .ui.form :focus::-moz-placeholder {
-  color: rgba(115, 115, 115, 0.87);
+  color: #A9B0B7;
 }
 
 /* Error Placeholder */
@@ -755,8 +755,8 @@
 }
 .ui.form .grouped.fields > label {
   margin: 0 0 8px 0;
-  color: rgba(0, 0, 0, 0.87);
-  font-size: 0.92857143em;
+  color: #212B36;
+  font-size: 14px;
   font-weight: 100;
   text-transform: none;
 }
@@ -990,9 +990,9 @@
   margin-top: 0em;
   margin-bottom: 0em;
   vertical-align: baseline;
-  font-size: 0.92857143em;
+  font-size: 14px;
   font-weight: 100;
-  color: rgba(0, 0, 0, 0.87);
+  color: #212B36;
   text-transform: none;
 }
 
@@ -1110,7 +1110,7 @@
   color: #FFF1EA;
 }
 .ui.form .field > label {
-  line-height: 14px;
+  line-height: 20px;
 }
 .error.field .ui[class*="right labeled"].input > input {
   border-right-color: #FC7455 !important;
@@ -1119,8 +1119,39 @@
   border-left-color: #FC7455;
 }
 
+/*--------------------
+       Dropdown
+---------------------*/
+
+.ui.form .field > .selection.dropdown {
+  padding: 8px;
+  line-height: 20px;
+}
+.ui.form .inline.fields .field > .selection.dropdown,
+.ui.form .inline.field > .selection.dropdown {
+  padding: 8px !important;
+  line-height: 20px !important;
+}
+
+/*--------------------
+      Placeholder
+---------------------*/
+
+
 
 /*******************************
          Site Overrides
 *******************************/
 
+
+/*--------------------
+     Required Field
+---------------------*/
+
+.ui.form .required.fields:not(.grouped) > .field > label:after,
+.ui.form .required.fields.grouped > label:after,
+.ui.form .required.field > label:after,
+.ui.form .required.fields:not(.grouped) > .field > .checkbox:after,
+.ui.form .required.field > .checkbox:after {
+  margin-left: 3px;
+}

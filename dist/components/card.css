@@ -44,7 +44,7 @@
   z-index: '';
 }
 .ui.card {
-  margin: 1em 0em;
+  margin: 24px 0;
 }
 .ui.cards > .card a,
 .ui.card a {
@@ -150,7 +150,7 @@
   border-top: 0px solid rgba(34, 36, 38, 0.1);
   background: none;
   margin: 0em;
-  padding: 2em 1.5em 2em 1.5em;
+  padding: 24px;
   -webkit-box-shadow: none;
           box-shadow: none;
   font-size: 1em;
@@ -970,7 +970,7 @@ a.ui.card:hover,
   .ui.stackable.cards > .card {
     display: block !important;
     height: auto !important;
-    margin: 1em 1em;
+    margin: 24px 1em;
     padding: 0 !important;
     width: calc( 100%  -  2em ) !important;
   }
@@ -986,6 +986,9 @@ a.ui.card:hover,
 .ui.cards > .card .dimmer,
 .ui.card .dimmer {
   border-radius: 6px !important;
+}
+.ui.card:first-child {
+  margin-top: 24px;
 }
 
 

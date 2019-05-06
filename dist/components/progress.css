@@ -180,7 +180,7 @@
 ---------------*/
 
 .ui.progress.success .bar {
-  background-color: #00C7AF !important;
+  background-color: #00A690 !important;
 }
 .ui.progress.success .bar,
 .ui.progress.success .bar::after {

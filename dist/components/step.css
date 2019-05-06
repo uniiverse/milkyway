@@ -72,7 +72,7 @@
   margin: 0em 0em;
   padding: 13px 2em;
   background: transparent;
-  color: #aab1b8;
+  color: #A9B0B7;
   -webkit-box-shadow: none;
           box-shadow: none;
   border-radius: 0em;
@@ -135,7 +135,7 @@
 
 /* Title */
 .ui.steps .step .title {
-  font-family: "Circular Pro", "Helvetica", helvetica, arial, sans-serif;
+  font-family: "Graphik", "Helvetica", helvetica, arial, sans-serif;
   font-size: 12px;
   font-weight: bold;
 }
@@ -147,7 +147,7 @@
 .ui.steps .step .description {
   font-weight: normal;
   font-size: 0.92857143em;
-  color: #aab1b8;
+  color: #A9B0B7;
 }
 .ui.steps .step > .description {
   width: 100%;
@@ -159,7 +159,7 @@
 /* Icon */
 .ui.steps .step > .icon {
   line-height: 1;
-  font-size: 1em;
+  font-size: 16px;
   margin: 0em 8px 0em 0em;
 }
 .ui.steps .step > .icon,
@@ -209,7 +209,7 @@
   -ms-flex-item-align: middle;
       align-self: middle;
   margin-right: 8px;
-  font-size: 1em;
+  font-size: 16px;
   counter-increment: ordered;
   font-family: inherit;
   font-weight: bold;
@@ -340,7 +340,7 @@
 .ui.steps a.step:hover::after,
 .ui.steps a.step:hover {
   background: transparent;
-  color: #6F7881;
+  color: #1C232B;
 }
 
 /* Link Down */
@@ -349,7 +349,7 @@
 .ui.steps a.step:active::after,
 .ui.steps a.step:active {
   background: transparent;
-  color: #6F7881;
+  color: #1C232B;
 }
 
 /* Active */
@@ -361,7 +361,7 @@
   background: transparent;
 }
 .ui.steps .step.active .title {
-  color: #6F7881;
+  color: #1C232B;
 }
 .ui.ordered.steps .step.active:before,
 .ui.steps .active.step .icon {
@@ -389,13 +389,13 @@
 .ui.steps a.active.step:hover {
   cursor: pointer;
   background: transparent;
-  color: #6F7881;
+  color: #1C232B;
 }
 
 /* Completed */
 .ui.steps .step.completed > .icon:before,
 .ui.ordered.steps .step.completed:before {
-  color: #00C7AF;
+  color: #00A690;
 }
 
 /* Disabled */
@@ -595,6 +595,11 @@
 .ui.massive.steps .step,
 .ui.massive.step {
   font-size: 1.71428571rem;
+}
+
+/* Completed */
+.ui.steps .step.completed .content {
+  color: #00A690;
 }
 
 

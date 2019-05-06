@@ -16,7 +16,7 @@
 .ui.message {
   position: relative;
   min-height: 1em;
-  margin: 1em 0em;
+  margin: 0 0em;
   background: #A9B0B7;
   padding: 14px 30px 14px 14px;
   line-height: 1.4285em;
@@ -206,7 +206,7 @@
           box-shadow: 0em 0em 0em 1px rgba(34, 36, 38, 0.15) inset, 0px 1px 2px 0 rgba(34, 36, 38, 0.15);
 }
 .ui.bottom.attached.message:not(:last-child) {
-  margin-bottom: 1em;
+  margin-bottom: 0;
 }
 .ui.attached.icon.message {
   width: auto;

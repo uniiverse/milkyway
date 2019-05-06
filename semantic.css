@@ -4605,12 +4605,12 @@ body ::-webkit-scrollbar-track {
 .ui.inverted.primary.button:active {
   -webkit-box-shadow: none !important;
   box-shadow: none !important;
-  color: #4E78F1;
+  color: #3A66E5;
 }
 
 .ui.inverted.primary.buttons .button:hover,
 .ui.inverted.primary.button:hover {
-  background-color: #4E78F1;
+  background-color: #3A66E5;
 }
 
 .ui.inverted.primary.buttons .button:focus,
@@ -4642,8 +4642,8 @@ body ::-webkit-scrollbar-track {
 .ui.inverted.primary.basic.buttons .button:hover,
 .ui.inverted.primary.buttons .basic.button:hover,
 .ui.inverted.primary.basic.button:hover {
-  -webkit-box-shadow: 0px 0px 0px 1px #4E78F1 inset !important;
-  box-shadow: 0px 0px 0px 1px #4E78F1 inset !important;
+  -webkit-box-shadow: 0px 0px 0px 1px #3A66E5 inset !important;
+  box-shadow: 0px 0px 0px 1px #3A66E5 inset !important;
   color: #4E78F1 !important;
 }
 
@@ -5155,7 +5155,7 @@ body ::-webkit-scrollbar-track {
 
 .ui.primary.buttons:not(.inverted) .button:hover:focus,
 .ui.primary.button:not(.inverted):hover:focus {
-  background-color: #254C93;
+  background-color: #3A66E5;
 }
 
 .ui.secondary.buttons .button:hover:focus,
@@ -5185,7 +5185,7 @@ body ::-webkit-scrollbar-track {
 .ui.inverted.primary.button:active:focus {
   -webkit-box-shadow: inset 0 2px 5px 0 rgba(28, 35, 43, 0.15) !important;
   box-shadow: inset 0 2px 5px 0 rgba(28, 35, 43, 0.15) !important;
-  background-color: #4E78F1;
+  background-color: #3A66E5;
   color: #FFFFFF;
 }
 
@@ -5199,7 +5199,7 @@ body ::-webkit-scrollbar-track {
 
 .ui.primary.buttons.inverted .button:hover:focus,
 .ui.primary.button.inverted:hover:focus {
-  background-color: #4E78F1;
+  background-color: #3A66E5;
   color: #FFFFFF;
 }
 
@@ -5210,13 +5210,17 @@ body ::-webkit-scrollbar-track {
 }
 
 .ui.inverted.primary.button:focus {
-  -webkit-box-shadow: 0 0 0 1px #4E78F1 inset !important;
-  box-shadow: 0 0 0 1px #4E78F1 inset !important;
+  -webkit-box-shadow: 0 0 0 1px #3A66E5 inset !important;
+  box-shadow: 0 0 0 1px #3A66E5 inset !important;
 }
 
 .ui.inverted.secondary.button:focus {
   -webkit-box-shadow: 0 0 0 1px #FF8864 inset !important;
   box-shadow: 0 0 0 1px #FF8864 inset !important;
+}
+
+.ui.primary.button {
+  background-color: #3A66E5;
 }
 
 /*******************************
@@ -5240,7 +5244,7 @@ body ::-webkit-scrollbar-track {
 
 .ui.container {
   display: block;
-  max-width: 1200px !important;
+  max-width: 1100px !important;
 }
 
 /* Mobile */
@@ -6877,7 +6881,7 @@ i.inverted.circular.brown.icon {
 /* Grey */
 
 i.grey.icon {
-  color: #A9B0B7 !important;
+  color: #1C232B !important;
 }
 
 i.inverted.grey.icon {
@@ -6886,7 +6890,7 @@ i.inverted.grey.icon {
 
 i.inverted.bordered.grey.icon,
 i.inverted.circular.grey.icon {
-  background-color: #A9B0B7 !important;
+  background-color: #1C232B !important;
   color: #FFFFFF !important;
 }
 
@@ -7663,9 +7667,9 @@ img.ui.bordered.image {
   outline: none;
   -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
   text-align: left;
-  line-height: 1.21428571em;
+  line-height: 20px;
   font-family: "Graphik", "Helvetica", helvetica, arial, sans-serif;
-  padding: 0.67857143em 1em;
+  padding: -8.71428571em 1em;
   background: #FFFFFF;
   border: 1px solid #E2E5E7;
   color: #1C232B;
@@ -8300,6 +8304,28 @@ img.ui.bordered.image {
 
 .ui.search > .ui[class*="icon right labeled"].input > input {
   padding-right: 14px !important;
+}
+
+.ui.input > input,
+.ui.search.selection.dropdown > input {
+  padding: 8px !important;
+  line-height: 20px !important;
+}
+
+input::-webkit-input-placeholder {
+  color: #A9B0B7 !important;
+}
+
+input:-ms-input-placeholder {
+  color: #A9B0B7 !important;
+}
+
+input::-ms-input-placeholder {
+  color: #A9B0B7 !important;
+}
+
+input::placeholder {
+  color: #A9B0B7 !important;
 }
 
 /*******************************
@@ -13001,7 +13027,7 @@ ol.ui.horizontal.list li:before,
   margin: 0em 0em;
   padding: 13px 2em;
   background: transparent;
-  color: #aab1b8;
+  color: #A9B0B7;
   -webkit-box-shadow: none;
   box-shadow: none;
   border-radius: 0em;
@@ -13068,7 +13094,7 @@ ol.ui.horizontal.list li:before,
 /* Title */
 
 .ui.steps .step .title {
-  font-family: "Circular Pro", "Helvetica", helvetica, arial, sans-serif;
+  font-family: "Graphik", "Helvetica", helvetica, arial, sans-serif;
   font-size: 12px;
   font-weight: bold;
 }
@@ -13082,7 +13108,7 @@ ol.ui.horizontal.list li:before,
 .ui.steps .step .description {
   font-weight: normal;
   font-size: 0.92857143em;
-  color: #aab1b8;
+  color: #A9B0B7;
 }
 
 .ui.steps .step > .description {
@@ -13097,7 +13123,7 @@ ol.ui.horizontal.list li:before,
 
 .ui.steps .step > .icon {
   line-height: 1;
-  font-size: 1em;
+  font-size: 16px;
   margin: 0em 8px 0em 0em;
 }
 
@@ -13150,7 +13176,7 @@ ol.ui.horizontal.list li:before,
   -ms-flex-item-align: middle;
   align-self: middle;
   margin-right: 8px;
-  font-size: 1em;
+  font-size: 16px;
   counter-increment: ordered;
   font-family: inherit;
   font-weight: bold;
@@ -13297,7 +13323,7 @@ ol.ui.horizontal.list li:before,
 .ui.steps a.step:hover::after,
 .ui.steps a.step:hover {
   background: transparent;
-  color: #6F7881;
+  color: #1C232B;
 }
 
 /* Link Down */
@@ -13307,7 +13333,7 @@ ol.ui.horizontal.list li:before,
 .ui.steps a.step:active::after,
 .ui.steps a.step:active {
   background: transparent;
-  color: #6F7881;
+  color: #1C232B;
 }
 
 /* Active */
@@ -13322,7 +13348,7 @@ ol.ui.horizontal.list li:before,
 }
 
 .ui.steps .step.active .title {
-  color: #6F7881;
+  color: #1C232B;
 }
 
 .ui.ordered.steps .step.active:before,
@@ -13356,14 +13382,14 @@ ol.ui.horizontal.list li:before,
 .ui.steps a.active.step:hover {
   cursor: pointer;
   background: transparent;
-  color: #6F7881;
+  color: #1C232B;
 }
 
 /* Completed */
 
 .ui.steps .step.completed > .icon:before,
 .ui.ordered.steps .step.completed:before {
-  color: #00C7AF;
+  color: #00A690;
 }
 
 /* Disabled */
@@ -13592,6 +13618,12 @@ ol.ui.horizontal.list li:before,
   font-size: 1.71428571rem;
 }
 
+/* Completed */
+
+.ui.steps .step.completed .content {
+  color: #00A690;
+}
+
 /*******************************
          Site Overrides
 *******************************/
@@ -13783,8 +13815,8 @@ ol.ui.horizontal.list li:before,
 .ui.form .field > label {
   display: block;
   margin: 0 0 8px 0;
-  color: rgba(0, 0, 0, 0.87);
-  font-size: 0.92857143em;
+  color: #212B36;
+  font-size: 14px;
   font-weight: 100;
   text-transform: none;
 }
@@ -13853,7 +13885,7 @@ ol.ui.horizontal.list li:before,
   margin: 0em;
   -webkit-appearance: none;
   tap-highlight-color: rgba(255, 255, 255, 0);
-  padding: 0.78571429em 1em;
+  padding: 8px;
   background: #FFFFFF;
   border: 1px solid #E2E5E7;
   outline: none;
@@ -14056,27 +14088,27 @@ ol.ui.horizontal.list li:before,
 /* browsers require these rules separate */
 
 .ui.form ::-webkit-input-placeholder {
-  color: rgba(191, 191, 191, 0.87);
+  color: #A9B0B7;
 }
 
 .ui.form :-ms-input-placeholder {
-  color: rgba(191, 191, 191, 0.87) !important;
+  color: #A9B0B7 !important;
 }
 
 .ui.form ::-moz-placeholder {
-  color: rgba(191, 191, 191, 0.87);
+  color: #A9B0B7;
 }
 
 .ui.form :focus::-webkit-input-placeholder {
-  color: rgba(115, 115, 115, 0.87);
+  color: #A9B0B7;
 }
 
 .ui.form :focus:-ms-input-placeholder {
-  color: rgba(115, 115, 115, 0.87) !important;
+  color: #A9B0B7 !important;
 }
 
 .ui.form :focus::-moz-placeholder {
-  color: rgba(115, 115, 115, 0.87);
+  color: #A9B0B7;
 }
 
 /* Error Placeholder */
@@ -14538,8 +14570,8 @@ ol.ui.horizontal.list li:before,
 
 .ui.form .grouped.fields > label {
   margin: 0 0 8px 0;
-  color: rgba(0, 0, 0, 0.87);
-  font-size: 0.92857143em;
+  color: #212B36;
+  font-size: 14px;
   font-weight: 100;
   text-transform: none;
 }
@@ -14808,9 +14840,9 @@ ol.ui.horizontal.list li:before,
   margin-top: 0em;
   margin-bottom: 0em;
   vertical-align: baseline;
-  font-size: 0.92857143em;
+  font-size: 14px;
   font-weight: 100;
-  color: rgba(0, 0, 0, 0.87);
+  color: #212B36;
   text-transform: none;
 }
 
@@ -14951,7 +14983,7 @@ ol.ui.horizontal.list li:before,
 }
 
 .ui.form .field > label {
-  line-height: 14px;
+  line-height: 20px;
 }
 
 .error.field .ui[class*="right labeled"].input > input {
@@ -14962,9 +14994,40 @@ ol.ui.horizontal.list li:before,
   border-left-color: #FC7455;
 }
 
+/*--------------------
+       Dropdown
+---------------------*/
+
+.ui.form .field > .selection.dropdown {
+  padding: 8px;
+  line-height: 20px;
+}
+
+.ui.form .inline.fields .field > .selection.dropdown,
+.ui.form .inline.field > .selection.dropdown {
+  padding: 8px !important;
+  line-height: 20px !important;
+}
+
+/*--------------------
+      Placeholder
+---------------------*/
+
 /*******************************
          Site Overrides
 *******************************/
+
+/*--------------------
+     Required Field
+---------------------*/
+
+.ui.form .required.fields:not(.grouped) > .field > label:after,
+.ui.form .required.fields.grouped > label:after,
+.ui.form .required.field > label:after,
+.ui.form .required.fields:not(.grouped) > .field > .checkbox:after,
+.ui.form .required.field > .checkbox:after {
+  margin-left: 3px;
+}
 /*!
  * # Semantic UI 2.4.2 - Grid
  * http://github.com/semantic-org/semantic-ui/
@@ -19582,7 +19645,7 @@ Floated Menu / Item
 .ui.message {
   position: relative;
   min-height: 1em;
-  margin: 1em 0em;
+  margin: 0 0em;
   background: #A9B0B7;
   padding: 14px 30px 14px 14px;
   line-height: 1.4285em;
@@ -19790,7 +19853,7 @@ Floated Menu / Item
 }
 
 .ui.bottom.attached.message:not(:last-child) {
-  margin-bottom: 1em;
+  margin-bottom: 0;
 }
 
 .ui.attached.icon.message {
@@ -21471,7 +21534,7 @@ Floated Menu / Item
 }
 
 .ui.card {
-  margin: 1em 0em;
+  margin: 24px 0;
 }
 
 .ui.cards > .card a,
@@ -21587,7 +21650,7 @@ Floated Menu / Item
   border-top: 0px solid rgba(34, 36, 38, 0.1);
   background: none;
   margin: 0em;
-  padding: 2em 1.5em 2em 1.5em;
+  padding: 24px;
   -webkit-box-shadow: none;
   box-shadow: none;
   font-size: 1em;
@@ -22512,7 +22575,7 @@ a.ui.card:hover,
   .ui.stackable.cards > .card {
     display: block !important;
     height: auto !important;
-    margin: 1em 1em;
+    margin: 24px 1em;
     padding: 0 !important;
     width: calc( 100%  -  2em ) !important;
   }
@@ -22529,6 +22592,10 @@ a.ui.card:hover,
 .ui.cards > .card .dimmer,
 .ui.card .dimmer {
   border-radius: 6px !important;
+}
+
+.ui.card:first-child {
+  margin-top: 24px;
 }
 
 /*******************************
@@ -25868,12 +25935,12 @@ select.ui.dropdown {
 
 .ui.dropdown:not(.button) > .default.text,
 .ui.default.dropdown:not(.button) > .text {
-  color: rgba(191, 191, 191, 0.87);
+  color: #A9B0B7;
 }
 
 .ui.dropdown:not(.button) > input:focus ~ .default.text,
 .ui.default.dropdown:not(.button) > input:focus ~ .text {
-  color: rgba(115, 115, 115, 0.87);
+  color: #A9B0B7;
 }
 
 /*--------------------
@@ -28542,7 +28609,7 @@ select.ui.dropdown {
 ---------------*/
 
 .ui.progress.success .bar {
-  background-color: #00C7AF !important;
+  background-color: #00A690 !important;
 }
 
 .ui.progress.success .bar,

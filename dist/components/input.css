@@ -36,9 +36,9 @@
   outline: none;
   -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
   text-align: left;
-  line-height: 1.21428571em;
+  line-height: 20px;
   font-family: "Graphik", "Helvetica", helvetica, arial, sans-serif;
-  padding: 0.67857143em 1em;
+  padding: -8.71428571em 1em;
   background: #FFFFFF;
   border: 1px solid #E2E5E7;
   color: #1C232B;
@@ -595,6 +595,23 @@
 }
 .ui.search > .ui[class*="icon right labeled"].input > input {
   padding-right: 14px !important;
+}
+.ui.input > input,
+.ui.search.selection.dropdown > input {
+  padding: 8px !important;
+  line-height: 20px !important;
+}
+input::-webkit-input-placeholder {
+  color: #A9B0B7 !important;
+}
+input:-ms-input-placeholder {
+  color: #A9B0B7 !important;
+}
+input::-ms-input-placeholder {
+  color: #A9B0B7 !important;
+}
+input::placeholder {
+  color: #A9B0B7 !important;
 }
 
 
