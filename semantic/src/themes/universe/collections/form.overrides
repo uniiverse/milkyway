@@ -52,7 +52,7 @@
 }
 
 .ui.form .field > label {
-  line-height: 14px;
+  line-height: 20px;
 }
 
 .error.field .ui[class*="right labeled"].input > input {
@@ -65,3 +65,24 @@
   + input {
   border-left-color: @coralDark;
 }
+
+/*--------------------
+       Dropdown
+---------------------*/
+
+.ui.form .field > .selection.dropdown {
+  padding: 8px;
+  line-height: 20px;
+}
+
+.ui.form .inline.fields .field > .selection.dropdown,
+.ui.form .inline.field > .selection.dropdown {
+  padding: 8px !important;
+  line-height: 20px !important;
+}
+
+/*--------------------
+      Placeholder
+---------------------*/
+
+

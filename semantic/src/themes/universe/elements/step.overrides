@@ -1,0 +1,4 @@
+/* Completed */
+.ui.steps .step.completed .content {
+  color: @completedColor;
+}

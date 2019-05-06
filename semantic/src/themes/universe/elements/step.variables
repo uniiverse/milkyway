@@ -7,20 +7,20 @@
 
 @divider: 0px;
 
-@completedColor: @teal;
+@completedColor: @tealDark;
 
 @titleFontSize: 12px;
 
-@textColor: #aab1b8;
-@activeColor: @inkLight;
-@hoverColor: @inkLight;
-@downColor: @inkLight;
-@activeHoverColor: @inkLight;
+@textColor: #A9B0B7;
+@activeColor: @ink;
+@hoverColor: @ink;
+@downColor: @ink;
+@activeHoverColor: @ink;
 
 @hoverBackground: transparent;
 @activeHoverBackground: transparent;
 
-@iconSize: 1em;
+@iconSize: 16px;
 
 @stepsBackground: transparent;
 @background: transparent;
