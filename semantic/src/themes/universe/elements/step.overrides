@@ -2,3 +2,7 @@
 .ui.steps .step.completed .content {
   color: @completedColor;
 }
+
+.ui.steps:not(.vertical) .step > .icon {
+  padding-top: 4px;
+}

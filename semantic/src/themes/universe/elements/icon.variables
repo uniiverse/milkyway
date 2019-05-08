@@ -10,7 +10,11 @@
 
 /* Icon Variables */
 @opacity: 1;
-@width: @iconWidth;
-@height: 1em;
+@width: 24px;
+@height: 24px;
 @distanceFromText: 0.25rem;
-@grey: @ink;
+@grey: @inkLight;
+
+/* Icon Sizes */
+@medium: 16px;
+@large: 21px;

@@ -85,6 +85,12 @@
   border-bottom-right-radius: @borderRadius !important;
 }
 
+.ui.inputs .right.labeled.input > input {
+  width: 20% !important;
+  border-top-right-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;
+}
+
 
 // Left basic label
 .ui.labeled.input:not([class*="corner labeled"]) .label.basic:first-child {
