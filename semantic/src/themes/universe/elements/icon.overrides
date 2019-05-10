@@ -7,8 +7,8 @@
 .universe-7:before { content: '\e806'; }
 .universe-8:before { content: '\e807'; }
 .universe-9:before { content: '\e808'; }
-.universe-button-minus:before { content: '\e809'; }
-.universe-basic-information:before { content: '\e80a'; }
+.universe-basic-information:before { content: '\e809'; }
+.universe-button-minus:before { content: '\e80a'; }
 .universe-button-plus:before { content: '\e80b'; }
 .universe-camera:before { content: '\e80c'; }
 .universe-checkmark:before { content: '\e80d'; }
@@ -32,8 +32,8 @@
 .universe-filter:before { content: '\e81f'; }
 .universe-flag:before { content: '\e820'; }
 .universe-geolocation-2:before { content: '\e821'; }
-.universe-globe:before { content: '\e822'; }
-.universe-geolocation:before { content: '\e823'; }
+.universe-geolocation:before { content: '\e822'; }
+.universe-globe:before { content: '\e823'; }
 .universe-hamburger-menu:before { content: '\e824'; }
 .universe-help:before { content: '\e825'; }
 .universe-home:before { content: '\e826'; }
@@ -42,9 +42,10 @@
 .universe-link:before { content: '\e829'; }
 .universe-location:before { content: '\e82a'; }
 .universe-locked:before { content: '\e82b'; }
-.universe-mail:before { content: '\e82d'; }
-.universe-no-view:before { content: '\e82e'; }
-.universe-more:before { content: '\e82f'; }
+.universe-mail:before { content: '\e82c'; }
+.universe-minus:before { content: '\e82d'; }
+.universe-more:before { content: '\e82e'; }
+.universe-no-view:before { content: '\e82f'; }
 .universe-open-in-new:before { content: '\e830'; }
 .universe-page:before { content: '\e831'; }
 .universe-payment:before { content: '\e832'; }
@@ -61,7 +62,7 @@
 .universe-ticket:before { content: '\e83d'; }
 .universe-time:before { content: '\e83e'; }
 .universe-unlocked:before { content: '\e83f'; }
-.universe-users:before { content: '\e840'; }
-.universe-upload:before { content: '\e841'; }
+.universe-upload:before { content: '\e840'; }
+.universe-users:before { content: '\e841'; }
 .universe-view:before { content: '\e842'; }
 .universe-worldwide-web:before { content: '\e843'; }

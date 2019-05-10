@@ -196,6 +196,10 @@ const stories = storiesOf('Icon', module)
             <Table.Cell><Icon className="universe-mail" /></Table.Cell>
           </Table.Row>
           <Table.Row>
+            <Table.Cell>universe-minus</Table.Cell>
+            <Table.Cell><Icon className="universe-minus" /></Table.Cell>
+          </Table.Row>
+          <Table.Row>
             <Table.Cell>universe-no-view</Table.Cell>
             <Table.Cell><Icon className="universe-no-view" /></Table.Cell>
           </Table.Row>
