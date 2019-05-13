@@ -30,6 +30,7 @@
   font-style: normal;
   text-align: center;
   color: @inkLighter;
+  padding: 11px 8px !important;
 }
 
 .ui.dropdown > .dropdown.icon:before {
