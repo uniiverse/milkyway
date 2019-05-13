@@ -1,4 +1,5 @@
 @color: @ink;
 @border: 1px solid @orbit;
 @backgroundColor: @space;
-@fontWeight: normal; 
+@fontWeight: normal;
+@iconDistance: 4px;

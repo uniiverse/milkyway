@@ -1,7 +1,7 @@
 /*--------------------
         Basics
 ---------------------*/
-@iconSize: 1em;
+@iconSize: 24px;
 @boxShadow: 0 0 0 0;
 @background: @inkLighter;
 @textColor: white;
