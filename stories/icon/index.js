@@ -104,6 +104,10 @@ const stories = storiesOf('Icon', module)
             <Table.Cell><Icon className="universe-copy-documents" /></Table.Cell>
           </Table.Row>
           <Table.Row>
+            <Table.Cell>universe-crop</Table.Cell>
+            <Table.Cell><Icon className="universe-crop" /></Table.Cell>
+          </Table.Row>
+          <Table.Row>
             <Table.Cell>universe-date</Table.Cell>
             <Table.Cell><Icon className="universe-date" /></Table.Cell>
           </Table.Row>
@@ -194,6 +198,10 @@ const stories = storiesOf('Icon', module)
           <Table.Row>
             <Table.Cell>universe-mail</Table.Cell>
             <Table.Cell><Icon className="universe-mail" /></Table.Cell>
+          </Table.Row>
+          <Table.Row>
+            <Table.Cell>universe-minus</Table.Cell>
+            <Table.Cell><Icon className="universe-minus" /></Table.Cell>
           </Table.Row>
           <Table.Row>
             <Table.Cell>universe-no-view</Table.Cell>
