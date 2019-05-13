@@ -104,6 +104,10 @@ const stories = storiesOf('Icon', module)
             <Table.Cell><Icon className="universe-copy-documents" /></Table.Cell>
           </Table.Row>
           <Table.Row>
+            <Table.Cell>universe-crop</Table.Cell>
+            <Table.Cell><Icon className="universe-crop" /></Table.Cell>
+          </Table.Row>
+          <Table.Row>
             <Table.Cell>universe-date</Table.Cell>
             <Table.Cell><Icon className="universe-date" /></Table.Cell>
           </Table.Row>
