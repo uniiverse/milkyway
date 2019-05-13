@@ -63,7 +63,7 @@ a.ui.label {
 /* Icon */
 .ui.label > .icon {
   width: auto;
-  margin: 0em 0.75em 0em 0em;
+  margin: 0em 4px 0em 0em;
 }
 
 /* Detail */

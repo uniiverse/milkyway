@@ -8408,7 +8408,7 @@ a.ui.label {
 
 .ui.label > .icon {
   width: auto;
-  margin: 0em 0.75em 0em 0em;
+  margin: 0em 4px 0em 0em;
 }
 
 /* Detail */
@@ -19892,7 +19892,7 @@ Floated Menu / Item
   width: auto;
   line-height: 1;
   vertical-align: middle;
-  font-size: 1em;
+  font-size: 24px;
   opacity: 0.8;
 }
 
@@ -26647,6 +26647,7 @@ select.ui.dropdown {
   font-style: normal;
   text-align: center;
   color: #A9B0B7;
+  padding: 11px 8px !important;
 }
 
 .ui.dropdown > .dropdown.icon:before {
