@@ -987,8 +987,16 @@ a.ui.card:hover,
 .ui.card .dimmer {
   border-radius: 6px !important;
 }
-.ui.card:first-child {
-  margin-top: 24px;
+@media only screen and (min-width: 768px) {
+  .ui.card:first-child {
+    margin-top: 24px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .ui.card .content {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
 }
 
 

@@ -5380,6 +5380,14 @@ body ::-webkit-scrollbar-track {
   hyphens: auto;
 }
 
+@media only screen and (max-width: 767px) {
+  .ui.container {
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+}
+
 /*******************************
          Site Overrides
 *******************************/
@@ -22608,8 +22616,17 @@ a.ui.card:hover,
   border-radius: 6px !important;
 }
 
-.ui.card:first-child {
-  margin-top: 24px;
+@media only screen and (min-width: 768px) {
+  .ui.card:first-child {
+    margin-top: 24px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .ui.card .content {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
 }
 
 /*******************************
