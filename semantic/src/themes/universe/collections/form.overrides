@@ -66,6 +66,14 @@
   border-left-color: @coralDark;
 }
 
+.ui.form .fields .field > a > div + i {
+  margin-right: 0;
+}
+
+.ui.form:last-child .fields:last-child {
+  margin-bottom: 0;
+}
+
 /*--------------------
        Dropdown
 ---------------------*/
@@ -79,6 +87,18 @@
 .ui.form .inline.field > .selection.dropdown {
   padding: 8px !important;
   line-height: 20px !important;
+}
+
+/*--------------------
+      Labels
+---------------------*/
+
+.ui.form .fields .field > label ~ small {
+  font-size: 12px;
+}
+
+.ui.form .fields .field > label {
+  margin-bottom: 0 !important;
 }
 
 /*--------------------
