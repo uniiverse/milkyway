@@ -25,6 +25,12 @@
   background-color: @coralDarker;
 }
 
+.ui.buttons .inverted.primary.button:hover:enabled {
+  box-shadow: 0 0 0 1px @blue inset !important;
+  background-color: inherit;
+  color: @blueDark;
+}
+
 .ui.buttons .button:hover:focus,
 .ui.button:hover:focus {
   background-color: @spaceDarker;
