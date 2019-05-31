@@ -125,3 +125,8 @@
 .ui.default.dropdown:not(.button) > .text {
   color: @inkLighter;
 }
+
+.ui.form .field>.selection.dropdown {
+  padding: 6px 8px;
+  min-height: 36px;
+}
