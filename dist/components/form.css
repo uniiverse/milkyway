@@ -1118,6 +1118,9 @@
 .error.field .ui.labeled.input:not([class*="corner labeled"]) .label:first-child + input {
   border-left-color: #FC7455;
 }
+.ui.form .fields .field > a > div + i {
+  margin-right: 0;
+}
 
 /*--------------------
        Dropdown
@@ -1131,6 +1134,14 @@
 .ui.form .inline.field > .selection.dropdown {
   padding: 8px !important;
   line-height: 20px !important;
+}
+
+/*--------------------
+      Labels
+---------------------*/
+
+.ui.form .fields .field > label ~ small {
+  font-size: 12px;
 }
 
 /*--------------------

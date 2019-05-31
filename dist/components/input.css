@@ -505,6 +505,9 @@
 .ui.massive.input {
   font-size: 1.71428571em;
 }
+.ui.input {
+  height: 36px !important;
+}
 .ui.inputs {
   display: -webkit-inline-box !important;
   display: -ms-inline-flexbox !important;

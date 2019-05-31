@@ -3848,6 +3848,12 @@
 .ui.secondary.button:hover:focus {
   background-color: #B2443E;
 }
+.ui.buttons .inverted.primary.button:hover:enabled {
+  -webkit-box-shadow: 0 0 0 1px #4E78F1 inset !important;
+          box-shadow: 0 0 0 1px #4E78F1 inset !important;
+  background-color: inherit;
+  color: #3A66E5;
+}
 .ui.buttons .button:hover:focus,
 .ui.button:hover:focus {
   background-color: #F5F5F5;
