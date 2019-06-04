@@ -621,6 +621,13 @@ input::-ms-input-placeholder {
 input::placeholder {
   color: #A9B0B7 !important;
 }
+.ui[class*="left icon"].input > i.icon {
+  left: calc(1px - 5px);
+}
+.ui[class*="left icon"].input > input {
+  padding-left: calc(2.67142857em - 5px) !important;
+  padding-right: 1em !important;
+}
 
 
 /*******************************
