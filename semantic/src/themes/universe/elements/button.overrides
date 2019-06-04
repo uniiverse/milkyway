@@ -87,6 +87,11 @@
   background-color: @blueDark;
 }
 
+.ui.button:not(.icon) > .icon:not(.button):not(.dropdown)[class*="universe-chevron-right"] {
+  margin-left: 5px;
+  margin-right: -5px;
+}
+
 .ui.button {
   max-height: 36px;
 }
