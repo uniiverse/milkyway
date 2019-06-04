@@ -126,3 +126,13 @@
 input::placeholder {
   color: @inkLighter !important;
 }
+
+// Icon left
+.ui[class*="left icon"].input > i.icon {
+  left: calc(@borderWidth - 5px);
+}
+
+.ui[class*="left icon"].input > input {
+  padding-left: calc(@iconMargin - 5px) !important;
+  padding-right: @horizontalPadding !important;
+}
