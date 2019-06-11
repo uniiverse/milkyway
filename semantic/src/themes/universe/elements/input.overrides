@@ -2,6 +2,12 @@
   height: 36px !important;
 }
 
+@media only screen and (max-width : @largestMobileScreen) {
+  .ui.input {
+    height: 44px !important;
+  }
+}
+
 .ui.inputs {
   display: inline-flex !important;
   flex-direction: row !important;
