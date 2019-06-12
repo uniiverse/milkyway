@@ -70,6 +70,10 @@
   margin-right: 0;
 }
 
+.ui.form .fields:last-child {
+  margin-bottom: 0;
+}
+
 /*--------------------
        Dropdown
 ---------------------*/
@@ -96,5 +100,4 @@
 /*--------------------
       Placeholder
 ---------------------*/
-
 
