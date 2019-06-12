@@ -41,14 +41,14 @@
   "homepage": "https://github.com/uniiverse/milkyway#readme",
   "dependencies": {},
   "peerDependencies": {
-    "semantic-ui-react": "0.86.0"
+    "semantic-ui-react": "0.87.1"
   },
   "devDependencies": {
     "@babel/core": "^7.2.2",
-    "@storybook/addon-actions": "^5.0.11",
-    "@storybook/addon-links": "^5.0.11",
-    "@storybook/addons": "^5.0.11",
-    "@storybook/react": "^5.0.11",
+    "@storybook/addon-actions": "^5.1.3",
+    "@storybook/addon-links": "^5.1.3",
+    "@storybook/addons": "^5.1.3",
+    "@storybook/react": "^5.1.3",
     "babel-loader": "^8.0.5",
     "cheerio": "^1.0.0-rc.2",
     "gulp": "^3.9.1",
