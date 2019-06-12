@@ -85,6 +85,10 @@
   border-color: @coralLight;
 }
 
+.ui.multiple.selection.dropdown > .label > .icon {
+  height: auto;
+}
+
 .ui.dropdown .menu {
   top: 100%;
 }
