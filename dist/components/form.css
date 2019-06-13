@@ -1141,7 +1141,10 @@
 ---------------------*/
 
 .ui.form .fields .field > label ~ small {
-  font-size: 12px;
+  font-size: 12px !important;
+  display: inline-block !important;
+  margin-bottom: 8px !important;
+  color: grey !important;
 }
 
 /*--------------------
