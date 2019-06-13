@@ -508,6 +508,12 @@
 .ui.input {
   height: 36px !important;
 }
+@media only screen and (max-width: 767px) {
+  .ui.input {
+    height: 44px !important;
+    font-size: 16px !important;
+  }
+}
 .ui.inputs {
   display: -webkit-inline-box !important;
   display: -ms-inline-flexbox !important;
@@ -610,9 +616,6 @@
   line-height: 20px !important;
 }
 input::-webkit-input-placeholder {
-  color: #A9B0B7 !important;
-}
-input::-moz-placeholder {
   color: #A9B0B7 !important;
 }
 input:-ms-input-placeholder {
