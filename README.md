@@ -155,6 +155,19 @@ Now, to start styling: find an element you need to style by locating the `.less`
 - Edit the `theme.config` file to instruct semantic to use the universe version of that component.
 - Write a new story and use it to see how your style is going!
 
+
+### How to get development updates in another project
+```
+cd ../milkyway
+yarn link
+
+cd ../host
+yarn link milkyway
+
+make install
+make run
+```
+
 ### Release
 
 Once you have your code in the master branch, stop your build system and storybook processes, git stash to clean your working directory, then simply run:
