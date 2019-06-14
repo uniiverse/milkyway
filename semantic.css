@@ -8205,12 +8205,15 @@ img.ui.bordered.image {
   font-size: 1.71428571em;
 }
 
-.ui.input {
+.ui.input,
+.ui.search.selection {
   height: 36px !important;
+  min-height: 36px !important;
 }
 
 @media only screen and (max-width: 767px) {
-  .ui.input {
+  .ui.input,
+  .ui.search.selection {
     height: 44px !important;
     font-size: 16px !important;
   }
@@ -26757,6 +26760,10 @@ select.ui.dropdown {
 
 .ui.multiple.selection.error.dropdown > .label {
   border-color: #FF9D84;
+}
+
+.ui.multiple.selection.dropdown > .label > .icon {
+  height: auto;
 }
 
 .ui.dropdown .menu {

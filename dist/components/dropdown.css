@@ -1529,6 +1529,9 @@ select.ui.dropdown {
 .ui.multiple.selection.error.dropdown > .label {
   border-color: #FF9D84;
 }
+.ui.multiple.selection.dropdown > .label > .icon {
+  height: auto;
+}
 .ui.dropdown .menu {
   top: 100%;
 }
