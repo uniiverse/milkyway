@@ -41,6 +41,6 @@ body ::-webkit-scrollbar-thumb {
 }
 
 body ::-webkit-scrollbar-track {
-  background: @white;
-  border-radius: 5px;
+  background: transparent;
+  border-radius: 6px;
 }
