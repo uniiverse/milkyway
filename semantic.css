@@ -773,8 +773,8 @@ body ::-webkit-scrollbar-thumb {
 }
 
 body ::-webkit-scrollbar-track {
-  background: #FFFFFF;
-  border-radius: 5px;
+  background: transparent;
+  border-radius: 6px;
 }
 
 /*******************************
@@ -9806,6 +9806,7 @@ a.ui.basic.label:hover {
 .field > .search + .label.red,
 .field > .dropdown + .label.red,
 .field > .checkbox + .label.red,
+.field > .editor-wrapper + .label.red,
 .field > textarea + .ui.basic.label.red {
   border: 0px;
   font-size: 1em;
