@@ -108,7 +108,7 @@
 /* Vertical padding when no rows */
 .ui.grid > .column:not(.row) {
   padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-bottom: calc((2rem / 2) * 8);
 }
 .ui.grid > .row > .column {
   margin-top: 0em;
