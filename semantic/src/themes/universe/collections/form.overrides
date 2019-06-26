@@ -2,6 +2,12 @@
   font-family: @inputFont;
 }
 
+@media only screen and (max-width : @largestMobileScreen) {
+  .ui.form textarea {
+    font-size: 16px !important;
+  }
+}
+
 .ui.form .fields.error .field .checkbox label:after,
 .ui.form .field.error .checkbox label:after,
 .ui.form .fields.error .field .checkbox .box:after,
