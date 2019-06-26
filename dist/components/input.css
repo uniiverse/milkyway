@@ -512,7 +512,9 @@
 }
 @media only screen and (max-width: 767px) {
   .ui.input,
-  .ui.search.selection {
+  .ui.search.selection,
+  .ui.selection.dropdown,
+  .ui.input > input {
     height: 44px !important;
     font-size: 16px !important;
   }
@@ -619,9 +621,6 @@
   line-height: 20px !important;
 }
 input::-webkit-input-placeholder {
-  color: #A9B0B7 !important;
-}
-input::-moz-placeholder {
   color: #A9B0B7 !important;
 }
 input:-ms-input-placeholder {

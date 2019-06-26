@@ -674,11 +674,6 @@ a:hover {
   color: rgba(0, 0, 0, 0.87);
 }
 
-::-moz-selection {
-  background-color: #A2CBFF;
-  color: rgba(0, 0, 0, 0.87);
-}
-
 ::selection {
   background-color: #A2CBFF;
   color: rgba(0, 0, 0, 0.87);
@@ -688,12 +683,6 @@ a:hover {
 
 textarea::-webkit-selection,
 input::-webkit-selection {
-  background-color: #A2CBFF;
-  color: rgba(0, 0, 0, 0.87);
-}
-
-textarea::-moz-selection,
-input::-moz-selection {
   background-color: #A2CBFF;
   color: rgba(0, 0, 0, 0.87);
 }
@@ -8224,7 +8213,9 @@ img.ui.bordered.image {
 
 @media only screen and (max-width: 767px) {
   .ui.input,
-  .ui.search.selection {
+  .ui.search.selection,
+  .ui.selection.dropdown,
+  .ui.input > input {
     height: 44px !important;
     font-size: 16px !important;
   }
@@ -8354,10 +8345,6 @@ img.ui.bordered.image {
 }
 
 input::-webkit-input-placeholder {
-  color: #A9B0B7 !important;
-}
-
-input::-moz-placeholder {
   color: #A9B0B7 !important;
 }
 
@@ -14991,6 +14978,12 @@ ol.ui.horizontal.list li:before,
 
 .ui.form textarea {
   font-family: "Graphik", "Helvetica", helvetica, arial, sans-serif;
+}
+
+@media only screen and (max-width: 767px) {
+  .ui.form textarea {
+    font-size: 16px !important;
+  }
 }
 
 .ui.form .fields.error .field .checkbox label:after,
@@ -26826,6 +26819,12 @@ select.ui.dropdown {
 .ui.form .field > .selection.dropdown {
   padding: 6px 8px;
   min-height: 36px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 /*******************************
