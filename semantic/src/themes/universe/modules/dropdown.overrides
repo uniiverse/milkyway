@@ -133,4 +133,6 @@
 .ui.form .field>.selection.dropdown {
   padding: 6px 8px;
   min-height: 36px;
+  display: flex;
+  align-items: center;
 }
