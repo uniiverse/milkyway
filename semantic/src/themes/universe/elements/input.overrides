@@ -4,7 +4,7 @@
 }
 
 @media only screen and (max-width : @largestMobileScreen) {
-  .ui.input, .ui.search.selection {
+  .ui.input, .ui.search.selection, .ui.selection.dropdown, .ui.input > input {
     height: 44px !important;
     font-size: 16px !important;
   }
