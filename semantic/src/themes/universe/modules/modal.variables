@@ -12,10 +12,17 @@
 /* Modal Actions */
 @actionBackground: #FFFFFF;
 @actionBorder: none;
-@actionPadding: 0 24px 24px 0;
+@actionPadding: 0 24px 24px;
 
 /* Close Icon */
 @closeTop: 24px;
 @closeRight: 24px;
 @closeColor: #a9b0b7;
 @closePadding: 0;
+
+/* Mobile Positions */
+@mobileHeaderPadding: 24px 16px;
+@mobileContentPadding: 0 16px 24px;
+@mobileActionPadding: 0 16px 24px;
+@mobileCloseTop: 24px;
+@mobileCloseRight: 16px;
