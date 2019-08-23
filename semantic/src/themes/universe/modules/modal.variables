@@ -1,0 +1,28 @@
+/* Header */
+@headerFontSize: 20px;
+@headerBorder: none;
+@headerFontWeight: 500;
+@headerVerticalPadding: 24px;
+@headerHorizontalPadding: 24px;
+
+/* Content */
+@contentLineHeight: 20px;
+@contentPadding: 0 24px 24px;
+
+/* Modal Actions */
+@actionBackground: #FFFFFF;
+@actionBorder: none;
+@actionPadding: 0 24px 24px;
+
+/* Close Icon */
+@closeTop: 24px;
+@closeRight: 24px;
+@closeColor: @inkLighter;
+@closePadding: 0;
+
+/* Mobile Positions */
+@mobileHeaderPadding: 24px 16px;
+@mobileContentPadding: 0 16px 24px;
+@mobileActionPadding: 0 16px 24px;
+@mobileCloseTop: 24px;
+@mobileCloseRight: 16px;
