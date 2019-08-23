@@ -674,11 +674,6 @@ a:hover {
   color: rgba(0, 0, 0, 0.87);
 }
 
-::-moz-selection {
-  background-color: #A2CBFF;
-  color: rgba(0, 0, 0, 0.87);
-}
-
 ::selection {
   background-color: #A2CBFF;
   color: rgba(0, 0, 0, 0.87);
@@ -688,12 +683,6 @@ a:hover {
 
 textarea::-webkit-selection,
 input::-webkit-selection {
-  background-color: #A2CBFF;
-  color: rgba(0, 0, 0, 0.87);
-}
-
-textarea::-moz-selection,
-input::-moz-selection {
   background-color: #A2CBFF;
   color: rgba(0, 0, 0, 0.87);
 }
@@ -8359,10 +8348,6 @@ input::-webkit-input-placeholder {
   color: #A9B0B7 !important;
 }
 
-input::-moz-placeholder {
-  color: #A9B0B7 !important;
-}
-
 input:-ms-input-placeholder {
   color: #A9B0B7 !important;
 }
@@ -9819,6 +9804,7 @@ a.ui.basic.label:hover {
   float: right;
 }
 
+.field > .ui.basic.label.red,
 .field > .input + .label.red,
 .field > .search + .label.red,
 .field > .dropdown + .label.red,
@@ -27031,7 +27017,7 @@ select.ui.dropdown {
   -webkit-box-flex: 0;
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
-  border-radius: 0.28571429rem;
+  border-radius: 6px;
   -webkit-user-select: text;
   -moz-user-select: text;
   -ms-user-select: text;
@@ -27041,13 +27027,13 @@ select.ui.dropdown {
 
 .ui.modal > :first-child:not(.icon),
 .ui.modal > .icon:first-child + * {
-  border-top-left-radius: 0.28571429rem;
-  border-top-right-radius: 0.28571429rem;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
 }
 
 .ui.modal > :last-child {
-  border-bottom-left-radius: 0.28571429rem;
-  border-bottom-right-radius: 0.28571429rem;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
 }
 
 /*******************************
@@ -27061,15 +27047,15 @@ select.ui.dropdown {
 .ui.modal > .close {
   cursor: pointer;
   position: absolute;
-  top: -2.5rem;
-  right: -2.5rem;
+  top: 24px;
+  right: 24px;
   z-index: 1;
   opacity: 0.8;
   font-size: 1.25em;
-  color: #FFFFFF;
+  color: #A9B0B7;
   width: 2.25rem;
   height: 2.25rem;
-  padding: 0.625rem 0rem 0rem 0rem;
+  padding: 0;
 }
 
 .ui.modal > .close:hover {
@@ -27082,20 +27068,20 @@ select.ui.dropdown {
 
 .ui.modal > .header {
   display: block;
-  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: "Circular Pro", "Helvetica", helvetica, arial, sans-serif;
   background: #FFFFFF;
   margin: 0em;
-  padding: 1.25rem 1.5rem;
+  padding: 24px 24px;
   -webkit-box-shadow: none;
   box-shadow: none;
   color: rgba(0, 0, 0, 0.85);
-  border-bottom: 1px solid rgba(34, 36, 38, 0.15);
+  border-bottom: none;
 }
 
 .ui.modal > .header:not(.ui) {
-  font-size: 1.42857143rem;
+  font-size: 20px;
   line-height: 1.28571429em;
-  font-weight: bold;
+  font-weight: 500;
 }
 
 /*--------------
@@ -27106,8 +27092,8 @@ select.ui.dropdown {
   display: block;
   width: 100%;
   font-size: 1em;
-  line-height: 1.4;
-  padding: 1.5rem;
+  line-height: 20px;
+  padding: 0 24px 24px;
   background: #FFFFFF;
 }
 
@@ -27185,9 +27171,9 @@ select.ui.dropdown {
 ---------------*/
 
 .ui.modal > .actions {
-  background: #F9FAFB;
-  padding: 1rem 1rem;
-  border-top: 1px solid rgba(34, 36, 38, 0.15);
+  background: #FFFFFF;
+  padding: 0 24px 24px;
+  border-top: none;
   text-align: right;
 }
 
@@ -27244,7 +27230,7 @@ select.ui.dropdown {
   }
 
   .ui.modal > .close {
-    top: 1.0535rem;
+    top: 23.8035px;
     right: 1rem;
     color: rgba(0, 0, 0, 0.87);
   }
@@ -27254,18 +27240,18 @@ select.ui.dropdown {
 
 @media only screen and (max-width: 767px) {
   .ui.modal > .header {
-    padding: 0.75rem 1rem !important;
+    padding: 24px 16px !important;
     padding-right: 2.25rem !important;
   }
 
   .ui.modal > .content {
     display: block;
-    padding: 1rem !important;
+    padding: 0 16px 24px !important;
   }
 
   .ui.modal > .close {
-    top: 0.5rem !important;
-    right: 0.5rem !important;
+    top: 24px !important;
+    right: 16px !important;
   }
 
   /*rtl:ignore*/
@@ -27304,7 +27290,7 @@ select.ui.dropdown {
   /* Let Buttons Stack */
 
   .ui.modal > .actions {
-    padding: 1rem 1rem 0rem !important;
+    padding: 0 16px 24px !important;
   }
 
   .ui.modal .actions > .buttons,
@@ -27494,7 +27480,7 @@ select.ui.dropdown {
 }
 
 .ui.fullscreen.modal > .close {
-  top: 1.0535rem;
+  top: 23.8035px;
   right: 1rem;
   color: rgba(0, 0, 0, 0.87);
 }
@@ -27677,9 +27663,11 @@ select.ui.dropdown {
   }
 }
 
-/*******************************
-         Theme Overrides
-*******************************/
+/* Close Icon */
+
+.close.icon {
+  margin-right: 0;
+}
 
 /*******************************
          Site Overrides
