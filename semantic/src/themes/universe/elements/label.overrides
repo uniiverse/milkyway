@@ -5,6 +5,7 @@
   float: right;
 }
 
+.field > .ui.basic.label.red,
 .field > .input + .label.red,
 .field > .search + .label.red,
 .field > .dropdown + .label.red,
