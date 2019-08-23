@@ -218,7 +218,7 @@ Here's some of the basic components and the progress so far:
 - [x] Input
 - [x] Message
 - [ ] Menu / Navbar
-- [ ] Modal
+- [x] Modal
 - [ ] Pagination
 - [ ] Progress
   - [x] Success

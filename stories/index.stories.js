@@ -19,6 +19,7 @@ function loadStories() {
     'input',
     'loader',
     'message',
+    'modal',
     'progress',
     'search',
     'segment',
