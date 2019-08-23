@@ -1,0 +1,21 @@
+/* Header */
+@headerFontSize: 20px;
+@headerBorder: none;
+@headerFontWeight: 500;
+@headerVerticalPadding: 24px;
+@headerHorizontalPadding: 24px;
+
+/* Content */
+@contentLineHeight: 20px;
+@contentPadding: 0 24px 24px;
+
+/* Modal Actions */
+@actionBackground: #FFFFFF;
+@actionBorder: none;
+@actionPadding: 0 24px 24px 0;
+
+/* Close Icon */
+@closeTop: 24px;
+@closeRight: 24px;
+@closeColor: #a9b0b7;
+@closePadding: 0;

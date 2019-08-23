@@ -1,0 +1,4 @@
+/* Close Icon */
+.close.icon {
+  margin-right: 0;
+}
