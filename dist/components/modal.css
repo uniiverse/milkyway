@@ -605,6 +605,8 @@
 /* Close Icon */
 .close.icon {
   margin-right: 0;
+  width: 20px !important;
+  height: 20px !important;
 }
 
 
