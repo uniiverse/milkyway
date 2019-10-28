@@ -7,7 +7,7 @@
 
 /* Content */
 @contentLineHeight: 20px;
-@contentPadding: 0 24px 24px;
+@contentPadding: 24px;
 
 /* Modal Actions */
 @actionBackground: #FFFFFF;
