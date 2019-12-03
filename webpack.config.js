@@ -1,7 +1,5 @@
-const path = require('path');
-
 module.exports = {
-  entry: './index.js',
+  entry: './webpack.index.js',
   module: {
     rules: [
       {
@@ -16,14 +14,14 @@ module.exports = {
     extensions: ['.ts', '.tsx', '.js', '.jsx'],
   },
   output: {
-    path: path.resolve(__dirname, 'dist'),
-    filename: 'milkyway-components.js',
+    path: __dirname,
+    filename: 'index.js',
     library: 'milkywayComponents',
     libraryTarget: 'umd',
     umdNamedDefine: true,
   },
   externals: {
-    // Don't bundle react or react-dom
+    // Don't bundle react, react-dom, semantic-ui, semantic-ui-react
     react: {
       commonjs: 'react',
       commonjs2: 'react',
@@ -35,6 +33,18 @@ module.exports = {
       commonjs2: 'react-dom',
       amd: 'ReactDOM',
       root: 'ReactDOM',
+    },
+    'semantic-ui-react': {
+      commonjs: 'semantic-ui-react',
+      commonjs2: 'semantic-ui-react',
+      amd: 'SemanticUIReact',
+      root: 'SemanticUIReact',
+    },
+    'semantic-ui': {
+      commonjs: 'semantic-ui',
+      commonjs2: 'semantic-ui',
+      amd: 'SemanticUI',
+      root: 'SemanticUI',
     },
   },
 };

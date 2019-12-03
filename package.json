@@ -6,11 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "cd semantic && gulp build && gulp watch",
-    "build": "cd semantic && gulp build",
+    "build": "webpack --display-error-details --mode production && cd semantic && gulp build",
     "build:icons": "node lib/icons.js",
     "clean": "rm -r  dist/ && rm semantic*.js semantic*.css || true",
     "preversion": "git add . && git stash && npm run clean",
-    "version": "git add package.json package-lock.json && git commit -m \"Version $npm_package_version\" && git push origin master && git checkout release && git pull && git merge origin master --no-edit --strategy-option theirs && cd semantic && gulp build && cd .. && git add --force dist semantic*.js semantic*.css",
+    "version": "git add package.json package-lock.json && git commit -m \"Version $npm_package_version\" && git push origin master && git checkout release && git pull && git merge origin master --no-edit --strategy-option theirs && cd semantic && gulp build && cd .. && git add --force dist index.js semantic*.js semantic*.css",
     "postversion": "git push && git push --tags && git checkout master",
     "storybook": "cd semantic && gulp build && cd .. && start-storybook -p 6006 -s ./semantic/src/themes/universe/assets",
     "build-storybook": "build-storybook",
@@ -40,9 +40,9 @@
   },
   "homepage": "https://github.com/uniiverse/milkyway#readme",
   "dependencies": {
-    "react": "^16.8.6"
   },
   "peerDependencies": {
+    "react": "^16.8.6",
     "semantic-ui-react": "0.88.1"
   },
   "devDependencies": {
