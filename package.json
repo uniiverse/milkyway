@@ -6,11 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "cd semantic && gulp build && gulp watch",
-    "build": "cd semantic && gulp build",
+    "build": "webpack --display-error-details --mode production && cd semantic && gulp build",
     "build:icons": "node lib/icons.js",
     "clean": "rm -r  dist/ && rm semantic*.js semantic*.css || true",
     "preversion": "git add . && git stash && npm run clean",
-    "version": "git add package.json package-lock.json && git commit -m \"Version $npm_package_version\" && git push origin master && git checkout release && git pull && git merge origin master --no-edit --strategy-option theirs && cd semantic && gulp build && cd .. && git add --force dist semantic*.js semantic*.css",
+    "version": "git add package.json package-lock.json && git commit -m \"Version $npm_package_version\" && git push origin master && git checkout release && git pull && git merge origin master --no-edit --strategy-option theirs && cd semantic && gulp build && cd .. && git add --force dist index.js semantic*.js semantic*.css",
     "postversion": "git push && git push --tags && git checkout master",
     "storybook": "cd semantic && gulp build && cd .. && start-storybook -p 6006 -s ./semantic/src/themes/universe/assets",
     "build-storybook": "build-storybook",
@@ -39,21 +39,33 @@
     "url": "https://github.com/uniiverse/milkyway/issues"
   },
   "homepage": "https://github.com/uniiverse/milkyway#readme",
-  "dependencies": {},
+  "dependencies": {
+  },
   "peerDependencies": {
+    "react": "^16.8.6",
     "semantic-ui-react": "0.88.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.2.2",
+    "@babel/core": "^7.4.5",
+    "@babel/node": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.0.0",
     "@storybook/addon-actions": "^5.1.3",
     "@storybook/addon-links": "^5.1.3",
     "@storybook/addons": "^5.1.3",
     "@storybook/react": "^5.1.3",
-    "babel-loader": "^8.0.5",
+    "babel-loader": "^8.0.6",
     "cheerio": "^1.0.0-rc.2",
     "gulp": "^3.9.1",
     "semantic-ui": "2.4.2",
     "semantic-ui-react": "0.88.1",
-    "svgo": "^1.2.0"
+    "svgo": "^1.2.0",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.14.2",
+    "webpack": "^4.35.0",
+    "webpack-cli": "^3.3.5"
   }
 }
