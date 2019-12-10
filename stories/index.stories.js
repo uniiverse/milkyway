@@ -1,5 +1,3 @@
-import React from 'react';
-
 import { configure } from '@storybook/react';
 
 import '../semantic.min.css';
@@ -20,6 +18,7 @@ function loadStories() {
     'loader',
     'message',
     'modal',
+    'navbar',
     'progress',
     'search',
     'segment',
