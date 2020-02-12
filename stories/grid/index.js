@@ -54,6 +54,35 @@ const stories = storiesOf('Grid', module)
         </Grid.Column>
       </Grid>
     </Container>
-  );
+  )  .add('Pyramid grid', () =>
+  <Container fluid>
+      <Grid>
+        <Grid.Row stretched>
+          <Grid.Column>
+           <Image src='https://react.semantic-ui.com/images/wireframe/image.png' />
+          </Grid.Column>
+        </Grid.Row>
+        <Grid.Row columns={2} stretched>
+          <Grid.Column>
+           <Image src='https://react.semantic-ui.com/images/wireframe/image.png' />
+          </Grid.Column>
+          <Grid.Column>
+           <Image src='https://react.semantic-ui.com/images/wireframe/image.png' />
+          </Grid.Column>
+        </Grid.Row>
+        <Grid.Row columns={3} stretched>
+          <Grid.Column>
+           <Image src='https://react.semantic-ui.com/images/wireframe/image.png' />
+          </Grid.Column>
+          <Grid.Column>
+           <Image src='https://react.semantic-ui.com/images/wireframe/image.png' />
+          </Grid.Column>
+          <Grid.Column>
+           <Image src='https://react.semantic-ui.com/images/wireframe/image.png' />
+          </Grid.Column>
+        </Grid.Row>
+      </Grid>
+  </Container>
+);
 
 export default stories;
