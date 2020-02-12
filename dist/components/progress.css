@@ -503,10 +503,10 @@
 .ui.big.progress .bar {
   height: 3.5em;
 }
-.ui.progress {
+.ui.tiny.progress {
   height: 4px;
 }
-.ui.progress .bar {
+.ui.tiny.progress .bar {
   height: 4px;
 }
 

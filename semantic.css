@@ -674,11 +674,6 @@ a:hover {
   color: rgba(0, 0, 0, 0.87);
 }
 
-::-moz-selection {
-  background-color: #A2CBFF;
-  color: rgba(0, 0, 0, 0.87);
-}
-
 ::selection {
   background-color: #A2CBFF;
   color: rgba(0, 0, 0, 0.87);
@@ -688,18 +683,6 @@ a:hover {
 
 textarea::-webkit-selection,
 input::-webkit-selection {
-  background-color: #A2CBFF;
-  color: rgba(0, 0, 0, 0.87);
-}
-
-textarea::-moz-selection,
-input::-moz-selection {
-  background-color: #A2CBFF;
-  color: rgba(0, 0, 0, 0.87);
-}
-
-textarea::-moz-selection,
-input::-moz-selection {
   background-color: #A2CBFF;
   color: rgba(0, 0, 0, 0.87);
 }
@@ -8362,10 +8345,6 @@ img.ui.bordered.image {
 }
 
 input::-webkit-input-placeholder {
-  color: #A9B0B7 !important;
-}
-
-input::-moz-placeholder {
   color: #A9B0B7 !important;
 }
 
@@ -29100,11 +29079,11 @@ select.ui.dropdown {
   height: 3.5em;
 }
 
-.ui.progress {
+.ui.tiny.progress {
   height: 4px;
 }
 
-.ui.progress .bar {
+.ui.tiny.progress .bar {
   height: 4px;
 }
 
