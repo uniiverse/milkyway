@@ -12,7 +12,7 @@ class StateButton extends Component {
     this.state = { public: true };
   }
 
-  render() {    
+  render() {
     return (
       <Button.Group>
         <Button

@@ -1,6 +1,6 @@
 {
   "name": "milkyway",
-  "version": "0.0.66",
+  "version": "0.0.67",
   "description": "Universe styles, as a semantic-ui theme",
   "main": "index.js",
   "scripts": {
