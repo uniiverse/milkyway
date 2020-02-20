@@ -1,1 +1,2 @@
-@gutterWidth: 32px;
+@gutterWidth: 24px;
+@rowSpacing: 24px;
