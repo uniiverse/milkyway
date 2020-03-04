@@ -10,8 +10,6 @@
 
 /* Icon Variables */
 @opacity: 1;
-@width: 24px;
-@height: 24px;
 @distanceFromText: 0.25rem;
 @grey: @inkLight;
 
