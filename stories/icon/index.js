@@ -294,6 +294,39 @@ const stories = storiesOf('Icon', module)
         </Table.Body>
       </Table>
     </Container>
-  );
+  ).add('Sized icons', () =>
+<Container fluid>
+      <Table>
+        <Table.Header>
+          <Table.Row>
+            <Table.HeaderCell>Classname</Table.HeaderCell>
+            <Table.HeaderCell>Value</Table.HeaderCell>
+          </Table.Row>
+        </Table.Header>
+        <Table.Body>
+          <Table.Row>
+            <Table.Cell>universe-1 size="tiny"</Table.Cell>
+            <Table.Cell><Icon size="tiny" className="universe-1" /></Table.Cell>
+          </Table.Row>
+          <Table.Row>
+            <Table.Cell>universe-1 size="small"</Table.Cell>
+            <Table.Cell><Icon size="small" className="universe-1" /></Table.Cell>
+          </Table.Row>
+          <Table.Row>
+            <Table.Cell>universe-1 size="large"</Table.Cell>
+            <Table.Cell><Icon size="large" className="universe-1" /></Table.Cell>
+          </Table.Row>
+          <Table.Row>
+            <Table.Cell>universe-1 size="huge"</Table.Cell>
+            <Table.Cell><Icon size="huge" className="universe-1" /></Table.Cell>
+          </Table.Row>
+          <Table.Row>
+            <Table.Cell>universe-1 size="massive"</Table.Cell>
+            <Table.Cell><Icon size="massive" className="universe-1" /></Table.Cell>
+          </Table.Row>
+        </Table.Body>
+      </Table>
+    </Container>
+);
 
 export default stories;
