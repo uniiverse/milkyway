@@ -601,9 +601,6 @@
 .ui.steps .step.completed .content {
   color: #00A690;
 }
-.ui.steps:not(.vertical) .step > .icon {
-  padding-top: 4px;
-}
 
 
 /*******************************

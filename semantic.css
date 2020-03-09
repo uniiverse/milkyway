@@ -13667,10 +13667,6 @@ ol.ui.horizontal.list li:before,
   color: #00A690;
 }
 
-.ui.steps:not(.vertical) .step > .icon {
-  padding-top: 4px;
-}
-
 /*******************************
          Site Overrides
 *******************************/
