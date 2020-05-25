@@ -25197,7 +25197,7 @@ body.dimmable > .dimmer {
   border-top: none;
   line-height: 1em;
   color: rgba(0, 0, 0, 0.87);
-  padding: 5px !important;
+  padding: 5px;
   font-size: 1rem;
   text-transform: none;
   font-weight: normal;
@@ -26712,6 +26712,10 @@ select.ui.dropdown {
 
 .ui.dropdown.active > .dropdown.icon:before {
   content: '\e903';
+}
+
+.ui.dropdown > .clear.icon:before {
+  content: "\e904";
 }
 
 .ui.dropdown > .ui.label > i.icon.delete:before {
