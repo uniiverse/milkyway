@@ -41,6 +41,10 @@
   content: '\e903';
 }
 
+.ui.dropdown > .clear.icon:before {
+  content: "\e904";
+}
+
 .ui.dropdown > .ui.label > i.icon.delete:before {
   font-family: 'Dropdown';
   content: '\e904';
