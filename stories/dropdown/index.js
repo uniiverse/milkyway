@@ -158,6 +158,15 @@ const stories = storiesOf('Dropdown', module)
         <Dropdown.Item text="Option 3"/>
       </Dropdown.Menu>
     </Dropdown>
+  ).add('Clearable', () =>
+  <Container>
+    <p>
+      <Dropdown placeholder='Select' selection options={options} clearable onChange={action('changed')} />
+    </p>
+    <p>
+      <Dropdown placeholder='Select' selection options={options} clearable onChange={action('changed')} error />
+    </p>
+  </Container>
   );
 
 export default stories;
