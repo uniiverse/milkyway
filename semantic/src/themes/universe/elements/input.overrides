@@ -124,13 +124,6 @@
   padding-right: 14px !important;
 }
 
-.ui.input > input,
-.ui.search.selection.dropdown > input
- {
-  padding: 8px !important;
-  line-height: 20px !important;
-}
-
 input::placeholder {
   color: @inkLighter !important;
 }
