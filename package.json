@@ -39,7 +39,6 @@
     "url": "https://github.com/uniiverse/milkyway/issues"
   },
   "homepage": "https://github.com/uniiverse/milkyway#readme",
-  "dependencies": {},
   "peerDependencies": {
     "react": "^16.8.6",
     "semantic-ui-react": "0.88.1"
@@ -50,6 +49,7 @@
     "@babel/preset-env": "^7.4.5",
     "@babel/preset-react": "^7.0.0",
     "@storybook/addon-actions": "^5.3.9",
+    "@storybook/addon-knobs": "^5.3.19",
     "@storybook/addon-links": "^5.3.9",
     "@storybook/addons": "^5.3.9",
     "@storybook/react": "^5.3.9",
