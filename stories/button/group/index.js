@@ -36,7 +36,7 @@ class StateButton extends Component {
 
 stories
   .add('Default', () =>
-    <Container fluid>
+    <Container text style={{ padding: "2rem" }}>
       <StateButton />
     </Container>
   );
