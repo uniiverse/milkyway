@@ -1,13 +1,16 @@
 # Deploy master with Google Container Registry
 steps:
 
-- name: 'gcr.io/cloud-builders/npm'
+- name: 'node:10.7.0'
+  entrypoint: npm
   args: ['install']
 
-- name: 'gcr.io/cloud-builders/npm'
+- name: 'node:10.7.0'
+  entrypoint: npm
   args: ['run', 'build']
 
-- name: 'gcr.io/cloud-builders/npm'
+- name: 'node:10.7.0'
+  entrypoint: npm
   args: ['run', 'build-storybook']
 
 # upload
