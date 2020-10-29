@@ -10,6 +10,7 @@ function loadStories() {
     'button/group',
     'card',
     'checkbox',
+    'radio',
     'dropdown',
     'form',
     'grid',
