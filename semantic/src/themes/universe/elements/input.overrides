@@ -143,3 +143,9 @@ input::placeholder {
   padding-left: calc(@iconMargin - 5px) !important;
   padding-right: @horizontalPadding !important;
 }
+
+.ui.disabled.input {
+  opacity: inherit;
+  background: @space;
+  color: @inkLight;
+}
