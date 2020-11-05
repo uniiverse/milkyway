@@ -638,6 +638,11 @@ input::placeholder {
   padding-left: calc(2.67142857em - 5px) !important;
   padding-right: 1em !important;
 }
+.ui.disabled.input {
+  opacity: inherit;
+  background: #FAFAFA;
+  color: #6F7881;
+}
 
 
 /*******************************

@@ -8368,6 +8368,12 @@ input::placeholder {
   padding-right: 1em !important;
 }
 
+.ui.disabled.input {
+  opacity: inherit;
+  background: #FAFAFA;
+  color: #6F7881;
+}
+
 /*******************************
          Site Overrides
 *******************************/
