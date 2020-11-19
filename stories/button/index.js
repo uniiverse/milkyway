@@ -91,6 +91,20 @@ stories
         </Button>
       </p>
     </Container>
+  ).add('Basic with Icon', () =>
+    <Container text style={{ padding: "2rem" }}>
+       <p>
+        <Button basic>
+          {text("label", "Basic")}
+        </Button>
+      </p>
+      <p>
+        <Button basic>
+          <Icon className="universe-mail" />
+          {text("label", "Basic")} "with Icon"
+        </Button>
+      </p>
+    </Container>
   )
 
 export default stories;
