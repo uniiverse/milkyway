@@ -29,5 +29,11 @@ const stories = storiesOf('Segment', module)
       <Grid.Column width={3} />
       </Grid>
     </Container>
-  );
+  ).add('Statsegment group', () =>
+    <Segment.Group>
+      <Segment>Segment 1</Segment>
+      <Segment>Segment 1</Segment>
+      <Segment>Segment 1</Segment>
+    </Segment.Group>
+  )
 export default stories;
