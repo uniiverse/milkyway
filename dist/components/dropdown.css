@@ -115,7 +115,7 @@
   text-align: left;
   border-top: none;
   line-height: 1em;
-  color: rgba(0, 0, 0, 0.87);
+  color: #1C232B;
   padding: 5px;
   font-size: 1rem;
   text-transform: none;
@@ -359,7 +359,7 @@
   background: #FFFFFF;
   display: inline-block;
   padding: 0.78571429em 2.1em 0.78571429em 1em;
-  color: rgba(0, 0, 0, 0.87);
+  color: #1C232B;
   -webkit-box-shadow: 0px;
           box-shadow: 0px;
   border: 1px solid #E2E5E7;
@@ -608,7 +608,7 @@ select.ui.dropdown {
   opacity: 0.45;
 }
 .ui.active.search.dropdown input.search:focus + .text {
-  color: rgba(115, 115, 115, 0.87) !important;
+  color: #8095ac !important;
 }
 
 /* Search Menu */

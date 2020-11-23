@@ -29,7 +29,7 @@ body {
   font-family: "Graphik", "Helvetica", helvetica, arial, sans-serif;
   font-size: 14px;
   line-height: 1.4285em;
-  color: rgba(0, 0, 0, 0.87);
+  color: #1C232B;
   font-smoothing: antialiased;
 }
 
@@ -124,23 +124,23 @@ a:hover {
 /* Site */
 ::-webkit-selection {
   background-color: #A2CBFF;
-  color: rgba(0, 0, 0, 0.87);
+  color: #1C232B;
 }
 ::selection {
   background-color: #A2CBFF;
-  color: rgba(0, 0, 0, 0.87);
+  color: #1C232B;
 }
 
 /* Form */
 textarea::-webkit-selection,
 input::-webkit-selection {
   background-color: #A2CBFF;
-  color: rgba(0, 0, 0, 0.87);
+  color: #1C232B;
 }
 textarea::selection,
 input::selection {
   background-color: #A2CBFF;
-  color: rgba(0, 0, 0, 0.87);
+  color: #1C232B;
 }
 
 /* Force Simple Scrollbars */

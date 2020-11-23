@@ -105,7 +105,7 @@
 /* Inside */
 .ui.checkbox label,
 .ui.checkbox + label {
-  color: rgba(0, 0, 0, 0.87);
+  color: #1C232B;
   -webkit-transition: color 0.1s ease;
   transition: color 0.1s ease;
 }
@@ -308,7 +308,7 @@
   border-radius: 500rem;
   -webkit-transform: scale(0.46666667);
           transform: scale(0.46666667);
-  background-color: rgba(0, 0, 0, 0.87);
+  background-color: #1C232B;
 }
 
 /* Focus */

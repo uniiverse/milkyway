@@ -109,7 +109,7 @@
   font-size: 1em;
   background: #FFFFFF;
   border: 1px solid #E2E5E7;
-  color: rgba(0, 0, 0, 0.87);
+  color: #1C232B;
   border-radius: 6px;
   -webkit-box-shadow: 0em 0em 0em 0em transparent inset;
           box-shadow: 0em 0em 0em 0em transparent inset;
@@ -126,7 +126,7 @@
   background: #FFFFFF;
   border: 1px solid #E2E5E7;
   outline: none;
-  color: rgba(0, 0, 0, 0.87);
+  color: #1C232B;
   border-radius: 6px;
   -webkit-box-shadow: 0em 0em 0em 0em transparent inset;
           box-shadow: 0em 0em 0em 0em transparent inset;
@@ -168,7 +168,7 @@
   -webkit-box-shadow: 0em 0em 0em 0em transparent inset;
           box-shadow: 0em 0em 0em 0em transparent inset;
   padding: 0.62em 1em;
-  color: rgba(0, 0, 0, 0.87);
+  color: #1C232B;
   -webkit-transition: color 0.1s ease, border-color 0.1s ease;
   transition: color 0.1s ease, border-color 0.1s ease;
 }
@@ -735,7 +735,7 @@
 .ui.inverted.form input[type="url"] {
   background: #FFFFFF;
   border-color: rgba(255, 255, 255, 0.1);
-  color: rgba(0, 0, 0, 0.87);
+  color: #1C232B;
   -webkit-box-shadow: none;
           box-shadow: none;
 }

@@ -23,7 +23,7 @@
   font-weight: 500;
   line-height: 1.28571429em;
   text-transform: none;
-  color: rgba(0, 0, 0, 0.87);
+  color: #1C232B;
 }
 .ui.header:first-child {
   margin-top: -0.14285714em;
@@ -41,6 +41,7 @@
   font-weight: normal;
   padding: 0em;
   margin: 0em;
+  font-family: "Graphik", "Helvetica", helvetica, arial, sans-serif;
   font-size: 1rem;
   line-height: 1.2em;
   color: rgba(0, 0, 0, 0.6);
