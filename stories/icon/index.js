@@ -327,6 +327,23 @@ const stories = storiesOf('Icon', module)
         </Table.Body>
       </Table>
     </Container>
+  ).add('Bordered inverted link icon', () =>
+    <Container fluid>
+      <Table>
+        <Table.Header>
+          <Table.Row>
+            <Table.HeaderCell>Classname</Table.HeaderCell>
+            <Table.HeaderCell>Value</Table.HeaderCell>
+          </Table.Row>
+        </Table.Header>
+        <Table.Body>
+          <Table.Row>
+            <Table.Cell>universe-1 size="large" bordered inverted link</Table.Cell>
+            <Table.Cell><Icon size="large" bordered inverted link className="universe-link" /></Table.Cell>
+          </Table.Row>
+        </Table.Body>
+      </Table>
+    </Container>
 );
 
 export default stories;
