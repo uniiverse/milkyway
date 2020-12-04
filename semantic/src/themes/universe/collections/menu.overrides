@@ -1,0 +1,75 @@
+.ui.menu .right.menu > * {
+  color: @white !important;
+  opacity: 0.8 !important;
+}
+
+.ui.menu .menu > *:hover {
+  background: none !important;
+}
+
+.ui.menu .right.menu > *:hover {
+  opacity: 1 !important;
+  border-bottom: 3px solid @white
+}
+
+.ui.menu.menu {
+  background-color: @blueDark;
+}
+
+.ui.menu .active.item {
+  background: none;
+}
+
+.ui.menu .item:before {
+  content: none;
+}
+
+.ui.menu i.dropdown.icon {
+  display: none;
+}
+
+.ui.menu .left.menu input {
+  color: @white;
+  background-color: @inkTransparent;
+  border: none;
+  min-width: 230px;
+}
+
+.ui.menu .left.menu input::placeholder {
+  color: @white !important;
+  font-size: 14px !important;
+  line-height: 14px !important;
+}
+
+.ui.menu .left.menu .input i {
+  color: @white !important;
+}
+
+.ui.menu .left.menu input:hover {
+  background-color: @whiteTransparent;
+}
+
+.ui.menu {
+  box-sizing: border-box;
+  height: 72px;
+  line-height: 72px;
+  border-radius: 0;
+}
+
+.ui.menu .menu.transition.visible {
+  border-radius: 8px;
+}
+
+// responsive
+.ui.menu.three.item > *:first-child {
+  justify-content: flex-start !important;
+}
+
+.ui.menu.three.item > *:last-child {
+  justify-content: flex-end;
+}
+
+.ui.menu.three.item i {
+  color: @white;
+  margin: 0 24px;
+}

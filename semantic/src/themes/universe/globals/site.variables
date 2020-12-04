@@ -58,6 +58,7 @@
 @ink: #1C232B;
 @inkLight: #6F7881;
 @inkLighter: #A9B0B7;
+@inkTransparent: rgba(28, 35, 43, 0.12);
 @orbit: #E2E5E7;
 @spaceDarker: #F5F5F5;
 @space: #FAFAFA;
@@ -85,6 +86,8 @@
 @yellow: #FDC04C;
 @yellowLight: #FFD448;
 @yellowLighter: #FFFAE7;
+
+@whiteTransparent: rgba(255, 255, 255, 0.1);
 
 /*-------------------
        Links
