@@ -30,7 +30,7 @@
   font-style: normal;
   text-align: center;
   color: @inkLighter;
-  padding: 11px 8px !important;
+  padding: 11px 8px;
 }
 
 .ui.dropdown > .dropdown.icon:before {
@@ -39,6 +39,10 @@
 
 .ui.dropdown.active > .dropdown.icon:before {
   content: '\e903';
+}
+
+.ui.dropdown > .clear.icon:before {
+  content: "\e904";
 }
 
 .ui.dropdown > .ui.label > i.icon.delete:before {

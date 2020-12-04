@@ -160,6 +160,7 @@ Now, to start styling: find an element you need to style by locating the `.less`
 ```
 cd ../milkyway
 yarn link
+yarn build
 
 cd ../host
 yarn link milkyway

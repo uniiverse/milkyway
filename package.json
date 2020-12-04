@@ -1,6 +1,6 @@
 {
   "name": "milkyway",
-  "version": "0.0.65",
+  "version": "0.0.76",
   "description": "Universe styles, as a semantic-ui theme",
   "main": "index.js",
   "scripts": {
@@ -51,10 +51,11 @@
     "@babel/node": "^7.4.5",
     "@babel/preset-env": "^7.4.5",
     "@babel/preset-react": "^7.0.0",
-    "@storybook/addon-actions": "^5.1.3",
-    "@storybook/addon-links": "^5.1.3",
-    "@storybook/addons": "^5.1.3",
-    "@storybook/react": "^5.1.3",
+    "@storybook/addon-actions": "^5.3.19",
+    "@storybook/addon-knobs": "^5.3.19",
+    "@storybook/addon-links": "^5.3.19",
+    "@storybook/addons": "^5.3.19",
+    "@storybook/react": "^5.3.19",
     "babel-loader": "^8.0.6",
     "cheerio": "^1.0.0-rc.2",
     "eslint": "^5.16.0",

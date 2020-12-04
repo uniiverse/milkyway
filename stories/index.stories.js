@@ -8,6 +8,7 @@ function loadStories() {
     'button/group',
     'card',
     'checkbox',
+    'radio',
     'dropdown',
     'form',
     'grid',
@@ -22,7 +23,8 @@ function loadStories() {
     'progress',
     'search',
     'segment',
-    'step'
+    'step',
+    'menu'
   ].forEach(function(comp){
     require("./" + comp);
   });

@@ -12,7 +12,7 @@ class StateButton extends Component {
     this.state = { public: true };
   }
 
-  render() {    
+  render() {
     return (
       <Button.Group>
         <Button
@@ -36,7 +36,7 @@ class StateButton extends Component {
 
 stories
   .add('Default', () =>
-    <Container fluid>
+    <Container text style={{ padding: "2rem" }}>
       <StateButton />
     </Container>
   );
