@@ -43,6 +43,23 @@ const stories = storiesOf('Card', module)
       </Grid>
     </Container>
   )
+  .add('Button as last element', () =>
+    <Container fluid>
+      <Grid stackable>
+      <Grid.Column width={3} />
+      <Grid.Column width={6}>
+        <Card fluid>
+          <Card.Content>
+            <Card.Header>Advanced ticketing</Card.Header>
+            <p>Set up your events to success with additional settings to help you tailor to your event's needs.</p>
+          </Card.Content>
+          <Button primary>Primary</Button>
+        </Card>
+      </Grid.Column>
+      <Grid.Column width={3} />
+      </Grid>
+    </Container>
+  )
   .add('Form', () =>
     <Container fluid>
       <Grid stackable>
