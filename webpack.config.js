@@ -1,3 +1,5 @@
+// const path = require('path');
+
 module.exports = {
   entry: './webpack.index.js',
   module: {
@@ -18,6 +20,10 @@ module.exports = {
   },
   resolve: {
     extensions: ['.ts', '.tsx', '.js', '.jsx'],
+    // alias: {
+    //   // Needed when milkyway is linked via `npm link` to app
+    //   react: path.resolve("./node_modules/react")
+    // }
   },
   output: {
     path: __dirname,

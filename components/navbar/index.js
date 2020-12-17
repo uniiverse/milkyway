@@ -8,7 +8,7 @@ import { EventSearcher } from './event-searcher';
 export const Navbar = (props) => (
   <React.Fragment>
     <NavbarComputer {...props} minWidth={breakpoints.computer} />
-    <NavbarTabletMobile {...props} maxWidth={breakpoints.largestTablet} />
+    {/* <NavbarTabletMobile {...props} maxWidth={breakpoints.largestTablet} /> */}
   </React.Fragment>
 );
 
@@ -20,13 +20,13 @@ const NavbarComputer = ({ user, sticky, onManage, minWidth }) => (
         <UniverseHome />
         <EventSearcher />
       </Menu.Menu>
-      <Menu.Menu position="right">
+      {/* <Menu.Menu position="right">
         <Help loggedIn={!!user} />
         <FindEvents />
         <CreateOrHostEvent isHost={user && user.is_host} />
         <LoginAndSignUp loggedIn={!!user} />
         <Account user={user} />
-      </Menu.Menu>
+      </Menu.Menu> */}
     </Menu>
   </Responsive>
 );
