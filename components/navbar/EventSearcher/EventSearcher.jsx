@@ -4,6 +4,16 @@ const debounce = require('lodash.debounce');
 
 export const EventSearcher = () => {
   const [address, setAddress] = useState('');
+  // on change functions
+  const onSearchChange = ({ value, setAddress }) => {
+    setAddress(value);
+    debouncedRedirect(value);
+  };
+
+  // helper functions
+  const debouncedRedirect = debounce((loc) => {
+    if (loc) window.location.href = `/explore?query=${loc.replace(/\s+/, '+')}`;
+  }, 1000);
 
   return (
     <Menu.Item>
@@ -18,13 +28,3 @@ export const EventSearcher = () => {
   );
 }
 
-// on change functions
-const onSearchChange = ({ value, setAddress }) => {
-  setAddress(value);
-  debouncedRedirect(value);
-};
-
-// helper functions
-const debouncedRedirect = debounce((loc) => {
-  if (loc) window.location.href = `/explore?query=${loc.replace(/\s+/, '+')}`;
-}, 1000);
