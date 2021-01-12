@@ -5,7 +5,6 @@ import { EventSearcher } from '../EventSearcher';
 import Logo from '../../../assets/universe.svg';
 import styles from './NavbarComputer.css';
 
-console.log(styles)
 export const NavbarComputer = ({ user, sticky, minWidth }) => (
   <Responsive minWidth={minWidth}>
     <Menu className={styles.menu}>
