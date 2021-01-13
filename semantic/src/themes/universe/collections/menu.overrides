@@ -1,19 +1,24 @@
 .ui.menu .right.menu > * {
+  padding: 0 !important;
+  background: none !important;
+}
+.ui.menu .menu > div > *:first-child, .ui.menu .menu > a {
   color: @white !important;
   opacity: 0.8 !important;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  margin: 0 8px;
+  border-bottom: 3px solid transparent;
 }
 
 .ui.menu .menu > *:hover {
   background: none !important;
 }
 
-.ui.menu .right.menu > *:hover {
+.ui.menu .right.menu > div > *:hover, .ui.menu .right.menu > a:hover  {
   opacity: 1 !important;
   border-bottom: 3px solid @white
-}
-
-.ui.menu.menu {
-  background-color: @blueDark;
 }
 
 .ui.menu .active.item {

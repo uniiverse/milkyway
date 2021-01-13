@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions'
 import { Container } from 'semantic-ui-react';
-import { Navbar } from '../../components/navbar';
+import { Navbar } from '../../components/Navbar';
 
 const NavbarWrapper = ({ children, host }) => {
   const [user, setUser] = useState({ name: 'Some Guy', is_host: host || false });

@@ -1,21 +1,13 @@
+
 import React from 'react';
-import { Menu, Dropdown, Image, Responsive, Icon } from 'semantic-ui-react';
+import { Menu, Dropdown, Image, Responsive } from 'semantic-ui-react';
+import { EventSearcher } from '../EventSearcher';
+import Logo from '../../../assets/universe.svg';
+import styles from './NavbarComputer.css';
 
-import { breakpoints } from '../../lib/breakpoints';
-import Logo from '../../assets/universe.svg';
-import { EventSearcher } from './event-searcher';
-
-export const Navbar = (props) => (
-  <React.Fragment>
-    <NavbarComputer {...props} minWidth={breakpoints.computer} />
-    <NavbarTabletMobile {...props} maxWidth={breakpoints.largestTablet} />
-  </React.Fragment>
-);
-
-// size specific, will move these into their own files later
-const NavbarComputer = ({ user, sticky, onManage, minWidth }) => (
+export const NavbarComputer = ({ user, sticky, minWidth }) => (
   <Responsive minWidth={minWidth}>
-    <Menu>
+    <Menu className={styles.menu}>
       <Menu.Menu position="left">
         <UniverseHome />
         <EventSearcher />
@@ -31,32 +23,14 @@ const NavbarComputer = ({ user, sticky, onManage, minWidth }) => (
   </Responsive>
 );
 
-const NavbarTabletMobile = ({ user, sticky, onManage, maxWidth }) => (
-  <Responsive maxWidth={maxWidth}>
-    <Menu widths={3}>
-      <Menu.Item>
-        <Icon className="universe-search" size="big" />
-      </Menu.Item>
-      <Menu.Item>
-        <Logo />
-      </Menu.Item>
-      <Menu.Item>
-        <Icon className="universe-basic-information" size="big" />
-      </Menu.Item>
-    </Menu>
-  </Responsive>
-);
-
 // private components
-const UniverseHome = () => <Menu.Item href="/"><Logo /></Menu.Item>;
-
 const CreateOrHostEvent = ({ isHost }) => {
   if (isHost) return <Menu.Item href='/create'>Create Events</Menu.Item>
   return (
     <Dropdown item pointing text='Host Events'>
       <Dropdown.Menu>
         <Dropdown.Item href="/create">Create Event</Dropdown.Item>
-        <Dropdown.Divider />
+        <Dropdown.Divider className={styles.divider} />
         <Dropdown.Item href="/features">Features</Dropdown.Item>
         <Dropdown.Item href="/customers">Customers</Dropdown.Item>
         <Dropdown.Item href="/pricing">Pricing</Dropdown.Item>
@@ -83,7 +57,7 @@ const Help = ({ loggedIn }) => {
     <Dropdown item pointing text='Help'>
       <Dropdown.Menu>
         <Dropdown.Item href="/help">Help Center</Dropdown.Item>
-        <Dropdown.Divider />
+        <Dropdown.Divider className={styles.divider} />
         <Dropdown.Item href="/help/find_tickets">Where are my tickets?</Dropdown.Item>
         <Dropdown.Item href="/help/contact_organizer">Contact the event organizer</Dropdown.Item>
         <Dropdown.Item href="/help/get_refund">Can I get a refund?</Dropdown.Item>
@@ -104,10 +78,11 @@ const Account = ({ user }) => {
 
   return (
     <React.Fragment>
-      <Dropdown item trigger={trigger}>
+      <Dropdown item pointing trigger={trigger}>
         <Dropdown.Menu>
+        <Dropdown.Item href="/dashboard">Dashboard</Dropdown.Item>
           <Dropdown.Item href="/dashboard/tickets">Your tickets</Dropdown.Item>
-          <Dropdown.Divider />
+          <Dropdown.Divider className={styles.divider}/>
           <Dropdown.Item href={`/users/${user.slug || user.id || ''}`}>Profile</Dropdown.Item>
           <Dropdown.Item href="/dashboard/conversations">Messages</Dropdown.Item>
           <Dropdown.Item href="/dashboard/settings">Settings</Dropdown.Item>
@@ -118,3 +93,5 @@ const Account = ({ user }) => {
     </React.Fragment>
   );
 };
+
+const UniverseHome = () => <Menu.Item href="/"><Logo /></Menu.Item>;

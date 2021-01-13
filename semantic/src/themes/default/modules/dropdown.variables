@@ -368,7 +368,7 @@
 @pointingArrowBackground: @white;
 @pointingArrowZIndex: 2;
 @pointingArrowBoxShadow: -@menuBorderWidth -@menuBorderWidth 0px 0px @menuBorderColor;
-@pointingArrowSize: @relative7px;
+@pointingArrowSize: @relative14px;
 
 @pointingMenuDistance: @mini;
 @pointingMenuBorderRadius: @borderRadius;
