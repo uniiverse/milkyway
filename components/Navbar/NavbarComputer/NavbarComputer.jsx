@@ -3,7 +3,7 @@ import React from 'react';
 import { Menu, Dropdown, Image, Responsive } from 'semantic-ui-react';
 import { EventSearcher } from '../EventSearcher';
 import Logo from '../../../assets/universe.svg';
-import styles from './NavbarComputer.css';
+import styles from './NavbarComputer.module.css';
 
 export const NavbarComputer = ({ user, sticky, minWidth }) => (
   <Responsive minWidth={minWidth}>
