@@ -1,18 +1,42 @@
+const path = require('path');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
+
 module.exports = {
   entry: './webpack.index.js',
+  plugins: [
+    new MiniCssExtractPlugin({
+      filename: 'milkyway.css',
+    }),
+  ],
   module: {
     rules: [
       {
-        test: /\.js$/,
-        use: {
-          loader: 'babel-loader',
-        },
+        test: /\.(js|jsx|ts|tsx)$/,
+        use: { loader: 'babel-loader' },
       },
       {
         test: /\.svg$/,
         use: {
           loader: 'svg-react-loader'
         },
+      },
+      {
+        test: /\.css$/,
+        include: [path.resolve(__dirname, 'components/')],
+        loaders: [
+          MiniCssExtractPlugin.loader,
+          {
+            loader: 'css-loader',
+            options: {
+              importLoaders: 1,
+              modules: {
+                auto: true,
+                localIdentName: '[local]-[hash:base64:5]',
+              }
+            },
+          },
+        ],
       },
     ],
   },
@@ -25,6 +49,11 @@ module.exports = {
     library: 'milkywayComponents',
     libraryTarget: 'umd',
     umdNamedDefine: true,
+  },
+  optimization: {
+    minimizer: [
+      new CssMinimizerPlugin(),
+    ],
   },
   externals: {
     // Don't bundle react, react-dom, semantic-ui, semantic-ui-react

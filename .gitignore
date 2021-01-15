@@ -19,7 +19,7 @@ semantic/src/themes/universe/assets/icons/*
 dist/
 semantic*js
 semantic*css
-index.js
+# index.js
 
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
