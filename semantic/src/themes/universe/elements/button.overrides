@@ -2,14 +2,6 @@
   color: @ink;
 }
 
-.ui.buttons .disabled.button:not(.primary):not(.secondary),
-.ui.disabled.button:not(.primary):not(.secondary),
-.ui.button:disabled:not(.primary):not(.secondary),
-.ui.disabled.button:hover:not(.primary):not(.secondary),
-.ui.disabled.active.button:not(.primary):not(.secondary) {
-  box-shadow: 0 0 0 1px @orbit !important;
-}
-
 .ui.buttons .button:active,
 .ui.button:active {
   box-shadow: inset 0 2px 5px 0 rgba(28, 35, 43, 0.15) !important;
