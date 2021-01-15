@@ -99,16 +99,16 @@
 
 .ui.cards > .card > :first-child,
 .ui.card > :first-child {
-  border-radius: 6px 6px 0em 0em !important;
+  border-radius: 6px 6px 0em 0em;
   border-top: none !important;
 }
 .ui.cards > .card > :last-child,
 .ui.card > :last-child {
-  border-radius: 0em 0em 6px 6px !important;
+  border-radius: 0em 0em 6px 6px;
 }
 .ui.cards > .card > :only-child,
 .ui.card > :only-child {
-  border-radius: 6px !important;
+  border-radius: 6px;
 }
 
 /*--------------
