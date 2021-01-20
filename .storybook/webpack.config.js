@@ -1,5 +1,3 @@
-const path  = require('path');
-
 module.exports = async ({ config }) => {
   config.resolve.extensions.push('.svg');
 
@@ -29,7 +27,6 @@ module.exports = async ({ config }) => {
       },
       'sass-loader',
     ],
-    exclude: path.join(__dirname, 'node_modules')
   });
 
   return config;
