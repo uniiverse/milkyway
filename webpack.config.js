@@ -36,14 +36,7 @@ module.exports = {
               }
             },
           },
-          {
-            loader: 'sass-loader',
-            options: {
-              sassOptions: {
-                precision: 10,
-              },
-            }
-          },
+          'sass-loader'
         ],
       },
     ],
