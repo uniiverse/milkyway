@@ -22,7 +22,7 @@ module.exports = {
         },
       },
       {
-        test: /\.css$/,
+        test: /\.scss$/,
         include: [path.resolve(__dirname, 'components/')],
         loaders: [
           MiniCssExtractPlugin.loader,
@@ -35,6 +35,14 @@ module.exports = {
                 localIdentName: '[local]-[hash:base64:5]',
               }
             },
+          },
+          {
+            loader: 'sass-loader',
+            options: {
+              sassOptions: {
+                precision: 10,
+              },
+            }
           },
         ],
       },
