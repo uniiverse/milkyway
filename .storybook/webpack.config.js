@@ -11,5 +11,23 @@ module.exports = async ({ config }) => {
     use: [{ loader: require.resolve('svg-react-loader') }]
   });
 
+  config.module.rules.push({
+    test: /\.scss$/,
+    use: [
+      'style-loader',
+      {
+        loader: 'css-loader',
+        options: {
+          importLoaders: 1,
+          modules: {
+            auto: true,
+            localIdentName: '[local]-[hash:base64:5]',
+          }
+        },
+      },
+      'sass-loader',
+    ],
+  });
+
   return config;
 };

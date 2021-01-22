@@ -544,7 +544,11 @@ module.exports = g;
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+// ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
+
+// EXPORTS
+__webpack_require__.d(__webpack_exports__, "Navbar", function() { return /* reexport */ Navbar_Navbar; });
 
 // EXTERNAL MODULE: external {"commonjs":"react","commonjs2":"react","amd":"React","root":"React"}
 var external_commonjs_react_commonjs2_react_amd_React_root_React_ = __webpack_require__(0);
@@ -608,9 +612,9 @@ var EventSearcher_EventSearcher = function EventSearcher() {
 var universe = __webpack_require__(2);
 var universe_default = /*#__PURE__*/__webpack_require__.n(universe);
 
-// CONCATENATED MODULE: ./components/Navbar/NavbarComputer/NavbarComputer.module.css
+// CONCATENATED MODULE: ./components/Navbar/NavbarComputer/NavbarComputer.module.scss
 // extracted by mini-css-extract-plugin
-/* harmony default export */ var NavbarComputer_module = ({"divider":"divider-2qhsN","menu":"menu-mDa5P"});
+/* harmony default export */ var NavbarComputer_module = ({"divider":"divider-1D2N2","menu":"menu-UrAZu"});
 // CONCATENATED MODULE: ./components/Navbar/NavbarComputer/NavbarComputer.jsx
 
 
@@ -792,7 +796,6 @@ var Navbar_Navbar = function Navbar(props) {
 // CONCATENATED MODULE: ./components/Navbar/index.js
 
 // CONCATENATED MODULE: ./webpack.index.js
-/* concated harmony reexport Navbar */__webpack_require__.d(__webpack_exports__, "Navbar", function() { return Navbar_Navbar; });
 
 
 /***/ })
