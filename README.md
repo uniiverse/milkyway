@@ -226,3 +226,4 @@ Here's some of the basic components and the progress so far:
 - [x] Search
 - [x] Segment (Placeholders)
 - [x] Step
+- [x] DatePicker
