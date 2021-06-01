@@ -24,7 +24,8 @@ function loadStories() {
     'search',
     'segment',
     'step',
-    'menu'
+    'menu',
+    'datepicker'
   ].forEach(function(comp){
     require("./" + comp);
   });

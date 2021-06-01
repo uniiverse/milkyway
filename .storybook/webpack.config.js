@@ -1,3 +1,6 @@
+const path = require('path');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+
 module.exports = async ({ config }) => {
   config.resolve.extensions.push('.svg');
 
@@ -9,6 +12,42 @@ module.exports = async ({ config }) => {
   config.module.rules.push({
     test: /\.svg$/,
     use: [{ loader: require.resolve('svg-react-loader') }]
+  });
+
+  config.module.rules.push({
+    test: /\.less$/,
+    use: [
+      {
+        loader: "style-loader"
+      },
+      {
+        loader: "css-loader",
+        options: {
+          modules: true
+        }
+      },
+      {
+        loader: "less-loader"
+      }
+    ]
+  });
+  
+  config.module.rules.push({
+    test: /\.css$/,
+    include: [path.resolve(__dirname, 'components/'), path.resolve(__dirname, 'node_modules/react-dates/lib/css')],
+    loaders: [
+      MiniCssExtractPlugin.loader,
+      {
+        loader: 'css-loader',
+        options: {
+          importLoaders: 1,
+          modules: {
+            auto: true,
+            localIdentName: '[local]-[hash:base64:5]',
+          }
+        },
+      },
+    ],
   });
 
   return config;
