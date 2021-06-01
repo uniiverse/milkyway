@@ -7,8 +7,10 @@ import './styles.less';
 
 export const StyledDatePickerController = 
   ({ highlightedDates, onDateChange, disablePrev, disableNext, date, ...passthroughProps }) => {
+    const [selectedDate, setSelectedDate] = useState(date);
 
     function onDateSelect(newDate) {
+      setSelectedDate(newDate);
       if(onDateChange){
         onDateChange(newDate);
       }
@@ -23,19 +25,20 @@ export const StyledDatePickerController =
     }
 
     return (
-      <>
+      <div className="singleDatePickerWrapper">
         <DayPickerSingleDateController
           {...passthroughProps}
           noBorder
           hideKeyboardShortcutsPanel
           numberOfMonths={1}
-          date={date}
+          date={selectedDate}
           onDateChange={onDateSelect}
-          isDayHighlighted={highlightedDates && isDayHighlighted}
-          isDayBlocked={highlightedDates && isDayBlocked}
+          focused={true}
+          isDayHighlighted={isDayHighlighted}
+          isDayBlocked={isDayBlocked}
           navPrev={disablePrev ? <span /> : <Icon className="universe-chevron-left" />}
           navNext={disableNext ? <span /> : <Icon className="universe-chevron-right" />}
         />
-      </>
+      </div>
     );
   };

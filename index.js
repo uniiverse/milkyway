@@ -10225,7 +10225,7 @@ exports["default"] = _default;
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.i, "/*******************************\n     User Global Variables\n*******************************/\n/*-------------------\n       Fonts\n--------------------*/\n/*-------------------\n      Base Sizes\n--------------------*/\n/*-------------------\n    Border Radius\n--------------------*/\n/*-------------------\n    Brand Colors\n--------------------*/\n/*-------------------\n       Links\n--------------------*/\n/*-------------------\n        Grid\n--------------------*/\n/* Columns */\n/*-------------------\n       Page\n--------------------*/\n/*-------------------\n       Paragraph\n--------------------*/\n/*******************************\n          Highlighting\n*******************************/\n.DayPickerNavigation {\n  top: 22px;\n  display: flex;\n  justify-content: space-between;\n  margin: 0px 30px;\n}\n.CalendarMonth_caption {\n  font-size: 16px;\n  height: 100px;\n}\n@media (min-width: 768px) {\n  .CalendarMonth_caption {\n    height: 92px;\n  }\n}\n.DayPicker_weekHeader_ul {\n  color: #A9B0B7;\n  margin: 2px 0;\n}\n@media (min-width: 768px) {\n  .DayPicker_weekHeader_ul {\n    margin: -2px 0;\n  }\n}\n.CalendarDay__default {\n  border: none;\n  color: #A9B0B7;\n}\n.CalendarDay__default:hover {\n  border: none;\n  border-radius: 6px;\n}\n.CalendarDay__selected {\n  background: #3A66E5 !important;\n  border-radius: 6px !important;\n  color: white !important;\n}\n.CalendarDay__blocked_calendar, .CalendarDay__blocked_calendar:hover {\n  background: none;\n}\n.CalendarDay__highlighted_calendar {\n  background: none;\n  color: #3A66E5;\n  font-weight: 500;\n}\n.CalendarDay__highlighted_calendar:active, .CalendarDay__highlighted_calendar:hover {\n  background: none;\n  color: #3A66E5;\n  font-weight: 500;\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.i, "/*******************************\n     User Global Variables\n*******************************/\n/*-------------------\n       Fonts\n--------------------*/\n/*-------------------\n      Base Sizes\n--------------------*/\n/*-------------------\n    Border Radius\n--------------------*/\n/*-------------------\n    Brand Colors\n--------------------*/\n/*-------------------\n       Links\n--------------------*/\n/*-------------------\n        Grid\n--------------------*/\n/* Columns */\n/*-------------------\n       Page\n--------------------*/\n/*-------------------\n       Paragraph\n--------------------*/\n/*******************************\n          Highlighting\n*******************************/\n.singleDatePickerWrapper .DayPicker_weekHeader_ul {\n  color: #A9B0B7;\n  margin: 2px 0;\n}\n@media (min-width: 768px) {\n  .singleDatePickerWrapper .DayPicker_weekHeader_ul {\n    margin: -2px 0;\n  }\n}\n.singleDatePickerWrapper .CalendarDay__default {\n  border: none;\n  color: #A9B0B7;\n}\n.singleDatePickerWrapper .CalendarDay__selected {\n  background: #3A66E5 !important;\n  border-radius: 6px !important;\n  color: white !important;\n}\n.singleDatePickerWrapper .CalendarDay__highlighted_calendar {\n  background: none;\n  color: #3A66E5;\n  font-weight: 500;\n}\n.singleDatePickerWrapper .CalendarDay__highlighted_calendar:active, .singleDatePickerWrapper .CalendarDay__highlighted_calendar:hover {\n  background: none;\n  color: #3A66E5;\n  font-weight: 500;\n}\n.singleDatePickerWrapper .DayPickerNavigation {\n  top: 22px;\n  display: flex;\n  justify-content: space-between;\n  margin: 0px 30px;\n}\n.singleDatePickerWrapper .CalendarMonth_caption {\n  font-size: 16px;\n  height: 100px;\n}\n@media (min-width: 768px) {\n  .singleDatePickerWrapper .CalendarMonth_caption {\n    height: 92px;\n  }\n}\n.singleDatePickerWrapper .CalendarDay__default:hover {\n  border: none;\n  border-radius: 6px;\n}\n.singleDatePickerWrapper .CalendarDay__blocked_calendar, .singleDatePickerWrapper .CalendarDay__blocked_calendar:hover {\n  background: none;\n}\n", ""]);
 // Exports
 ___CSS_LOADER_EXPORT___.locals = {};
 /* harmony default export */ __webpack_exports__["a"] = (___CSS_LOADER_EXPORT___);
@@ -42866,10 +42866,17 @@ var update = injectStylesIntoStyleTag_default()(styles["a" /* default */], optio
 // CONCATENATED MODULE: ./components/StyledDatePickerController/StyledDatePickerController.jsx
 function StyledDatePickerController_extends() { StyledDatePickerController_extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return StyledDatePickerController_extends.apply(this, arguments); }
 
+function StyledDatePickerController_slicedToArray(arr, i) { return StyledDatePickerController_arrayWithHoles(arr) || StyledDatePickerController_iterableToArrayLimit(arr, i) || StyledDatePickerController_nonIterableRest(); }
+
+function StyledDatePickerController_nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance"); }
+
+function StyledDatePickerController_iterableToArrayLimit(arr, i) { if (!(Symbol.iterator in Object(arr) || Object.prototype.toString.call(arr) === "[object Arguments]")) { return; } var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function StyledDatePickerController_arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
 function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
 
 function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
-
 
 
 
@@ -42885,7 +42892,14 @@ var StyledDatePickerController_StyledDatePickerController = function StyledDateP
       date = _ref.date,
       passthroughProps = _objectWithoutProperties(_ref, ["highlightedDates", "onDateChange", "disablePrev", "disableNext", "date"]);
 
+  var _useState = Object(external_commonjs_react_commonjs2_react_amd_React_root_React_["useState"])(date),
+      _useState2 = StyledDatePickerController_slicedToArray(_useState, 2),
+      selectedDate = _useState2[0],
+      setSelectedDate = _useState2[1];
+
   function onDateSelect(newDate) {
+    setSelectedDate(newDate);
+
     if (onDateChange) {
       onDateChange(newDate);
     }
@@ -42901,14 +42915,17 @@ var StyledDatePickerController_StyledDatePickerController = function StyledDateP
     return highlightedDates && !highlightedDates.includes(day.format('YYYY-MM-DD'));
   }
 
-  return external_commonjs_react_commonjs2_react_amd_React_root_React_default.a.createElement(external_commonjs_react_commonjs2_react_amd_React_root_React_default.a.Fragment, null, external_commonjs_react_commonjs2_react_amd_React_root_React_default.a.createElement(react_dates["DayPickerSingleDateController"], StyledDatePickerController_extends({}, passthroughProps, {
+  return external_commonjs_react_commonjs2_react_amd_React_root_React_default.a.createElement("div", {
+    className: "singleDatePickerWrapper"
+  }, external_commonjs_react_commonjs2_react_amd_React_root_React_default.a.createElement(react_dates["DayPickerSingleDateController"], StyledDatePickerController_extends({}, passthroughProps, {
     noBorder: true,
     hideKeyboardShortcutsPanel: true,
     numberOfMonths: 1,
-    date: date,
+    date: selectedDate,
     onDateChange: onDateSelect,
-    isDayHighlighted: highlightedDates && isDayHighlighted,
-    isDayBlocked: highlightedDates && isDayBlocked,
+    focused: true,
+    isDayHighlighted: isDayHighlighted,
+    isDayBlocked: isDayBlocked,
     navPrev: disablePrev ? external_commonjs_react_commonjs2_react_amd_React_root_React_default.a.createElement("span", null) : external_commonjs_react_commonjs2_react_amd_React_root_React_default.a.createElement(external_commonjs_semantic_ui_react_commonjs2_semantic_ui_react_amd_SemanticUIReact_root_SemanticUIReact_["Icon"], {
       className: "universe-chevron-left"
     }),
