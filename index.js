@@ -42906,7 +42906,7 @@ var StyledDatePickerController_StyledDatePickerController = function StyledDateP
   }
 
   function isDayHighlighted(day) {
-    return highlightedDates.some(function (highlightedDate) {
+    return highlightedDates && highlightedDates.some(function (highlightedDate) {
       return day.isSame(highlightedDate, 'day');
     });
   }

@@ -17,7 +17,7 @@ export const StyledDatePickerController =
     }
 
     function isDayHighlighted(day) {
-      return highlightedDates.some(highlightedDate => day.isSame(highlightedDate, 'day'));
+      return highlightedDates && highlightedDates.some(highlightedDate => day.isSame(highlightedDate, 'day'));
     }
 
     function isDayBlocked(day) {
