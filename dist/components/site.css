@@ -126,6 +126,10 @@ a:hover {
   background-color: #A2CBFF;
   color: #1C232B;
 }
+::-moz-selection {
+  background-color: #A2CBFF;
+  color: #1C232B;
+}
 ::selection {
   background-color: #A2CBFF;
   color: #1C232B;
@@ -134,6 +138,15 @@ a:hover {
 /* Form */
 textarea::-webkit-selection,
 input::-webkit-selection {
+  background-color: #A2CBFF;
+  color: #1C232B;
+}
+textarea::-moz-selection,
+input::-moz-selection {
+  background-color: #A2CBFF;
+  color: #1C232B;
+}
+textarea::-moz-selection, input::-moz-selection {
   background-color: #A2CBFF;
   color: #1C232B;
 }
