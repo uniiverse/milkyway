@@ -22,8 +22,25 @@ module.exports = {
         },
       },
       {
+        test: /\.less$/,
+        use: [
+          {
+            loader: "style-loader"
+          },
+          {
+            loader: "css-loader",
+            options: {
+              modules: true
+            }
+          },
+          {
+            loader: "less-loader"
+          }
+        ]
+      },
+      {
         test: /\.css$/,
-        include: [path.resolve(__dirname, 'components/')],
+        include: [path.resolve(__dirname, 'components/'), path.resolve(__dirname, 'node_modules/react-dates/lib/css')],
         loaders: [
           MiniCssExtractPlugin.loader,
           {

@@ -1,0 +1,48 @@
+@import url(../../semantic/src/themes/universe/globals/site.variables);
+
+:global {
+  .DatePicker .ui.fluid.card {
+    margin-top: 8px;
+  }
+}
+
+.calendarIcon {
+  width: auto !important;
+  height: auto !important;
+  &:before{
+    color: @inkLight;
+  }
+}
+
+.selection {
+  flex-grow: 1;
+}
+
+.dropdownTrigger {
+  display: inline-flex !important;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  background: white;
+  border: 1px solid @orbit;
+  border-radius: 6px;
+  padding: 8px;
+  min-width: 200px;
+  cursor: pointer;
+}
+
+.dropdown > i {
+  display: none;
+}
+
+.dropdownMenu > div {
+  margin: 0 8px;
+}
+
+.chevron{
+  margin-top: -5px !important;
+  margin-right: 0px!important;
+  &:before{
+    color: @inkLight;
+  }
+}
