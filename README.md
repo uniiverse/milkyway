@@ -88,6 +88,21 @@ Something like this will do:
   }
 ```
 
+
+
+
+If you are experiencing an issue with `Hooks can only be called inside the body of a function component`. Please read through the link here: https://stackoverflow.com/questions/57455200/cant-use-hooks-with-my-react-component-library-invariant-violation-invalid-hoo?answertab=active#tab-top. Basically, you need to ensure that react is loaded only once, which can be done as follows:
+
+```
+resolve: {
+  ...
+  alias: {
+    // Needed when library is linked via `npm link` to app
+    react: path.resolve("./node_modules/react")
+  }
+}
+```
+
 ## Contributing
 
 Contributions are more than welcome: every step counts in having a unified UI for our users.
@@ -226,3 +241,5 @@ Here's some of the basic components and the progress so far:
 - [x] Search
 - [x] Segment (Placeholders)
 - [x] Step
+- [x] DatePicker
+  - [x] StyledDatePicker
