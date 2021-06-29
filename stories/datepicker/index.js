@@ -27,6 +27,26 @@ const stories = storiesOf('DatePicker', module)
       />
     </Container>
   )
+  .add('StyledDatePickerController with non-moment object', () =>
+    <Container>
+      <br/>
+      <br/>
+      <StyledDatePickerController 
+        onDateChange={action('onDateChange')}
+        date={new Date()}
+      />
+    </Container>
+  )
+  .add('StyledDatePickerController with JS Date object', () =>
+    <Container>
+      <br/>
+      <br/>
+      <StyledDatePickerController 
+        onDateChange={action('onDateChange')}
+        date={new Date(2018, 11, 24, 10, 33, 30, 0)}
+      />
+    </Container>
+  )
   .add('with a particular date selected', () =>
     <Container>
       <br/>
