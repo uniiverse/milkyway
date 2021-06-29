@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { DayPickerSingleDateController } from 'react-dates';
+import moment from 'moment';
 import { Icon } from 'semantic-ui-react';
 import 'react-dates/initialize';
 import 'react-dates/lib/css/_datepicker.css';
@@ -7,7 +8,7 @@ import './styles.less';
 
 export const StyledDatePickerController = 
   ({ highlightedDates, onDateChange, disablePrev, disableNext, date, ...passthroughProps }) => {
-    const [selectedDate, setSelectedDate] = useState(date);
+    const [selectedDate, setSelectedDate] = useState(moment(date));
 
     function onDateSelect(newDate) {
       setSelectedDate(newDate);

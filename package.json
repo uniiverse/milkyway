@@ -41,6 +41,7 @@
   "homepage": "https://github.com/uniiverse/milkyway#readme",
   "dependencies": {
     "lodash.debounce": "^4.0.8",
+    "moment": "^2.29.1",
     "react-dates": "^21.8.0",
     "styled-components": "^5.3.0"
   },
