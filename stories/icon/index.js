@@ -349,3 +349,5 @@ const stories = storiesOf('Icon', module)
       </Table>
     </Container>
 );
+
+export default stories;
