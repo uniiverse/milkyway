@@ -291,6 +291,10 @@ const stories = storiesOf('Icon', module)
             <Table.Cell>universe-worldwide-web</Table.Cell>
             <Table.Cell><Icon className="universe-worldwide-web" /></Table.Cell>
           </Table.Row>
+          <Table.Row>
+            <Table.Cell>universe-magic</Table.Cell>
+            <Table.Cell><Icon className="universe-magic" /></Table.Cell>
+          </Table.Row>
         </Table.Body>
       </Table>
     </Container>
