@@ -66,3 +66,4 @@
 .universe-users:before { content: '\e842'; }
 .universe-view:before { content: '\e843'; }
 .universe-worldwide-web:before { content: '\e844'; }
+.universe-magic:before { content: '\f0d0'; }
