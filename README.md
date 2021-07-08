@@ -205,6 +205,7 @@ Make sure to follow [semantic versioning](https://semver.org/).
 - Update the content of `/fontello` directory with the zipped folder content.
 - Update `semantic/src/themes/universe/elements/icon.overrides` file with the new icons.
 - Add/Remove/Update icon in `stories/icon/index.js`.
+- Restart storybook in order to load the new font.
 
 ## Roadmap
 
