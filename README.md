@@ -197,6 +197,16 @@ nvm exec npm version x.x.x
 
 Make sure to follow [semantic versioning](https://semver.org/).
 
+#### Updating font icons:
+- Head to https://fontello.com/
+- click on the wrench icon and click on Import.
+- Select `fontello/config.json` from the finder.
+- Make changes and download the new font.
+- Update the content of `/fontello` directory with the zipped folder content.
+- Update `semantic/src/themes/universe/elements/icon.overrides` file with the new icons.
+- Add/Remove/Update icon in `stories/icon/index.js`.
+- Restart storybook in order to load the new font.
+
 ## Roadmap
 
 This is still an ongoing effort, and there are many questions still unanswered.
