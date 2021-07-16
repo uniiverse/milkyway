@@ -1,9 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Logo from '../../../assets/universe.svg';
 import { Responsive, Menu, Icon, Button } from 'semantic-ui-react';
 import styles from '../NavbarComputer/NavbarComputer.module.less';
 
-export const NavbarTabletMobile = ({ user, sticky, maxWidth, onClick, visible }) => {
+export const NavbarTabletMobile = (props, { user, sticky, maxWidth }) => {
+  const [visible, setVisible] = useState(false);
   return (
     <Responsive maxWidth={maxWidth}>
       <Menu widths={3} className={styles.menu}>
@@ -18,7 +19,7 @@ export const NavbarTabletMobile = ({ user, sticky, maxWidth, onClick, visible })
                 <Icon className="universe-chevron-left" size="big" />
               )
             }
-            onClick={() => onClick()}
+            onClick={() => setVisible(!visible)}
           ></Button>
         </Menu.Item>
         <Menu.Item>
@@ -28,6 +29,8 @@ export const NavbarTabletMobile = ({ user, sticky, maxWidth, onClick, visible })
           <Icon className="universe-basic-information" size="big" />
         </Menu.Item>
       </Menu>
+      <div className={visible ? styles.sidebarOverlay : ''} />
+      <div className={visible ? styles.sidebar + ' ' + styles.slideInLeft : styles.sidebar}>{props.children}</div>
     </Responsive>
   );
 };

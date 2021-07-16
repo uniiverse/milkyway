@@ -12874,12 +12874,15 @@ module.exports = function GetV(V, P) {
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.i, ".xfv_gnYiEMSK_n0CgwyD_ {\n  margin: 0 !important;\n}\n._3sNzuGTECYLxKWR6zZDD_h {\n  background: #3a66e5 !important;\n}\n._1woqWrqqqCjWbfNKgYhd2P {\n  background: unset !important;\n  box-shadow: none !important;\n  max-height: none !important;\n}\n._1woqWrqqqCjWbfNKgYhd2P:active {\n  box-shadow: none !important;\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.i, ".xfv_gnYiEMSK_n0CgwyD_ {\n  margin: 0 !important;\n}\n._3sNzuGTECYLxKWR6zZDD_h {\n  background: #3a66e5 !important;\n}\n._1woqWrqqqCjWbfNKgYhd2P {\n  background: unset !important;\n  box-shadow: none !important;\n  max-height: none !important;\n}\n._1woqWrqqqCjWbfNKgYhd2P:active {\n  box-shadow: none !important;\n}\n._3XebMM1LXV8FUTGx4bwH0 {\n  transform: translateX(-100%);\n  transition: -webkit-transform 0.15s cubic-bezier(0.645, 0.045, 0.355, 1);\n  transition: transform 0.15s cubic-bezier(0.645, 0.045, 0.355, 1);\n  transition: transform 0.15s cubic-bezier(0.645, 0.045, 0.355, 1), -webkit-transform 0.15s cubic-bezier(0.645, 0.045, 0.355, 1);\n  position: relative;\n  /* Semantic ui padding adjustment */\n  top: -14px;\n  z-index: 5;\n}\n._2sKSVlJ2gJRvZ5rgIgy0EN {\n  transform: translateX(0);\n  -webkit-transform: translateX(0);\n}\n._3dZ-ls3LwHcZ8U1XEgefnV {\n  z-index: 4;\n  right: 0;\n  width: 100%;\n  position: fixed;\n  top: 72px;\n  bottom: 0;\n  left: 0;\n  transition: 0.05s cubic-bezier(0.55, 0.055, 0.675, 0.19);\n  background-color: rgba(28, 35, 43);\n}\n", ""]);
 // Exports
 ___CSS_LOADER_EXPORT___.locals = {
 	"divider": "xfv_gnYiEMSK_n0CgwyD_",
 	"menu": "_3sNzuGTECYLxKWR6zZDD_h",
-	"button": "_1woqWrqqqCjWbfNKgYhd2P"
+	"button": "_1woqWrqqqCjWbfNKgYhd2P",
+	"sidebar": "_3XebMM1LXV8FUTGx4bwH0",
+	"slideInLeft": "_2sKSVlJ2gJRvZ5rgIgy0EN",
+	"sidebarOverlay": "_3dZ-ls3LwHcZ8U1XEgefnV"
 };
 /* harmony default export */ __webpack_exports__["a"] = (___CSS_LOADER_EXPORT___);
 
@@ -49327,16 +49330,28 @@ var NavbarComputer_UniverseHome = function UniverseHome() {
 // CONCATENATED MODULE: ./components/Navbar/NavbarComputer/index.js
 
 // CONCATENATED MODULE: ./components/Navbar/NavbarTabletMobile/NavbarTabletMobile.jsx
+function NavbarTabletMobile_slicedToArray(arr, i) { return NavbarTabletMobile_arrayWithHoles(arr) || NavbarTabletMobile_iterableToArrayLimit(arr, i) || NavbarTabletMobile_nonIterableRest(); }
+
+function NavbarTabletMobile_nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance"); }
+
+function NavbarTabletMobile_iterableToArrayLimit(arr, i) { if (!(Symbol.iterator in Object(arr) || Object.prototype.toString.call(arr) === "[object Arguments]")) { return; } var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function NavbarTabletMobile_arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 
 
 
 
-var NavbarTabletMobile_NavbarTabletMobile = function NavbarTabletMobile(_ref) {
+
+var NavbarTabletMobile_NavbarTabletMobile = function NavbarTabletMobile(props, _ref) {
   var user = _ref.user,
       sticky = _ref.sticky,
-      maxWidth = _ref.maxWidth,
-      _onClick = _ref.onClick,
-      visible = _ref.visible;
+      maxWidth = _ref.maxWidth;
+
+  var _useState = Object(external_commonjs_react_commonjs2_react_amd_React_root_React_["useState"])(false),
+      _useState2 = NavbarTabletMobile_slicedToArray(_useState, 2),
+      visible = _useState2[0],
+      setVisible = _useState2[1];
+
   return external_commonjs_react_commonjs2_react_amd_React_root_React_default.a.createElement(external_commonjs_semantic_ui_react_commonjs2_semantic_ui_react_amd_SemanticUIReact_root_SemanticUIReact_["Responsive"], {
     maxWidth: maxWidth
   }, external_commonjs_react_commonjs2_react_amd_React_root_React_default.a.createElement(external_commonjs_semantic_ui_react_commonjs2_semantic_ui_react_amd_SemanticUIReact_root_SemanticUIReact_["Menu"], {
@@ -49353,12 +49368,16 @@ var NavbarTabletMobile_NavbarTabletMobile = function NavbarTabletMobile(_ref) {
       size: "big"
     }),
     onClick: function onClick() {
-      return _onClick();
+      return setVisible(!visible);
     }
   })), external_commonjs_react_commonjs2_react_amd_React_root_React_default.a.createElement(external_commonjs_semantic_ui_react_commonjs2_semantic_ui_react_amd_SemanticUIReact_root_SemanticUIReact_["Menu"].Item, null, external_commonjs_react_commonjs2_react_amd_React_root_React_default.a.createElement(universe_default.a, null)), external_commonjs_react_commonjs2_react_amd_React_root_React_default.a.createElement(external_commonjs_semantic_ui_react_commonjs2_semantic_ui_react_amd_SemanticUIReact_root_SemanticUIReact_["Menu"].Item, null, external_commonjs_react_commonjs2_react_amd_React_root_React_default.a.createElement(external_commonjs_semantic_ui_react_commonjs2_semantic_ui_react_amd_SemanticUIReact_root_SemanticUIReact_["Icon"], {
     className: "universe-basic-information",
     size: "big"
-  }))));
+  }))), external_commonjs_react_commonjs2_react_amd_React_root_React_default.a.createElement("div", {
+    className: visible ? NavbarComputer_NavbarComputer_module.sidebarOverlay : ''
+  }), external_commonjs_react_commonjs2_react_amd_React_root_React_default.a.createElement("div", {
+    className: visible ? NavbarComputer_NavbarComputer_module.sidebar + ' ' + NavbarComputer_NavbarComputer_module.slideInLeft : NavbarComputer_NavbarComputer_module.sidebar
+  }, props.children));
 };
 // CONCATENATED MODULE: ./components/Navbar/NavbarTabletMobile/index.js
 
