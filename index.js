@@ -12874,15 +12874,17 @@ module.exports = function GetV(V, P) {
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.i, ".xfv_gnYiEMSK_n0CgwyD_ {\n  margin: 0 !important;\n}\n._3sNzuGTECYLxKWR6zZDD_h {\n  background: #3a66e5 !important;\n}\n._1woqWrqqqCjWbfNKgYhd2P {\n  background: unset !important;\n  box-shadow: none !important;\n  max-height: none !important;\n}\n._1woqWrqqqCjWbfNKgYhd2P:active {\n  box-shadow: none !important;\n}\n._3XebMM1LXV8FUTGx4bwH0 {\n  transform: translateX(-100%);\n  transition-timing-function: ease-in;\n  transition: 0.2s;\n  position: relative;\n  /* Semantic ui padding adjustment */\n  top: -14px;\n  z-index: 5;\n}\n._2sKSVlJ2gJRvZ5rgIgy0EN {\n  transform: translateX(0);\n  -webkit-transform: translateX(0);\n  transition-timing-function: ease-out;\n  transition: 0.25s;\n}\n._3dZ-ls3LwHcZ8U1XEgefnV {\n  z-index: 4;\n  right: 0;\n  width: 100%;\n  position: fixed;\n  top: 72px;\n  bottom: 0;\n  left: 0;\n  transition: 0.05s cubic-bezier(0.55, 0.055, 0.675, 0.19);\n  background-color: rgba(28, 35, 43);\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.i, ".xfv_gnYiEMSK_n0CgwyD_ {\n  margin: 0 !important;\n}\n._3sNzuGTECYLxKWR6zZDD_h {\n  background: #3a66e5 !important;\n}\n#YbF5xr6byPbhqZ8iF0tx8 ._1woqWrqqqCjWbfNKgYhd2P:active {\n  box-shadow: none !important;\n  -webkit-box-shadow: none !important;\n}\n#YbF5xr6byPbhqZ8iF0tx8 ._1woqWrqqqCjWbfNKgYhd2P > i {\n  font-size: 24px;\n}\n#YbF5xr6byPbhqZ8iF0tx8 ._1woqWrqqqCjWbfNKgYhd2P {\n  background: unset !important;\n  box-shadow: none !important;\n  max-height: none !important;\n}\n._3XebMM1LXV8FUTGx4bwH0 {\n  transform: translateX(-100%);\n  transition-timing-function: ease-in;\n  transition: 0.2s;\n  position: relative;\n  /* Semantic ui padding adjustment */\n  top: -14px;\n  z-index: 5;\n}\n._2sKSVlJ2gJRvZ5rgIgy0EN {\n  transform: translateX(0);\n  -webkit-transform: translateX(0);\n  transition-timing-function: ease-out;\n  transition: 0.25s;\n}\n._3dZ-ls3LwHcZ8U1XEgefnV {\n  z-index: 4;\n  right: 0;\n  width: 100%;\n  position: fixed;\n  top: 72px;\n  bottom: 0;\n  left: 0;\n  transition: 0.05s cubic-bezier(0.55, 0.055, 0.675, 0.19);\n  background-color: rgba(28, 35, 43);\n}\n._2e9aIa5wz0AvsGSMgmoUbA {\n  -webkit-transform: scaleX(-1);\n  transform: scaleX(-1);\n}\n", ""]);
 // Exports
 ___CSS_LOADER_EXPORT___.locals = {
 	"divider": "xfv_gnYiEMSK_n0CgwyD_",
 	"menu": "_3sNzuGTECYLxKWR6zZDD_h",
+	"navbar": "YbF5xr6byPbhqZ8iF0tx8",
 	"button": "_1woqWrqqqCjWbfNKgYhd2P",
 	"sidebar": "_3XebMM1LXV8FUTGx4bwH0",
 	"slideInLeft": "_2sKSVlJ2gJRvZ5rgIgy0EN",
-	"sidebarOverlay": "_3dZ-ls3LwHcZ8U1XEgefnV"
+	"sidebarOverlay": "_3dZ-ls3LwHcZ8U1XEgefnV",
+	"flipIcon": "_2e9aIa5wz0AvsGSMgmoUbA"
 };
 /* harmony default export */ __webpack_exports__["a"] = (___CSS_LOADER_EXPORT___);
 
@@ -49349,33 +49351,42 @@ var NavbarTabletMobile_NavbarTabletMobile = function NavbarTabletMobile(props, _
 
   var _useState = Object(external_commonjs_react_commonjs2_react_amd_React_root_React_["useState"])(false),
       _useState2 = NavbarTabletMobile_slicedToArray(_useState, 2),
-      visible = _useState2[0],
-      setVisible = _useState2[1];
+      sidebarVisible = _useState2[0],
+      setSidebarVisible = _useState2[1];
+
+  var _useState3 = Object(external_commonjs_react_commonjs2_react_amd_React_root_React_["useState"])(false),
+      _useState4 = NavbarTabletMobile_slicedToArray(_useState3, 2),
+      visible = _useState4[0],
+      setVisible = _useState4[1];
 
   return external_commonjs_react_commonjs2_react_amd_React_root_React_default.a.createElement(external_commonjs_semantic_ui_react_commonjs2_semantic_ui_react_amd_SemanticUIReact_root_SemanticUIReact_["Responsive"], {
     maxWidth: maxWidth
   }, external_commonjs_react_commonjs2_react_amd_React_root_React_default.a.createElement(external_commonjs_semantic_ui_react_commonjs2_semantic_ui_react_amd_SemanticUIReact_root_SemanticUIReact_["Menu"], {
     widths: 3,
-    className: NavbarComputer_NavbarComputer_module.menu
+    className: NavbarComputer_NavbarComputer_module.menu,
+    id: NavbarComputer_NavbarComputer_module.navbar
   }, external_commonjs_react_commonjs2_react_amd_React_root_React_default.a.createElement(external_commonjs_semantic_ui_react_commonjs2_semantic_ui_react_amd_SemanticUIReact_root_SemanticUIReact_["Menu"].Item, null, external_commonjs_react_commonjs2_react_amd_React_root_React_default.a.createElement(external_commonjs_semantic_ui_react_commonjs2_semantic_ui_react_amd_SemanticUIReact_root_SemanticUIReact_["Button"], {
     className: NavbarComputer_NavbarComputer_module.button,
-    content: visible ? external_commonjs_react_commonjs2_react_amd_React_root_React_default.a.createElement(external_commonjs_semantic_ui_react_commonjs2_semantic_ui_react_amd_SemanticUIReact_root_SemanticUIReact_["Icon"], {
-      className: "universe-chevron-right",
+    content: external_commonjs_react_commonjs2_react_amd_React_root_React_default.a.createElement(external_commonjs_semantic_ui_react_commonjs2_semantic_ui_react_amd_SemanticUIReact_root_SemanticUIReact_["Icon"], {
+      className: sidebarVisible ? NavbarComputer_NavbarComputer_module.flipIcon + ' ' + 'universe-sidebar-closed' : 'universe-sidebar-closed',
       size: "big"
-    }) : external_commonjs_react_commonjs2_react_amd_React_root_React_default.a.createElement(external_commonjs_semantic_ui_react_commonjs2_semantic_ui_react_amd_SemanticUIReact_root_SemanticUIReact_["Icon"], {
-      className: "universe-chevron-left",
+    }),
+    onClick: function onClick() {
+      return setSidebarVisible(!sidebarVisible);
+    }
+  })), external_commonjs_react_commonjs2_react_amd_React_root_React_default.a.createElement(external_commonjs_semantic_ui_react_commonjs2_semantic_ui_react_amd_SemanticUIReact_root_SemanticUIReact_["Menu"].Item, null, external_commonjs_react_commonjs2_react_amd_React_root_React_default.a.createElement(universe_default.a, null)), external_commonjs_react_commonjs2_react_amd_React_root_React_default.a.createElement(external_commonjs_semantic_ui_react_commonjs2_semantic_ui_react_amd_SemanticUIReact_root_SemanticUIReact_["Menu"].Item, null, external_commonjs_react_commonjs2_react_amd_React_root_React_default.a.createElement(external_commonjs_semantic_ui_react_commonjs2_semantic_ui_react_amd_SemanticUIReact_root_SemanticUIReact_["Button"], {
+    className: NavbarComputer_NavbarComputer_module.button,
+    content: external_commonjs_react_commonjs2_react_amd_React_root_React_default.a.createElement(external_commonjs_semantic_ui_react_commonjs2_semantic_ui_react_amd_SemanticUIReact_root_SemanticUIReact_["Icon"], {
+      className: "universe-hamburger-menu",
       size: "big"
     }),
     onClick: function onClick() {
       return setVisible(!visible);
     }
-  })), external_commonjs_react_commonjs2_react_amd_React_root_React_default.a.createElement(external_commonjs_semantic_ui_react_commonjs2_semantic_ui_react_amd_SemanticUIReact_root_SemanticUIReact_["Menu"].Item, null, external_commonjs_react_commonjs2_react_amd_React_root_React_default.a.createElement(universe_default.a, null)), external_commonjs_react_commonjs2_react_amd_React_root_React_default.a.createElement(external_commonjs_semantic_ui_react_commonjs2_semantic_ui_react_amd_SemanticUIReact_root_SemanticUIReact_["Menu"].Item, null, external_commonjs_react_commonjs2_react_amd_React_root_React_default.a.createElement(external_commonjs_semantic_ui_react_commonjs2_semantic_ui_react_amd_SemanticUIReact_root_SemanticUIReact_["Icon"], {
-    className: "universe-basic-information",
-    size: "big"
   }))), external_commonjs_react_commonjs2_react_amd_React_root_React_default.a.createElement("div", {
-    className: visible ? NavbarComputer_NavbarComputer_module.sidebarOverlay : ''
+    className: sidebarVisible ? NavbarComputer_NavbarComputer_module.sidebarOverlay : ''
   }), external_commonjs_react_commonjs2_react_amd_React_root_React_default.a.createElement("div", {
-    className: visible ? NavbarComputer_NavbarComputer_module.sidebar + ' ' + NavbarComputer_NavbarComputer_module.slideInLeft : NavbarComputer_NavbarComputer_module.sidebar
+    className: sidebarVisible ? NavbarComputer_NavbarComputer_module.sidebar + ' ' + NavbarComputer_NavbarComputer_module.slideInLeft : NavbarComputer_NavbarComputer_module.sidebar
   }, props.children));
 };
 // CONCATENATED MODULE: ./components/Navbar/NavbarTabletMobile/index.js

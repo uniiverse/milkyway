@@ -4,13 +4,20 @@
 .menu {
   background: #3a66e5 !important;
 }
-.button {
-  background: unset !important;
-  box-shadow: none !important;
-  max-height: none !important;
-}
-.button:active {
-  box-shadow: none !important;
+
+#navbar {
+  .button:active {
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+  }
+  .button > i {
+    font-size: 24px;
+  }
+  .button {
+    background: unset !important;
+    box-shadow: none !important;
+    max-height: none !important;
+  }
 }
 .sidebar {
   transform: translateX(-100%);
@@ -38,4 +45,9 @@
   left: 0;
   transition: 0.05s cubic-bezier(0.55, 0.055, 0.675, 0.19);
   background-color: rgba(28, 35, 43);
+}
+
+.flipIcon {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
 }
