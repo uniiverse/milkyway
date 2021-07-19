@@ -12,7 +12,6 @@ export const NavbarTabletMobile = (props, { user, sticky, maxWidth }) => {
           <Button
             className={styles.button}
             content={
-              //<Icon className="universe-chevron-right" size="big" />
               visible ? (
                 <Icon className="universe-chevron-right" size="big" />
               ) : (

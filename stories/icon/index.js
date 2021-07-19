@@ -370,6 +370,12 @@ const stories = storiesOf('Icon', module)
             </Table.Cell>
           </Table.Row>
           <Table.Row>
+            <Table.Cell>universe-sidebar-closed</Table.Cell>
+            <Table.Cell>
+              <Icon className="universe-sidebar-closed" />
+            </Table.Cell>
+          </Table.Row>
+          <Table.Row>
             <Table.Cell>universe-shopping-cart</Table.Cell>
             <Table.Cell>
               <Icon className="universe-shopping-cart" />
@@ -382,9 +388,9 @@ const stories = storiesOf('Icon', module)
             </Table.Cell>
           </Table.Row>
           <Table.Row>
-            <Table.Cell>universe-sidebar-closed</Table.Cell>
+            <Table.Cell>universe-chrome</Table.Cell>
             <Table.Cell>
-              <Icon className="universe-sidebar-closed" />
+              <Icon className="universe-chrome" />
             </Table.Cell>
           </Table.Row>
           <Table.Row>
