@@ -1,0 +1,127 @@
+.divider {
+  margin: 0 !important;
+}
+.navbar {
+  background: #3a66e5 !important;
+}
+.menu {
+  transform: translateX(100%);
+  transition-timing-function: ease-in;
+  transition: 0.2s;
+  position: fixed;
+  display: flex !important;
+  top: -14px;
+  right: 0px;
+  z-index: 5;
+  width: 80vw !important;
+  min-height: 100vh !important;
+}
+.bottom {
+  margin-top: auto;
+}
+
+.menu > a {
+  padding: 16px 24px !important;
+}
+.menu > a:nth-last-child(-n + 5) {
+  color: var(--color-ink-light) !important;
+}
+.slideInRight {
+  transform: translateX(0%);
+  -webkit-transform: translateX(0%);
+  transition-timing-function: ease-out;
+  transition: 0.25s;
+}
+#navbar {
+  .button:active {
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+  }
+  .button {
+    background: unset !important;
+    box-shadow: none !important;
+    max-height: none !important;
+  }
+  .button > i {
+    font-size: 21px;
+    padding-left: 3px;
+  }
+  .sidebarClosedPadding {
+    padding-top: 6px !important;
+  }
+}
+.largerHamburger > i {
+  font-size: 25px !important;
+  margin-right: 0px !important;
+}
+.largerHamburger {
+  padding-top: 0px;
+  margin-top: -3px;
+}
+#menu {
+  .menuBorder {
+    border-top: 1px solid #e2e5e7;
+  }
+}
+
+.sidebar {
+  left: -100vh;
+  transition-timing-function: ease-in;
+  transition: 0.2s;
+  position: fixed;
+  top: 0px;
+  z-index: 5;
+}
+.slideInSidebar {
+  transition-timing-function: ease-out;
+  transition: 0.2s;
+  left: 0px;
+}
+.slideInLeft {
+  transform: translateX(0);
+  -webkit-transform: translateX(0);
+  transition-timing-function: ease-out;
+  transition: 0.2s;
+}
+.overlay {
+  z-index: 3;
+  position: fixed;
+  top: 0px;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  display: none;
+  background-color: transparent;
+  transition: background-color 0.1s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.overlay.open {
+  right: 0;
+  width: 100%;
+  display: unset;
+  background-color: rgba(28, 35, 43);
+}
+
+.flipIcon {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.closeIcon > i {
+  position: fixed;
+  top: 24px;
+  font-size: 24px !important;
+  color: white;
+  padding: 0px !important;
+}
+.closeIcon > i:first-child {
+  right: 16px;
+}
+.closeIcon > i:last-child {
+  left: 24px;
+}
+.universeLogo {
+  margin-top: 8px;
+}
+.universeLogo > g {
+  fill: var(--color-blue-dark);
+}

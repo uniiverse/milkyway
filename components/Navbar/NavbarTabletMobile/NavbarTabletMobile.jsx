@@ -1,17 +1,27 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Logo from '../../../assets/universe.svg';
 import { Responsive, Menu, Icon, Button } from 'semantic-ui-react';
-import styles from '../NavbarComputer/NavbarComputer.module.less';
+import { MenuTabletMobile } from './MenuTabletMobile';
 
-export const NavbarTabletMobile = (props, { user, sticky, maxWidth }) => {
+import styles from './NavbarTabletMobile.module.less';
+export const NavbarTabletMobile = ({ children, user, sticky, maxWidth }) => {
   const [sidebarVisible, setSidebarVisible] = useState(false);
-  const [visible, setVisible] = useState(false);
+  const [menuVisible, setMenuVisible] = useState(false);
+
+  const hideMenus = () => {
+    if (menuVisible) {
+      setMenuVisible(false);
+    }
+    if (sidebarVisible) {
+      setSidebarVisible(false);
+    }
+  };
   return (
     <Responsive maxWidth={maxWidth}>
-      <Menu widths={3} className={styles.menu} id={styles.navbar}>
+      <Menu widths={3} className={styles.navbar} id={styles.navbar}>
         <Menu.Item>
           <Button
-            className={styles.button}
+            className={styles.button + ' ' + styles.sidebarClosedPadding}
             content={
               <Icon
                 className={
@@ -28,15 +38,22 @@ export const NavbarTabletMobile = (props, { user, sticky, maxWidth }) => {
         </Menu.Item>
         <Menu.Item>
           <Button
-            className={styles.button}
+            className={styles.button + ' ' + styles.largerHamburger}
             content={<Icon className="universe-hamburger-menu" size="big" />}
-            onClick={() => setVisible(!visible)}
+            onClick={() => setMenuVisible(!menuVisible)}
           ></Button>
         </Menu.Item>
       </Menu>
-      <div className={sidebarVisible ? styles.sidebarOverlay : ''} />
-      <div className={sidebarVisible ? styles.sidebar + ' ' + styles.slideInLeft : styles.sidebar}>
-        {props.children}
+      <MenuTabletMobile visible={menuVisible} user={user} />
+      <div className={sidebarVisible ? styles.sidebar + ' ' + styles.slideInSidebar : styles.sidebar}>{children}</div>
+      <div
+        onClick={() => hideMenus()}
+        className={sidebarVisible || menuVisible ? styles.overlay + ' ' + styles.open : styles.overlay}
+      >
+        <div className={styles.closeIcon}>
+          <Icon className={sidebarVisible ? 'universe-close' : ''}></Icon>
+          <Icon className={menuVisible ? 'universe-close' : ''}></Icon>
+        </div>
       </div>
     </Responsive>
   );
