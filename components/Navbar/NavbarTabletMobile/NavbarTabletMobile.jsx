@@ -22,14 +22,7 @@ export const NavbarTabletMobile = ({ children, user, sticky, maxWidth }) => {
         <Menu.Item>
           <Button
             className={styles.button + ' ' + styles.sidebarClosedPadding}
-            content={
-              <Icon
-                className={
-                  sidebarVisible ? styles.flipIcon + ' ' + 'universe-sidebar-closed' : 'universe-sidebar-closed'
-                }
-                size="big"
-              />
-            }
+            content={<Icon className={'universe-sidebar-closed'} size="big" />}
             onClick={() => setSidebarVisible(!sidebarVisible)}
           ></Button>
         </Menu.Item>

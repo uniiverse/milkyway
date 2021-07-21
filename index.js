@@ -49514,7 +49514,7 @@ var NavbarTabletMobile_NavbarTabletMobile = function NavbarTabletMobile(_ref) {
   }, external_commonjs_react_commonjs2_react_amd_React_root_React_default.a.createElement(external_commonjs_semantic_ui_react_commonjs2_semantic_ui_react_amd_SemanticUIReact_root_SemanticUIReact_["Menu"].Item, null, external_commonjs_react_commonjs2_react_amd_React_root_React_default.a.createElement(external_commonjs_semantic_ui_react_commonjs2_semantic_ui_react_amd_SemanticUIReact_root_SemanticUIReact_["Button"], {
     className: NavbarTabletMobile_NavbarTabletMobile_module.button + ' ' + NavbarTabletMobile_NavbarTabletMobile_module.sidebarClosedPadding,
     content: external_commonjs_react_commonjs2_react_amd_React_root_React_default.a.createElement(external_commonjs_semantic_ui_react_commonjs2_semantic_ui_react_amd_SemanticUIReact_root_SemanticUIReact_["Icon"], {
-      className: sidebarVisible ? NavbarTabletMobile_NavbarTabletMobile_module.flipIcon + ' ' + 'universe-sidebar-closed' : 'universe-sidebar-closed',
+      className: 'universe-sidebar-closed',
       size: "big"
     }),
     onClick: function onClick() {
