@@ -35,6 +35,7 @@
 .universe-flag:before { content: '\e821'; } /* '' */
 .universe-geolocation-2:before { content: '\e822'; } /* '' */
 .universe-geolocation:before { content: '\e823'; } /* '' */
+.universe-sidebar-closed:before { content: '\e824'; } /* '' */
 .universe-hamburger-menu:before { content: '\e825'; } /* '' */
 .universe-help:before { content: '\e826'; } /* '' */
 .universe-home:before { content: '\e827'; } /* '' */

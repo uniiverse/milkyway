@@ -19,6 +19,7 @@
 .universe-chevron-right:before { content: '\e812'; }
 .universe-chevron-up:before { content: '\e813'; }
 .close.icon:before, .universe-close:before { content: '\e814'; }
+.universe-sidebar-closed:before { content: '\e824'; }
 .universe-copy-documents:before { content: '\e815'; }
 .universe-crop:before { content: '\e816'; }
 .universe-date:before { content: '\e817'; }
