@@ -7,7 +7,7 @@ export const MenuTabletMobile = ({ visible, user }) => {
   return (
     <>
       <HostMenu isHost={user && user.is_host} visible={visible} user={user} />
-      <LoggedOutMenu />
+      <LoggedOutMenu user={user} visible={visible} />
     </>
   );
 };
@@ -44,8 +44,8 @@ const HostMenu = ({ isHost, visible, user }) => {
   );
 };
 
-const LoggedOutMenu = ({ user }) => {
-  if (!user) return null;
+const LoggedOutMenu = ({ user, visible }) => {
+  if (user) return null;
 
   return (
     <Menu
