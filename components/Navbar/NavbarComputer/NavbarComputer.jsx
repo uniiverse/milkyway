@@ -1,9 +1,8 @@
-
 import React from 'react';
 import { Menu, Dropdown, Image, Responsive } from 'semantic-ui-react';
 import { EventSearcher } from '../EventSearcher';
 import Logo from '../../../assets/universe.svg';
-import styles from './NavbarComputer.module.css';
+import styles from './NavbarComputer.module.less';
 
 export const NavbarComputer = ({ user, sticky, minWidth }) => (
   <Responsive minWidth={minWidth}>
@@ -25,9 +24,9 @@ export const NavbarComputer = ({ user, sticky, minWidth }) => (
 
 // private components
 const CreateOrHostEvent = ({ isHost }) => {
-  if (isHost) return <Menu.Item href='/create'>Create Events</Menu.Item>
+  if (isHost) return <Menu.Item href="/create">Create Events</Menu.Item>;
   return (
-    <Dropdown item pointing text='Host Events'>
+    <Dropdown item pointing text="Host Events">
       <Dropdown.Menu>
         <Dropdown.Item href="/create">Create Event</Dropdown.Item>
         <Dropdown.Divider className={styles.divider} />
@@ -54,7 +53,7 @@ const FindEvents = () => <Menu.Item href="/explore">Find Events</Menu.Item>;
 const Help = ({ loggedIn }) => {
   if (loggedIn) return null;
   return (
-    <Dropdown item pointing text='Help'>
+    <Dropdown item pointing text="Help">
       <Dropdown.Menu>
         <Dropdown.Item href="/help">Help Center</Dropdown.Item>
         <Dropdown.Divider className={styles.divider} />
@@ -71,7 +70,7 @@ const Account = ({ user }) => {
 
   const trigger = (
     <span>
-      <Image avatar src="https://picsum.photos/seed/picsum/50/50" verticalAlign='middle' />
+      <Image avatar src="https://picsum.photos/seed/picsum/50/50" verticalAlign="middle" />
       {user.name}
     </span>
   );
@@ -80,9 +79,9 @@ const Account = ({ user }) => {
     <React.Fragment>
       <Dropdown item pointing trigger={trigger}>
         <Dropdown.Menu>
-        <Dropdown.Item href="/dashboard">Dashboard</Dropdown.Item>
+          <Dropdown.Item href="/dashboard">Dashboard</Dropdown.Item>
           <Dropdown.Item href="/dashboard/tickets">Your tickets</Dropdown.Item>
-          <Dropdown.Divider className={styles.divider}/>
+          <Dropdown.Divider className={styles.divider} />
           <Dropdown.Item href={`/users/${user.slug || user.id || ''}`}>Profile</Dropdown.Item>
           <Dropdown.Item href="/dashboard/conversations">Messages</Dropdown.Item>
           <Dropdown.Item href="/dashboard/settings">Settings</Dropdown.Item>
@@ -94,4 +93,8 @@ const Account = ({ user }) => {
   );
 };
 
-const UniverseHome = () => <Menu.Item href="/"><Logo /></Menu.Item>;
+const UniverseHome = () => (
+  <Menu.Item href="/">
+    <Logo />
+  </Menu.Item>
+);
