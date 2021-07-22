@@ -2,6 +2,7 @@ import React from 'react';
 import { Menu } from 'semantic-ui-react';
 import styles from './NavbarTabletMobile.module.less';
 import Logo from '../../../assets/universe.svg';
+import { classNames } from '../../../utilities/css';
 
 export const MenuTabletMobile = ({ visible, user }) => {
   return (
@@ -21,7 +22,7 @@ const HostMenu = ({ isHost, visible, user }) => {
       vertical
       id={styles.menu}
       position="right"
-      className={visible ? styles.menu + ' ' + styles.slideInRight : styles.menu}
+      className={classNames(styles.menu, visible ? styles.slideInRight : '')}
     >
       <UniverseHome />
       <Menu.Item href="/dashboard">Dashboard</Menu.Item>
@@ -33,7 +34,7 @@ const HostMenu = ({ isHost, visible, user }) => {
         Find Events
       </Menu.Item>
       <Menu.Item href="/create">Create Event</Menu.Item>
-      <Menu.Item className={styles.menuBorder + ' ' + styles.bottom} href={`/users/${user.slug || user.id || ''}`}>
+      <Menu.Item className={classNames(styles.menuBorder, styles.bottom)} href={`/users/${user.slug || user.id || ''}`}>
         Profile
       </Menu.Item>
       <Menu.Item href="/dashboard/conversations">Messages</Menu.Item>
@@ -53,7 +54,7 @@ const LoggedOutMenu = ({ user, visible }) => {
       vertical
       id={styles.menu}
       position="right"
-      className={visible ? styles.menu + ' ' + styles.slideInRight : styles.menu}
+      className={classNames(styles.menu, visible ? styles.slideInRight : '')}
     >
       <UniverseHome />
       <Menu.Item href="/explore">Find Events</Menu.Item>
@@ -61,7 +62,7 @@ const LoggedOutMenu = ({ user, visible }) => {
       <Menu.Item href="/features">Features</Menu.Item>
       <Menu.Item href="/customers">Customers</Menu.Item>
       <Menu.Item href="/pricing">Pricing</Menu.Item>
-      <Menu.Item className={styles.menuBorder + ' ' + styles.bottom} href="/help">
+      <Menu.Item className={classNames(styles.menuBorder, styles.bottom)} href="/help">
         Help
       </Menu.Item>
       <Menu.Item href="/sign-in?redirectTo=https://www.universe.com/">Login</Menu.Item>
