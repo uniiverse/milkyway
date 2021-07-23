@@ -37,7 +37,7 @@ const HostMenu = injectIntl(({ intl: { formatMessage }, isHost, visible, user })
         {formatMessage(locale.findEvents)}
       </Menu.Item>
       <Menu.Item href="/create">{formatMessage(locale.createEvent)}</Menu.Item>
-      <Menu.Item className={classNames(styles.menuBorder, styles.bottom)} href={`/users/${user.slug || user.id || ''}`}>
+      <Menu.Item className={styles.menuBorder} href={`/users/${user.slug || user.id || ''}`}>
         {formatMessage(locale.profile)}
       </Menu.Item>
       <Menu.Item href="/dashboard/conversations">{formatMessage(locale.messages)}</Menu.Item>
@@ -74,7 +74,7 @@ const LoggedOutMenu = injectIntl(({ intl: { formatMessage }, user, visible }) =>
   );
 });
 const UniverseHome = () => (
-  <Menu.Item href="/">
+  <Menu.Item>
     <Logo className={styles.universeLogo} />
   </Menu.Item>
 );
