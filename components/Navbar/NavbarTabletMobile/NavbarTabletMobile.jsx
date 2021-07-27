@@ -29,7 +29,7 @@ export const NavbarTabletMobile = ({ children, user, sticky, maxWidth }) => {
           ></Button>
         </Menu.Item>
         <Menu.Item>
-          <Logo />
+          <UniverseHome />
         </Menu.Item>
         <Menu.Item>
           <Button
@@ -53,3 +53,9 @@ export const NavbarTabletMobile = ({ children, user, sticky, maxWidth }) => {
     </Responsive>
   );
 };
+
+const UniverseHome = () => (
+  <Menu.Item href="/">
+    <Logo />
+  </Menu.Item>
+);
