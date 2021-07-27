@@ -46748,7 +46748,7 @@ var NavbarTabletMobile_NavbarTabletMobile = function NavbarTabletMobile(_ref) {
     onClick: function onClick() {
       return setSidebarVisible(!sidebarVisible);
     }
-  })), external_commonjs_react_commonjs2_react_amd_React_root_React_default.a.createElement(external_commonjs_semantic_ui_react_commonjs2_semantic_ui_react_amd_SemanticUIReact_root_SemanticUIReact_["Menu"].Item, null, external_commonjs_react_commonjs2_react_amd_React_root_React_default.a.createElement(universe_default.a, null)), external_commonjs_react_commonjs2_react_amd_React_root_React_default.a.createElement(external_commonjs_semantic_ui_react_commonjs2_semantic_ui_react_amd_SemanticUIReact_root_SemanticUIReact_["Menu"].Item, null, external_commonjs_react_commonjs2_react_amd_React_root_React_default.a.createElement(external_commonjs_semantic_ui_react_commonjs2_semantic_ui_react_amd_SemanticUIReact_root_SemanticUIReact_["Button"], {
+  })), external_commonjs_react_commonjs2_react_amd_React_root_React_default.a.createElement(external_commonjs_semantic_ui_react_commonjs2_semantic_ui_react_amd_SemanticUIReact_root_SemanticUIReact_["Menu"].Item, null, external_commonjs_react_commonjs2_react_amd_React_root_React_default.a.createElement(NavbarTabletMobile_UniverseHome, null)), external_commonjs_react_commonjs2_react_amd_React_root_React_default.a.createElement(external_commonjs_semantic_ui_react_commonjs2_semantic_ui_react_amd_SemanticUIReact_root_SemanticUIReact_["Menu"].Item, null, external_commonjs_react_commonjs2_react_amd_React_root_React_default.a.createElement(external_commonjs_semantic_ui_react_commonjs2_semantic_ui_react_amd_SemanticUIReact_root_SemanticUIReact_["Button"], {
     className: classNames(NavbarTabletMobile_NavbarTabletMobile_module.button, NavbarTabletMobile_NavbarTabletMobile_module.largerHamburger),
     content: external_commonjs_react_commonjs2_react_amd_React_root_React_default.a.createElement(external_commonjs_semantic_ui_react_commonjs2_semantic_ui_react_amd_SemanticUIReact_root_SemanticUIReact_["Icon"], {
       className: "universe-hamburger-menu",
@@ -46774,6 +46774,12 @@ var NavbarTabletMobile_NavbarTabletMobile = function NavbarTabletMobile(_ref) {
   }), external_commonjs_react_commonjs2_react_amd_React_root_React_default.a.createElement(external_commonjs_semantic_ui_react_commonjs2_semantic_ui_react_amd_SemanticUIReact_root_SemanticUIReact_["Icon"], {
     className: menuVisible ? 'universe-close' : ''
   }))));
+};
+
+var NavbarTabletMobile_UniverseHome = function UniverseHome() {
+  return external_commonjs_react_commonjs2_react_amd_React_root_React_default.a.createElement(external_commonjs_semantic_ui_react_commonjs2_semantic_ui_react_amd_SemanticUIReact_root_SemanticUIReact_["Menu"].Item, {
+    href: "/"
+  }, external_commonjs_react_commonjs2_react_amd_React_root_React_default.a.createElement(universe_default.a, null));
 };
 // CONCATENATED MODULE: ./components/Navbar/NavbarTabletMobile/index.js
 
