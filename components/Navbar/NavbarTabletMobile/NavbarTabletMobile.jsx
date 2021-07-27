@@ -28,8 +28,8 @@ export const NavbarTabletMobile = ({ children, user, sticky, maxWidth }) => {
             onClick={() => setSidebarVisible(!sidebarVisible)}
           ></Button>
         </Menu.Item>
-        <Menu.Item>
-          <UniverseHome />
+        <Menu.Item href="/">
+          <Logo />
         </Menu.Item>
         <Menu.Item>
           <Button
@@ -53,9 +53,3 @@ export const NavbarTabletMobile = ({ children, user, sticky, maxWidth }) => {
     </Responsive>
   );
 };
-
-const UniverseHome = () => (
-  <Menu.Item href="/">
-    <Logo />
-  </Menu.Item>
-);
