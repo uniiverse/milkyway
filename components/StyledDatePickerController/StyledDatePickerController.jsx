@@ -8,7 +8,7 @@ import './styles.less';
 
 export const StyledDatePickerController = 
   ({ highlightedDates, onDateChange, disablePrev, disableNext, date, ...passthroughProps }) => {
-    const [selectedDate, setSelectedDate] = useState(moment(date));
+    const [selectedDate, setSelectedDate] = useState(date ? moment(date) : null);
 
     function onDateSelect(newDate) {
       setSelectedDate(newDate);

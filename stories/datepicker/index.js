@@ -17,6 +17,15 @@ const highlightedDates = [
 ]
 
 const stories = storiesOf('DatePicker', module)
+  .add('StyledDatePickerController with no default date', () =>
+    <Container>
+      <br/>
+      <br/>
+      <StyledDatePickerController 
+        onDateChange={action('onDateChange')}
+      />
+    </Container>
+  )
   .add('StyledDatePickerController', () =>
     <Container>
       <br/>
