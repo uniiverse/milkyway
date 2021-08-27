@@ -26,6 +26,18 @@ const stories = storiesOf('DatePicker', module)
       />
     </Container>
   )
+  .add('StyledDatePickerController with navigation disabled', () =>
+    <Container>
+      <br/>
+      <br/>
+      <StyledDatePickerController 
+        onDateChange={action('onDateChange')}
+        date={moment()}
+        disablePrev
+        disableNext
+      />
+    </Container>
+  )
   .add('StyledDatePickerController', () =>
     <Container>
       <br/>

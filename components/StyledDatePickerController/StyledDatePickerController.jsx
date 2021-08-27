@@ -37,8 +37,8 @@ export const StyledDatePickerController =
           focused={true}
           isDayHighlighted={isDayHighlighted}
           isDayBlocked={isDayBlocked}
-          navPrev={disablePrev ? <span /> : <Icon className="universe-chevron-left" />}
-          navNext={disableNext ? <span /> : <Icon className="universe-chevron-right" />}
+          navPrev={disablePrev ? <span /> : null}
+          navNext={disableNext ? <span /> : null}
         />
       </div>
     );
