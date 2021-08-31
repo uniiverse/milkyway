@@ -9,30 +9,21 @@
     }
   }
   .singleDatePickerWrapper .CalendarDay__default {
-    border: none;
     color: @inkLighter;
   }
   .singleDatePickerWrapper .CalendarDay__selected {
     background: @blueDark !important;
-    border-radius: 6px !important;
     color: white !important;
   }
   .singleDatePickerWrapper .CalendarDay__highlighted_calendar {
     background: none;
-    color: @blueDark;
-    font-weight: 500;
+    color: @ink;
+    border-color: @orbit;
   }
   .singleDatePickerWrapper .CalendarDay__highlighted_calendar:active,
   .singleDatePickerWrapper .CalendarDay__highlighted_calendar:hover {
-    background: none;
-    color: @blueDark;
-    font-weight: 500;
-  }
-  .singleDatePickerWrapper .DayPickerNavigation {
-    top: 22px;
-    display: flex;
-    justify-content: space-between;
-    margin: 0px 30px;
+    color: white;
+    background-color: @blueDark;
   }
   .singleDatePickerWrapper .CalendarMonth_caption {
     font-size: 16px;
@@ -42,12 +33,9 @@
       height: 92px;
     }
   }
-  .singleDatePickerWrapper .CalendarDay__default:hover {
-    border: none;
-    border-radius: 6px;
-  }
   .singleDatePickerWrapper .CalendarDay__blocked_calendar,
   .singleDatePickerWrapper .CalendarDay__blocked_calendar:hover {
     background: none;
+    border-color: @orbit;    
   }
 }

@@ -8,7 +8,7 @@ import './styles.less';
 
 export const StyledDatePickerController = 
   ({ highlightedDates, onDateChange, disablePrev, disableNext, date, ...passthroughProps }) => {
-    const [selectedDate, setSelectedDate] = useState(moment(date));
+    const [selectedDate, setSelectedDate] = useState(date ? moment(date) : null);
 
     function onDateSelect(newDate) {
       setSelectedDate(newDate);
@@ -37,8 +37,8 @@ export const StyledDatePickerController =
           focused={true}
           isDayHighlighted={isDayHighlighted}
           isDayBlocked={isDayBlocked}
-          navPrev={disablePrev ? <span /> : <Icon className="universe-chevron-left" />}
-          navNext={disableNext ? <span /> : <Icon className="universe-chevron-right" />}
+          navPrev={disablePrev ? <span /> : null}
+          navNext={disableNext ? <span /> : null}
         />
       </div>
     );
