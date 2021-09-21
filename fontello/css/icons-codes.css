@@ -35,7 +35,6 @@
 .universe-flag:before { content: '\e821'; } /* '' */
 .universe-geolocation-2:before { content: '\e822'; } /* '' */
 .universe-geolocation:before { content: '\e823'; } /* '' */
-.universe-sidebar-closed:before { content: '\e824'; } /* '' */
 .universe-hamburger-menu:before { content: '\e825'; } /* '' */
 .universe-help:before { content: '\e826'; } /* '' */
 .universe-home:before { content: '\e827'; } /* '' */
@@ -69,4 +68,5 @@
 .universe-view:before { content: '\e843'; } /* '' */
 .universe-worldwide-web:before { content: '\e844'; } /* '' */
 .universe-magic-wand:before { content: '\e887'; } /* '' */
+.universe-checkmark-lite:before { content: '\e889'; } /* '' */
 .universe-magic:before { content: '\f0d0'; } /* '' */

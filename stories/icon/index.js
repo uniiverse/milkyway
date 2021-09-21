@@ -453,6 +453,12 @@ const stories = storiesOf('Icon', module)
               <Icon className="universe-magic-wand" />
             </Table.Cell>
           </Table.Row>
+          <Table.Row>
+            <Table.Cell>universe-checkmark-lite</Table.Cell>
+            <Table.Cell>
+              <Icon className="universe-checkmark-lite" />
+            </Table.Cell>
+          </Table.Row>
         </Table.Body>
       </Table>
     </Container>
