@@ -69,3 +69,4 @@
 .universe-worldwide-web:before { content: '\e844'; }
 .universe-magic-wand:before { content: '\e887'; } 
 .universe-magic:before { content: '\f0d0'; }
+.universe-checkmark-lite:before { content: '\e913'; }
