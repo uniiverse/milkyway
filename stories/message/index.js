@@ -3,6 +3,7 @@ import React from 'react';
 import { storiesOf } from '@storybook/react';
 
 import { Container, Icon, Message } from 'semantic-ui-react';
+import { InputErrorMessage } from '../../components/Messages/InputErrorMessage';
 
 class DismissibleMessage extends React.Component {
   constructor(props) {
@@ -16,10 +17,10 @@ class DismissibleMessage extends React.Component {
   }
 
   render() {
-    if(this.state.visible) {
+    if (this.state.visible) {
       const children = React.Children.map(this.props.children, (child, index) => {
         return React.cloneElement(child, {
-          onDismiss: () => this.handleDismiss()
+          onDismiss: () => this.handleDismiss(),
         });
       });
 
@@ -31,13 +32,15 @@ class DismissibleMessage extends React.Component {
 }
 
 const stories = storiesOf('Message', module)
-  .add('Default', () =>
+  .add('Default', () => (
     <React.Fragment>
       <Container fluid>
         <Message icon info>
           <Icon className="universe-exclamation" />
           <Message.Content>
-            <p><b>Info message</b></p>
+            <p>
+              <b>Info message</b>
+            </p>
           </Message.Content>
         </Message>
       </Container>
@@ -46,7 +49,9 @@ const stories = storiesOf('Message', module)
         <Message error icon>
           <Icon className="universe-error" />
           <Message.Content>
-            <p><b>Error message</b></p>
+            <p>
+              <b>Error message</b>
+            </p>
           </Message.Content>
         </Message>
       </Container>
@@ -55,7 +60,9 @@ const stories = storiesOf('Message', module)
         <Message success icon>
           <Icon className="universe-checkmark" />
           <Message.Content>
-            <p><b>Success message</b></p>
+            <p>
+              <b>Success message</b>
+            </p>
           </Message.Content>
         </Message>
       </Container>
@@ -64,20 +71,24 @@ const stories = storiesOf('Message', module)
         <Message warning icon>
           <Icon className="universe-exclamation" />
           <Message.Content>
-            <p><b>Warning message</b></p>
+            <p>
+              <b>Warning message</b>
+            </p>
           </Message.Content>
         </Message>
       </Container>
     </React.Fragment>
-  )
-  .add('Dismissible', () =>
+  ))
+  .add('Dismissible', () => (
     <React.Fragment>
       <Container fluid>
         <DismissibleMessage>
           <Message info icon>
             <Icon className="universe-exclamation" />
             <Message.Content>
-              <p><b>Info message</b></p>
+              <p>
+                <b>Info message</b>
+              </p>
             </Message.Content>
           </Message>
         </DismissibleMessage>
@@ -88,21 +99,25 @@ const stories = storiesOf('Message', module)
           <Message error icon>
             <Icon className="universe-error" />
             <Message.Content>
-              <p><b>Error message</b></p>
+              <p>
+                <b>Error message</b>
+              </p>
             </Message.Content>
           </Message>
         </DismissibleMessage>
       </Container>
       <div style={{ height: '20px' }} />
       <Container fluid>
-      <DismissibleMessage>
-        <Message success icon>
-          <Icon className="universe-checkmark" />
-          <Message.Content>
-            <p><b>Success message</b></p>
-          </Message.Content>
-        </Message>
-      </DismissibleMessage>
+        <DismissibleMessage>
+          <Message success icon>
+            <Icon className="universe-checkmark" />
+            <Message.Content>
+              <p>
+                <b>Success message</b>
+              </p>
+            </Message.Content>
+          </Message>
+        </DismissibleMessage>
       </Container>
       <div style={{ height: '20px' }} />
       <Container fluid>
@@ -110,12 +125,22 @@ const stories = storiesOf('Message', module)
           <Message warning icon>
             <Icon className="universe-exclamation" />
             <Message.Content>
-              <p><b>Warning message</b></p>
+              <p>
+                <b>Warning message</b>
+              </p>
             </Message.Content>
           </Message>
         </DismissibleMessage>
       </Container>
     </React.Fragment>
-  );
+  ))
+  .add('Input Error Message', () => (
+    <React.Fragment>
+      <div style={{ height: '20px' }} />
+      <Container fluid>
+        <InputErrorMessage content="Requires at least one ticket type to be selected" visible={true}  />
+      </Container>
+    </React.Fragment>
+  ));
 
 export default stories;
