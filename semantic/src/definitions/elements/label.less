@@ -1034,7 +1034,46 @@ a.ui.basic.label:hover {
 .ui.basic.pointing.label:before {
   border-color: inherit;
 }
-
+/*------------------
+   Input Error Label
+-------------------*/
+/*--- Error ---*/
+.ui.error.labels .label,
+.ui.error.label {
+  background-color: transparent !important;
+  border: none !important;
+  color: @coralDark !important;
+  display: flex;
+  align-items: center;
+}
+/* Link */
+.ui.error.labels .label:hover,
+a.ui.error.label:hover{
+  background-color: @coralLight !important;
+  border-color: @coralLight !important;
+  color: @coralLight !important;
+}
+/* Corner */
+.ui.error.corner.label,
+.ui.error.corner.label:hover {
+  background-color: transparent !important;
+}
+/* Ribbon */
+.ui.error.ribbon.label {
+  border-color: @coralDarker !important;
+}
+/* Basic */
+.ui.basic.error.label {
+  background: @basicBackground !important;
+  color: @coralDarker !important;
+  border-color: @coralDarker !important;
+}
+.ui.basic.error.labels a.label:hover,
+a.ui.basic.error.label:hover {
+  background-color: @white !important;
+  color: @coralLight !important;
+  border-color: @coralLight !important;
+}
 
 /*-------------------
        Fluid

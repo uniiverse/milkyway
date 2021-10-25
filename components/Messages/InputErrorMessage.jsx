@@ -1,17 +1,10 @@
 import React from 'react';
-import { Icon } from 'semantic-ui-react';
-import styles from './InputErrorMessage.module.less';
+import { Icon, Label } from 'semantic-ui-react';
 
-export const InputErrorMessage = ({ content, visible }) => {
-  if (!visible) return null;
+export const InputErrorMessage = (props) => {
   return (
-    <div className={styles.flex}>
-      <div>
-        <Icon className="universe-exclamation" color="coral"/>
-      </div>
-      <div>
-        <p>{content}</p>
-      </div>
-    </div>
+    <Label color="error" {...props}>
+       <Icon className="universe-exclamation" /> {props.content}
+    </Label>
   );
 };
