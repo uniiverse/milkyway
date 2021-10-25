@@ -138,7 +138,7 @@ const stories = storiesOf('Message', module)
     <React.Fragment>
       <div style={{ height: '20px' }} />
       <Container fluid>
-        <InputErrorMessage content="Requires at least one ticket type to be selected" visible={true}  />
+        <InputErrorMessage content="Requires at least one ticket type to be selected" visible />
       </Container>
     </React.Fragment>
   ));
