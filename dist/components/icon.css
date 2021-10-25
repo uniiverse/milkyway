@@ -388,6 +388,19 @@ i.inverted.circular.black.icon {
   color: #FFFFFF !important;
 }
 
+/* Coral */
+i.coral.icon {
+  color: #FC7455 !important;
+}
+i.inverted.coral.icon {
+  color: #FF9D84 !important;
+}
+i.inverted.bordered.coral.icon,
+i.inverted.circular.coral.icon {
+  background-color: #FC7455 !important;
+  color: #FFFFFF !important;
+}
+
 /*-------------------
         Sizes
 --------------------*/

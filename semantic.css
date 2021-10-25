@@ -6917,6 +6917,22 @@ i.inverted.circular.black.icon {
   color: #FFFFFF !important;
 }
 
+/* Coral */
+
+i.coral.icon {
+  color: #FC7455 !important;
+}
+
+i.inverted.coral.icon {
+  color: #FF9D84 !important;
+}
+
+i.inverted.bordered.coral.icon,
+i.inverted.circular.coral.icon {
+  background-color: #FC7455 !important;
+  color: #FFFFFF !important;
+}
+
 /*-------------------
         Sizes
 --------------------*/
@@ -9568,6 +9584,62 @@ a.ui.basic.label:hover {
 
 .ui.basic.pointing.label:before {
   border-color: inherit;
+}
+
+/*------------------
+   Input Error Label
+-------------------*/
+
+/*--- Error ---*/
+
+.ui.error.labels .label,
+.ui.error.label {
+  background-color: transparent;
+  border: none;
+  color: #FC7455;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+/* Link */
+
+.ui.error.labels .label:hover,
+a.ui.error.label:hover {
+  background-color: #FF9D84;
+  border-color: #FF9D84;
+  color: #FF9D84;
+}
+
+/* Corner */
+
+.ui.error.corner.label,
+.ui.error.corner.label:hover {
+  background-color: transparent;
+}
+
+/* Ribbon */
+
+.ui.error.ribbon.label {
+  border-color: #B2443E;
+}
+
+/* Basic */
+
+.ui.basic.error.label {
+  background: none #FFFFFF;
+  color: #B2443E;
+  border-color: #B2443E;
+}
+
+.ui.basic.error.labels a.label:hover,
+a.ui.basic.error.label:hover {
+  background-color: #FFFFFF;
+  color: #FF9D84;
+  border-color: #FF9D84;
 }
 
 /*-------------------
