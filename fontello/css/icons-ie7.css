@@ -80,5 +80,6 @@
 .universe-view { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe843;&nbsp;'); }
 .universe-worldwide-web { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe844;&nbsp;'); }
 .universe-magic-wand { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe887;&nbsp;'); }
+.universe-schedule { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe8cd;&nbsp;'); }
 .universe-checkmark-lite { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe913;&nbsp;'); }
 .universe-magic { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0d0;&nbsp;'); }

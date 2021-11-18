@@ -448,6 +448,12 @@ const stories = storiesOf('Icon', module)
             </Table.Cell>
           </Table.Row>
           <Table.Row>
+            <Table.Cell>universe-schedule</Table.Cell>
+            <Table.Cell>
+              <Icon className="universe-schedule" />
+            </Table.Cell>
+          </Table.Row>
+          <Table.Row>
             <Table.Cell>universe-magic-wand</Table.Cell>
             <Table.Cell>
               <Icon className="universe-magic-wand" />
