@@ -82,4 +82,5 @@
 .universe-magic-wand { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe887;&nbsp;'); }
 .universe-schedule { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe88a;&nbsp;'); }
 .universe-checkmark-lite { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe913;&nbsp;'); }
+.universe-checkout-settings { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe916;&nbsp;'); }
 .universe-magic { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0d0;&nbsp;'); }
