@@ -20,7 +20,7 @@ export const Pamphlet = (props) => {
           src={props.imageUrl}
         />
 
-        <Container className={styles.containerBody}>
+        <div className={styles.containerBody}>
           <Header
             as="h3"
             className={styles.header}>
@@ -42,7 +42,7 @@ export const Pamphlet = (props) => {
           <Button primary className={styles.upgradeButton}>
             {props.buttonText}
           </Button>
-        </Container>
+        </div>
       </Container>
     </div>
   );
