@@ -20,6 +20,7 @@ function loadStories() {
     'message',
     'modal',
     'navbar',
+    'pamphlet',
     'progress',
     'search',
     'segment',
