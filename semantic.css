@@ -674,6 +674,11 @@ a:hover {
   color: #1C232B;
 }
 
+::-moz-selection {
+  background-color: #A2CBFF;
+  color: #1C232B;
+}
+
 ::selection {
   background-color: #A2CBFF;
   color: #1C232B;
@@ -683,6 +688,18 @@ a:hover {
 
 textarea::-webkit-selection,
 input::-webkit-selection {
+  background-color: #A2CBFF;
+  color: #1C232B;
+}
+
+textarea::-moz-selection,
+input::-moz-selection {
+  background-color: #A2CBFF;
+  color: #1C232B;
+}
+
+textarea::-moz-selection,
+input::-moz-selection {
   background-color: #A2CBFF;
   color: #1C232B;
 }
@@ -8389,6 +8406,10 @@ img.ui.bordered.image {
 }
 
 input::-webkit-input-placeholder {
+  color: #A9B0B7 !important;
+}
+
+input::-moz-placeholder {
   color: #A9B0B7 !important;
 }
 
@@ -19857,6 +19878,12 @@ Floated Menu / Item
   line-height: 14px !important;
 }
 
+.ui.menu .left.menu input::-moz-placeholder {
+  color: #FFFFFF !important;
+  font-size: 14px !important;
+  line-height: 14px !important;
+}
+
 .ui.menu .left.menu input:-ms-input-placeholder {
   color: #FFFFFF !important;
   font-size: 14px !important;
@@ -30726,7 +30753,6 @@ body.pushable > .pusher {
 *******************************/
 
 .ui.native.sticky {
-  position: -webkit-sticky;
   position: -moz-sticky;
   position: -ms-sticky;
   position: -o-sticky;
