@@ -46971,7 +46971,9 @@ function DatePicker_arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 var DatePicker_DatePicker_DatePicker = function DatePicker(_ref) {
   var date = _ref.date,
       highlightedDates = _ref.highlightedDates,
-      onDateChange = _ref.onDateChange;
+      onDateChange = _ref.onDateChange,
+      _ref$popupPosition = _ref.popupPosition,
+      popupPosition = _ref$popupPosition === void 0 ? 'bottom left' : _ref$popupPosition;
 
   var _useState = Object(external_commonjs_react_commonjs2_react_amd_React_root_React_["useState"])(date),
       _useState2 = DatePicker_slicedToArray(_useState, 2),
@@ -47014,7 +47016,7 @@ var DatePicker_DatePicker_DatePicker = function DatePicker(_ref) {
     floating: true,
     labeled: true,
     open: calendarOpen,
-    position: "bottom left",
+    position: popupPosition,
     on: "click"
   }, external_commonjs_react_commonjs2_react_amd_React_root_React_default.a.createElement(external_commonjs_semantic_ui_react_commonjs2_semantic_ui_react_amd_SemanticUIReact_root_SemanticUIReact_["Popup"].Content, null, external_commonjs_react_commonjs2_react_amd_React_root_React_default.a.createElement("div", {
     ref: calendarEl
