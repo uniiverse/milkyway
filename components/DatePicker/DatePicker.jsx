@@ -24,6 +24,7 @@ export const DatePicker = ({ date, highlightedDates, onDateChange, popupPosition
     <div className="date-picker-container">
       
       <Popup
+      className={styles.pickerPopup}
         trigger={
           <div
             role="button"
