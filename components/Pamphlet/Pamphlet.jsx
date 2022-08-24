@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import {
   Button,
   Container,
@@ -13,7 +13,7 @@ export const Pamphlet = (props) => {
   const { title, priceText, description } = props;
 
   return (
-    <Fragment>
+    <>
       <Container className={styles.container}>
         <Image
           className={styles.bannerImage}
@@ -44,6 +44,6 @@ export const Pamphlet = (props) => {
           </Button>
         </div>
       </Container>
-    </Fragment>
+    </>
   );
 };
