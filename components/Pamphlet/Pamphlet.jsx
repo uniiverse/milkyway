@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import {
   Button,
   Container,
@@ -13,7 +13,7 @@ export const Pamphlet = (props) => {
   const { title, priceText, description } = props;
 
   return (
-    <div>
+    <Fragment>
       <Container className={styles.container}>
         <Image
           className={styles.bannerImage}
@@ -22,7 +22,7 @@ export const Pamphlet = (props) => {
 
         <div className={styles.containerBody}>
           <Header
-            as="h3"
+            as='h3'
             className={styles.title}>
             {title}
           </Header>
@@ -31,7 +31,7 @@ export const Pamphlet = (props) => {
 
           <div className={styles.listContainer}>
             <List>
-              <p className={styles.listDescription}>{"⭐️ You will get:"}</p>
+              <p className={styles.listDescription}>{'⭐️ You will get:'}</p>
 
               <ul className={styles.listItems}>
                 {props.upgradeOptions.map((option, i) => (<li key={i}>{option}</li>))}
@@ -44,6 +44,6 @@ export const Pamphlet = (props) => {
           </Button>
         </div>
       </Container>
-    </div>
+    </Fragment>
   );
 };

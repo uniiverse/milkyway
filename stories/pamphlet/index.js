@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { storiesOf } from '@storybook/react';
-import { array, text } from "@storybook/addon-knobs";
+import { array, text } from '@storybook/addon-knobs';
 
 import { Pamphlet } from '../../components/Pamphlet/Pamphlet';
 import {
@@ -19,11 +19,11 @@ stories
   .add('Rate Upgrades', () => (
     <React.Fragment>
       <Pamphlet
-        title={text("Title", title)}
+        title={text('Title', title)}
         price={priceText}
-        description={text("Description", description)}
-        upgradeOptions={array("Upgrade options", upgradeOptions)}
-        imageUrl={text("image URL", imageUrl)}
+        description={text('Description', description)}
+        upgradeOptions={array('Upgrade options', upgradeOptions)}
+        imageUrl={text('image URL', imageUrl)}
         buttonText={buttonText}
       />
     </React.Fragment>
