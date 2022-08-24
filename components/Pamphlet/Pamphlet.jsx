@@ -5,17 +5,17 @@ import {
   Header,
   Image,
   List
- } from 'semantic-ui-react';
+} from 'semantic-ui-react';
 
 import styles from './Pamphlet.less';
 
 export const Pamphlet = (props) => {
-  const { header, price, description } = props;
+  const { title, priceText, description } = props;
 
   return (
     <div>
       <Container className={styles.container}>
-        <Image 
+        <Image
           className={styles.bannerImage}
           src={props.imageUrl}
         />
@@ -23,10 +23,10 @@ export const Pamphlet = (props) => {
         <div className={styles.containerBody}>
           <Header
             as="h3"
-            className={styles.header}>
-              {header}
+            className={styles.title}>
+            {title}
           </Header>
-          <p className={styles.priceDifference}>{`Only $${price}.00 extra per ticket`}</p>
+          <p className={styles.priceDifference}>{priceText}</p>
           <p className={styles.description}>{description}</p>
 
           <div className={styles.listContainer}>

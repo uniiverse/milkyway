@@ -7,8 +7,8 @@ import { Pamphlet } from '../../components/Pamphlet/Pamphlet';
 
 const stories = storiesOf('Pamphlet', module);
 
-const header = "VIP ticket upgrade - Best experience"
-const price = 40.00
+const title = "VIP ticket upgrade - Best experience"
+const priceText = "Only $40.00 extra per ticket"
 const description = "🎉 Enhance your experience at the event!"
 const imageUrl = "https://www.tastingtable.com/img/gallery/11-cocktails-to-try-if-you-like-drinking-gin/intro-1640186734.webp"
 const upgradeOptions = [
@@ -28,8 +28,8 @@ stories
   .add('Rate Upgrades', () => (
     <React.Fragment>
       <Pamphlet
-        header={text("Header", header)}
-        price={price}
+        title={text("Title", title)}
+        price={priceText}
         description={text("Description", description)}
         upgradeOptions={array("Upgrade options", upgradeOptions)}
         imageUrl={text("image URL", imageUrl)}
