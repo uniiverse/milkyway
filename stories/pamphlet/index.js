@@ -20,7 +20,7 @@ stories
     <React.Fragment>
       <Pamphlet
         title={text('Title', title)}
-        price={priceText}
+        priceText={priceText}
         description={text('Description', description)}
         upgradeOptions={array('Upgrade options', upgradeOptions)}
         imageUrl={text('image URL', imageUrl)}
