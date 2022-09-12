@@ -16,7 +16,7 @@ stories.add('Rate Upgrades', () => (
       subtitle={text('Subtitle', subtitle)}
       description={text('Description', description)}
       imageUrl={text('image URL', imageUrl)}
-      buttonText={buttonText}
+      buttonText={text('Button text', buttonText)}
     >
       <List>
         <p className={styles.listDescription}>{'⭐️ You will get:'}</p>
