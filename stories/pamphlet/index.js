@@ -20,7 +20,6 @@ stories.add('Rate Upgrades', () => (
     >
       <List>
         <p className={styles.listDescription}>{'⭐️ You will get:'}</p>
-
         <ul className={styles.listItems}>
           {array('Upgrade options', upgradeOptions).map((option, i) => (
             <li key={i}>{option}</li>
