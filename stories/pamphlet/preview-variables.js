@@ -1,5 +1,5 @@
 export const title = 'VIP ticket upgrade - Best experience'
-export const priceText = 'Only $40.00 extra per ticket'
+export const subtitle = 'Only $40.00 extra per ticket'
 export const description = '🎉 Enhance your experience at the event!'
 export const imageUrl = 'https://www.tastingtable.com/img/gallery/11-cocktails-to-try-if-you-like-drinking-gin/intro-1640186734.webp'
 export const buttonText = 'UPGRADE ALL TICKETS'

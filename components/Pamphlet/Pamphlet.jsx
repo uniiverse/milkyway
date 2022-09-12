@@ -1,49 +1,39 @@
 import React from 'react';
-import {
-  Button,
-  Container,
-  Header,
-  Image,
-  List
-} from 'semantic-ui-react';
+import { Button, Container, Header, Image } from 'semantic-ui-react';
+import PropTypes from 'prop-types';
 
 import styles from './Pamphlet.less';
 
-export const Pamphlet = (props) => {
-  const { title, priceText, description, imageUrl, upgradeOptions, buttonText } = props;
+export const Pamphlet = props => {
+  const { title, subtitle, description, imageUrl, children, buttonText } = props;
 
   return (
     <>
       <Container className={styles.container}>
-        <Image
-          className={styles.bannerImage}
-          src={imageUrl}
-        />
+        <Image className={styles.bannerImage} src={imageUrl} />
 
         <div className={styles.containerBody}>
-          <Header
-            as='h3'
-            className={styles.title}>
+          <Header as="h3" className={styles.title}>
             {title}
           </Header>
-          <p className={styles.priceText}>{priceText}</p>
+          <p className={styles.subtitle}>{subtitle}</p>
           <p className={styles.description}>{description}</p>
 
-          <div className={styles.listContainer}>
-            <List>
-              <p className={styles.listDescription}>{'⭐️ You will get:'}</p>
+          <div className={styles.container}>{children}</div>
 
-              <ul className={styles.listItems}>
-                {upgradeOptions.map((option, i) => (<li key={i}>{option}</li>))}
-              </ul>
-            </List>
-          </div>
-
-          <Button primary className={styles.upgradeButton}>
+          <Button primary className={styles.button}>
             {buttonText}
           </Button>
         </div>
       </Container>
     </>
   );
+};
+
+Pamphlet.propTypes = {
+  title: PropTypes.string.isRequired,
+  subtitle: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
+  imageUrl: PropTypes.string.isRequired,
+  children: PropTypes.element.isRequired,
 };
