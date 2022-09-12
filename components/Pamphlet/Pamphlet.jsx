@@ -35,5 +35,6 @@ Pamphlet.propTypes = {
   subtitle: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
   imageUrl: PropTypes.string.isRequired,
+  buttonText: PropTypes.string.isRequired,
   children: PropTypes.element.isRequired,
 };
