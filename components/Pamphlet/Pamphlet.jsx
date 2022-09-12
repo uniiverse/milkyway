@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 import styles from './Pamphlet.less';
 
 export const Pamphlet = props => {
-  const { title, subtitle, description, imageUrl, children, buttonText } = props;
+  const { title, subtitle, description, imageUrl, children, buttonText, handleClick } = props;
 
   return (
     <>
@@ -21,7 +21,7 @@ export const Pamphlet = props => {
 
           <div className={styles.container}>{children}</div>
 
-          <Button primary className={styles.button}>
+          <Button primary className={styles.button} onClick={handleClick}>
             {buttonText}
           </Button>
         </div>
@@ -37,4 +37,5 @@ Pamphlet.propTypes = {
   imageUrl: PropTypes.string.isRequired,
   buttonText: PropTypes.string.isRequired,
   children: PropTypes.element.isRequired,
+  handleClick: PropTypes.func.isRequired
 };

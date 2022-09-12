@@ -9,6 +9,10 @@ import { title, subtitle, description, imageUrl, upgradeOptions, buttonText } fr
 
 const stories = storiesOf('Pamphlet', module);
 
+const alertClick = () => {
+  alert('clicked')
+}
+
 stories.add('Rate Upgrades', () => (
   <React.Fragment>
     <Pamphlet
@@ -17,6 +21,7 @@ stories.add('Rate Upgrades', () => (
       description={text('Description', description)}
       imageUrl={text('image URL', imageUrl)}
       buttonText={text('Button text', buttonText)}
+      handleClick={alertClick}
     >
       <List>
         <p className={styles.listDescription}>{'⭐️ You will get:'}</p>
