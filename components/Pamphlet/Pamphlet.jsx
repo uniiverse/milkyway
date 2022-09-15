@@ -18,9 +18,7 @@ export const Pamphlet = props => {
           </Header>
           <p className={styles.subtitle}>{subtitle}</p>
           <p className={styles.description}>{description}</p>
-
-          <div className={styles.container}>{children}</div>
-
+          {children}
           <Button primary className={styles.button} onClick={onButtonClick}>
             {buttonText}
           </Button>
@@ -37,5 +35,5 @@ Pamphlet.propTypes = {
   imageUrl: PropTypes.string.isRequired,
   buttonText: PropTypes.string.isRequired,
   children: PropTypes.element.isRequired,
-  onButtonClick: PropTypes.func.isRequired
+  onButtonClick: PropTypes.func.isRequired,
 };
