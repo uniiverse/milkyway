@@ -10,7 +10,6 @@ export const Pamphlet = props => {
   return (
     <Container className={styles.container}>
       <Image className={styles.bannerImage} src={imageUrl} />
-
       <div className={styles.containerBody}>
         <Header as="h3" className={styles.title}>
           {title}
