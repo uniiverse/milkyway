@@ -21,7 +21,7 @@ export const EventSearcher = () => {
         onChange={(_, { value }) => onSearchChange({ value, setAddress })}
         placeholder='Search for events'
         value={address}
-        icon={<Icon color="grey" className="universe-search" />}
+        icon={<Icon color="grey" className='universe-search' />}
         iconPosition="left"
       />
     </Menu.Item>
