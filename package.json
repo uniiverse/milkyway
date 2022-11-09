@@ -52,8 +52,7 @@
     "semantic-ui-react": "0.88.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.4.5",
-    "@babel/node": "^7.4.5",
+    "babel-core": "^6.5.1",
     "@babel/preset-env": "^7.4.5",
     "@babel/preset-react": "^7.0.0",
     "@storybook/addon-actions": "^5.3.19",
