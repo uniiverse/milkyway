@@ -5,12 +5,23 @@ import { Pill } from '../../components/Pill/Pill';
 
 const stories = storiesOf('Pill', module);
 
-stories.add('Promotion Pill', () => (
+stories.add('Promotional Custom Classes Selected', () => (
   <React.Fragment>
     <Pill
       circular={true}
-      size="small"
-      text="selling fast!"
+      size="large"
+      text="Selling Fast!"
+      customClass="promotional"
+    >
+    </Pill>
+
+    <br />
+
+    <Pill
+      circular={true}
+      size="large"
+      text="Red Alert! Beep boop"
+      customClass="red-alert"
     >
     </Pill>
   </React.Fragment>
@@ -22,6 +33,7 @@ stories.add('Pill Sizes', () => (
       circular={true}
       size="small"
       text="small pill"
+      color="yellow"
     >
     </Pill>
 
@@ -31,6 +43,7 @@ stories.add('Pill Sizes', () => (
       circular={true}
       size="medium"
       text="Medium Pill"
+      color="blue"
     >
     </Pill>
 
@@ -40,6 +53,7 @@ stories.add('Pill Sizes', () => (
       circular={true}
       size="large"
       text="LARGE PILL"
+      color="green"
     >
     </Pill>
   </React.Fragment>

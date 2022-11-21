@@ -5,13 +5,14 @@ import PropTypes from 'prop-types';
 import styles from './Pill.less';
 
 export const Pill = props => {
-  const { circular, size, text } = props;
+  const { circular, color, customClass, size, text } = props;
 
   return (
     <div className="label-container">
       <Label
-        className={styles.pill}
+        className={`${styles.pill} ${styles[`${customClass}`]}`}
         circular={circular}
+        color={color}
         size={size}
       >
 
