@@ -1,6 +1,7 @@
 import React from 'react';
 import { Label } from 'semantic-ui-react';
 import PropTypes from 'prop-types';
+import { classNames } from '../../utilities/css';
 
 import styles from './Pill.less';
 
@@ -10,12 +11,11 @@ export const Pill = props => {
   return (
     <div className="label-container">
       <Label
-        className={`${styles.pill} ${styles[`${customClass}`]}`}
+        className={classNames(styles.pill, styles[`${customClass}`])}
         circular={circular}
         color={color}
         size={size}
       >
-
         {text}
       </Label>
     </div>
@@ -23,8 +23,8 @@ export const Pill = props => {
 };
 
 Pill.propTypes = {
-  circular: PropTypes.bool.isRequired,
-  color: PropTypes.string.isRequired,
-  size: PropTypes.string.isRequired,
-  text: PropTypes.string.isRequired
+  text: PropTypes.string.isRequired,
+  circular: PropTypes.bool,
+  color: PropTypes.string,
+  size: PropTypes.string
 };

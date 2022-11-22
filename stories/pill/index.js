@@ -19,7 +19,7 @@ stories.add('Promotional Custom Classes Selected', () => (
 
     <Pill
       circular={true}
-      size="large"
+      size="medium"
       text="Red Alert! Beep boop"
       customClass="red-alert"
     >
