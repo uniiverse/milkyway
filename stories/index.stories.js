@@ -21,13 +21,14 @@ function loadStories() {
     'modal',
     'navbar',
     'pamphlet',
+    'pill',
     'progress',
     'search',
     'segment',
     'step',
     'menu',
     'datepicker'
-  ].forEach(function(comp){
+  ].forEach(function (comp) {
     require("./" + comp);
   });
 }
