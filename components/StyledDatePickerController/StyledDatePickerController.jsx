@@ -39,6 +39,8 @@ export const StyledDatePickerController =
           isDayBlocked={isDayBlocked}
           navPrev={disablePrev ? <span /> : null}
           navNext={disableNext ? <span /> : null}
+          onNextMonthClick={onNextMonthClick}
+          onPrevMonthClick={onPrevMonthClick}
         />
       </div>
     );
