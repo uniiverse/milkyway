@@ -20,8 +20,6 @@ export const DatePicker = ({ date, highlightedDates, onDateChange, popupPosition
     setCalendarOpen(false);
   }
   
-  console.log("DATEPICKER LOADED!");
-
   return(
     <div className="date-picker-container">
       
