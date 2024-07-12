@@ -19,7 +19,7 @@ export const DatePicker = ({ date, highlightedDates, onDateChange, popupPosition
     onDateChange(newDate);
     setCalendarOpen(false);
   }
-  
+
   return(
     <div className="date-picker-container">
       
