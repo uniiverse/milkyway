@@ -7,7 +7,7 @@ import 'react-dates/initialize';
 import 'react-dates/lib/css/_datepicker.css';
 import styles from './DatePicker.less';
 
-export const DatePicker = ({ date, highlightedDates, onDateChange, popupPosition='bottom left'}) => {
+export const DatePicker = ({ date, highlightedDates, onDateChange, popupPosition='bottom left', ...passthroughProps }) => {
   const [selectedDate, setSelectedDate] = useState(date);
   const [calendarOpen, setCalendarOpen] = useState(false);
   const calendarEl = useRef();
@@ -54,6 +54,7 @@ export const DatePicker = ({ date, highlightedDates, onDateChange, popupPosition
         <Popup.Content>
           <div ref={calendarEl}>
             <StyledDatePickerController
+              {...passthroughProps}
               className={styles.DatePicker}
               onDateChange={onDateSelect}
               highlightedDates={highlightedDates}
