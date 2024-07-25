@@ -47119,6 +47119,8 @@ var DatePicker_update = injectStylesIntoStyleTag_default()(DatePicker_DatePicker
 
 /* harmony default export */ var components_DatePicker_DatePicker = (DatePicker_DatePicker["a" /* default */].locals || {});
 // CONCATENATED MODULE: ./components/DatePicker/DatePicker.jsx
+function DatePicker_extends() { DatePicker_extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return DatePicker_extends.apply(this, arguments); }
+
 function DatePicker_slicedToArray(arr, i) { return DatePicker_arrayWithHoles(arr) || DatePicker_iterableToArrayLimit(arr, i) || DatePicker_nonIterableRest(); }
 
 function DatePicker_nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance"); }
@@ -47126,6 +47128,10 @@ function DatePicker_nonIterableRest() { throw new TypeError("Invalid attempt to 
 function DatePicker_iterableToArrayLimit(arr, i) { if (!(Symbol.iterator in Object(arr) || Object.prototype.toString.call(arr) === "[object Arguments]")) { return; } var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
 
 function DatePicker_arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
+function DatePicker_objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = DatePicker_objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function DatePicker_objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
 
 
 
@@ -47140,7 +47146,8 @@ var DatePicker_DatePicker_DatePicker = function DatePicker(_ref) {
       highlightedDates = _ref.highlightedDates,
       onDateChange = _ref.onDateChange,
       _ref$popupPosition = _ref.popupPosition,
-      popupPosition = _ref$popupPosition === void 0 ? 'bottom left' : _ref$popupPosition;
+      popupPosition = _ref$popupPosition === void 0 ? 'bottom left' : _ref$popupPosition,
+      passthroughProps = DatePicker_objectWithoutProperties(_ref, ["date", "highlightedDates", "onDateChange", "popupPosition"]);
 
   var _useState = Object(external_commonjs_react_commonjs2_react_amd_React_root_React_["useState"])(date),
       _useState2 = DatePicker_slicedToArray(_useState, 2),
@@ -47188,12 +47195,12 @@ var DatePicker_DatePicker_DatePicker = function DatePicker(_ref) {
     on: "click"
   }, external_commonjs_react_commonjs2_react_amd_React_root_React_default.a.createElement(external_commonjs_semantic_ui_react_commonjs2_semantic_ui_react_amd_SemanticUIReact_root_SemanticUIReact_["Popup"].Content, null, external_commonjs_react_commonjs2_react_amd_React_root_React_default.a.createElement("div", {
     ref: calendarEl
-  }, external_commonjs_react_commonjs2_react_amd_React_root_React_default.a.createElement(StyledDatePickerController_StyledDatePickerController, {
+  }, external_commonjs_react_commonjs2_react_amd_React_root_React_default.a.createElement(StyledDatePickerController_StyledDatePickerController, DatePicker_extends({}, passthroughProps, {
     className: components_DatePicker_DatePicker.DatePicker,
     onDateChange: onDateSelect,
     highlightedDates: highlightedDates,
     date: selectedDate
-  })))));
+  }))))));
 };
 // CONCATENATED MODULE: ./components/DatePicker/index.js
 
