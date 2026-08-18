@@ -84,7 +84,7 @@ const Account = ({ user }) => {
           <Dropdown.Divider className={styles.divider} />
           <Dropdown.Item href={`/users/${user.slug || user.id || ''}`}>Profile</Dropdown.Item>
           <Dropdown.Item href="/dashboard/conversations">Messages</Dropdown.Item>
-          <Dropdown.Item href="/dashboard/settings">Settings</Dropdown.Item>
+          <Dropdown.Item href="/dashboard/settings/profile">Settings</Dropdown.Item>
           <Dropdown.Item href="/help">Help</Dropdown.Item>
           <Dropdown.Item href="/users/sign_out">Log Out</Dropdown.Item>
         </Dropdown.Menu>
