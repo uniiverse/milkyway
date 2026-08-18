@@ -40470,7 +40470,7 @@ var NavbarComputer_Account = function Account(_ref5) {
   }, "Profile"), external_commonjs_react_commonjs2_react_amd_React_root_React_default.a.createElement(external_commonjs_semantic_ui_react_commonjs2_semantic_ui_react_amd_SemanticUIReact_root_SemanticUIReact_["Dropdown"].Item, {
     href: "/dashboard/conversations"
   }, "Messages"), external_commonjs_react_commonjs2_react_amd_React_root_React_default.a.createElement(external_commonjs_semantic_ui_react_commonjs2_semantic_ui_react_amd_SemanticUIReact_root_SemanticUIReact_["Dropdown"].Item, {
-    href: "/dashboard/settings"
+    href: "/dashboard/settings/profile"
   }, "Settings"), external_commonjs_react_commonjs2_react_amd_React_root_React_default.a.createElement(external_commonjs_semantic_ui_react_commonjs2_semantic_ui_react_amd_SemanticUIReact_root_SemanticUIReact_["Dropdown"].Item, {
     href: "/help"
   }, "Help"), external_commonjs_react_commonjs2_react_amd_React_root_React_default.a.createElement(external_commonjs_semantic_ui_react_commonjs2_semantic_ui_react_amd_SemanticUIReact_root_SemanticUIReact_["Dropdown"].Item, {
