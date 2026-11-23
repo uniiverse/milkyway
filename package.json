@@ -13,8 +13,7 @@
     "version": "git add package.json package-lock.json && git commit -m \"Version $npm_package_version\" && git push origin master && git checkout release && git pull && git merge origin master --no-edit --strategy-option theirs && webpack --mode production && cd semantic && gulp build && cd .. && git add --force dist index.js semantic*.js semantic*.css",
     "postversion": "git push && git push --tags && git checkout master",
     "storybook": "cd semantic && gulp build && cd .. && start-storybook -p 6006 -s ./semantic/src/themes/universe/assets",
-    "build-storybook": "build-storybook",
-    "sample": "cd sample && npm install && npm start"
+    "build-storybook": "build-storybook"
   },
   "repository": {
     "type": "git",
