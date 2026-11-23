@@ -45,7 +45,7 @@ Just replace the `x.x.x` notation with your target version.
 
 ### Consume the library
 
-You can checkout the `sample` folder for a working installation, but it's really nothing more than importing the css and use the components.
+You can checkout the `stories` folder for working examples, but it's really nothing more than importing the css and use the components.
 
 ```javascript
 import React, { Component } from 'react';
@@ -131,7 +131,6 @@ milkyway/
 │               ├── modules
 │               └── views
 ├── stories/
-├── sample/
 │
 └── semantic.json
 ```
@@ -147,8 +146,6 @@ milkyway/
 
 
 - **stories/**: use storybook to provide samples, for fast prototyping, ui/ux testing and development. Always add relevant stories for new styles and components.
-
-- **sample/**: a basic create-react-app to demonstrate how an integration with this project works.
 
 ### Developing the theme
 
